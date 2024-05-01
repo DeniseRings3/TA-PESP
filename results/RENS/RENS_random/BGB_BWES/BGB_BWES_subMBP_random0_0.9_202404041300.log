@@ -1,0 +1,50 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Thu Apr  4 13:00:56 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BGB_BWES/RENS/BGB_BWES_subMBP_random0_0.9_202404041300.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 23919 rows, 9987 columns and 88114 nonzeros
+Model fingerprint: 0xe1767359
+Variable types: 3270 continuous, 6717 integer (1378 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 10889 rows and 2975 columns
+Presolve time: 0.13s
+Presolved: 13030 rows, 7012 columns, 50703 nonzeros
+Variable types: 1835 continuous, 5177 integer (5177 binary)
+
+Root relaxation: objective 2.329800e+04, 4288 iterations, 0.04 seconds (0.05 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 23298.0000    0  387          - 23298.0000      -     -    0s
+     0     0 23484.1064    0  891          - 23484.1064      -     -    0s
+     0     0 23484.1307    0  787          - 23484.1307      -     -    0s
+     0     0 23508.1487    0 1080          - 23508.1487      -     -    0s
+     0     0 23508.1559    0  968          - 23508.1559      -     -    0s
+     0     0 23512.2257    0  986          - 23512.2257      -     -    0s
+     0     0 23513.7793    0  939          - 23513.7793      -     -    0s
+     0     0 23513.8010    0  899          - 23513.8010      -     -    0s
+     0     0 23527.0000    0 1006          - 23527.0000      -     -    1s
+     0     0 23528.8318    0  949          - 23528.8318      -     -    1s
+     0     0 23528.8848    0  876          - 23528.8848      -     -    1s
+     0     0 23528.8848    0  967          - 23528.8848      -     -    1s
+     0     0 23529.0792    0  925          - 23529.0792      -     -    1s
+     0     0 23529.0792    0  985          - 23529.0792      -     -    1s
+     0     0 23529.4181    0  983          - 23529.4181      -     -    1s
+     0     0 23529.4258    0  948          - 23529.4258      -     -    1s
+     0     0 23529.4258    0  892          - 23529.4258      -     -    1s
+     0     0 23529.4258    0  373          - 23529.4258      -     -    1s
+     0     0 23529.4258    0  418          - 23529.4258      -     -    2s
+     0     0 23529.4258    0  744          - 23529.4258      -     -    2s
+     0     0 23529.4258    0  698          - 23529.4258      -     -    2s
+     0     0 23529.4258    0  666          - 23529.4258      -     -    2s
+     0     0 23529.4258    0  683          - 23529.4258      -     -    2s

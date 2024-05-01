@@ -1,0 +1,78 @@
+Auswertungszeitpunkt: 600
+Branching:
+  chosen: false
+  feasibility_stop: false
+  feasibility_timelimit: 1
+  in_path: ../../../../processed/
+  max_iterations: 10
+  out_path: ../processed/
+  path:
+  - ../processed/
+  - /Branching/
+  results_file: results_branching_improvement_0203.csv
+  timeout: 1800
+Lagrange:
+  c_k: 2
+  chosen: false
+  feasibility_stop: false
+  feasibility_timelimit: 1
+  in_path: ../../../processed/
+  max_iterations: 10
+  out_path: ../processed/
+  overall_timeout: 600
+  path:
+  - ../../processed/
+  - /Lagrange/
+  results_file: results_lagrange_plain.csv
+  timeout: 60
+  type_activation: true
+  type_sheaf: false
+PESP:
+  T: 200
+  epsilon: 17
+  zugfolge: 25
+RENS:
+  chosen: false
+  feasibility_stop: false
+  feasibility_timelimit: 1
+  fixed_integer_ratio: 0.4
+  in_path: ../../processed/
+  out_path: ../processed/
+  path:
+  - ../../processed/
+  - /RENS/
+  ratios_relax:
+  - 0.9
+  relaxed: true
+  results_file: results_file_RENS_eq_2902.csv
+  results_file_relaxed: results_file_RENS_relaxed_ineq_0203.csv
+  timeout: 1800
+RINS:
+  chosen: false
+  epsilon: 0.0005
+  feasibility_stop: false
+  feasibility_timelimit: 1
+  in_path: ../../../../processed/
+  out_path: ../../processed/
+  path:
+  - ../../processed/
+  - /RINS/
+  ratios_relax:
+  - 0.9
+  - 0.6
+  relaxed: false
+  results_file: results_file_RINS_eq.csv
+  results_file_relaxed: results_file_RINS_relaxed_0203.csv
+  timeout: 1800
+instances:
+- BGB_BWES
+main:
+  chosen: true
+  feasibility_stop: true
+  feasibility_timelimit: 1
+  path: ../../processed//original/
+  results_file: results_file_main_inequality_new_file.csv
+  timeout: 10800
+paths:
+  in_path: ../../../processed/
+  out_path: ../processed/

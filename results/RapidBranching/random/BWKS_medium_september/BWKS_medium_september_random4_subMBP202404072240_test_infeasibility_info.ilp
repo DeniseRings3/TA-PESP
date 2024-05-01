@@ -1,0 +1,13 @@
+\ Model BWKS_medium_september_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ test_start_h_('henkel_2_S3_B_BE_BSPA_0_S3_B_BSPA_BE_0_73_1_12',_'BOLS_431_B_73_1_2_arr_right'):
+   h[henkel_2_S3_B_BE_BSPA_0_S3_B_BSPA_BE_0_73_1_12,BOLS_431_B_73_1_2_arr_right]
+   = -1.89287e-07
+Bounds
+Binaries
+
+ h[henkel_2_S3_B_BE_BSPA_0_S3_B_BSPA_BE_0_73_1_12,BOLS_431_B_73_1_2_arr_right]
+End

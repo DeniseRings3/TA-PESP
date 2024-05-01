@@ -1,0 +1,45 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Thu Mar 28 21:50:04 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BWKS_medium_september/RENS/BWKS_medium_september_subMBP_202403282027_test.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 14730 rows, 4887 columns and 53608 nonzeros
+Model fingerprint: 0x6fd08b89
+Variable types: 1358 continuous, 3529 integer (1331 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [5e-15, 5e+02]
+
+User MIP start did not produce a new incumbent solution
+User MIP start violates constraint slack_BWKS_373_B_90_1_12_dep_rightBCHS_335_B_90_1_2_arr_right by 0.000107987
+
+Presolve removed 1820 rows and 3771 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 40, time in user-callback 0.00 sec
+
+Computing Irreducible Inconsistent Subsystem (IIS)...
+
+           Constraints          |            Bounds           |  Runtime
+      Min       Max     Guess   |   Min       Max     Guess   |
+--------------------------------------------------------------------------
+        0     14730         -         0      6100         -           0s
+        1         1         1         0         0         0           0s
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.03 seconds (0.01 work units)
+Warning: constraint name "test_start_h_('BWKS_373_B_90_1_12_dep_right', 'BCHS_335_B_90_1_2_arr_right')" has a space

@@ -1,0 +1,11 @@
+\ Model BBUP_W_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ test_start_h_('BTP_571_B_6_1_1_dep_right',_'BSO_401_B_6_1_1_arr_right'):
+   h[BTP_571_B_6_1_1_dep_right,BSO_401_B_6_1_1_arr_right] = 6.64131e-06
+Bounds
+Binaries
+ h[BTP_571_B_6_1_1_dep_right,BSO_401_B_6_1_1_arr_right]
+End

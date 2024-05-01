@@ -1,0 +1,80 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Thu Mar 28 19:09:13 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBOS_BWIN_BTG/original/LP_based/BBOS_BWIN_BTG_lp.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3980 rows, 2210 columns and 14468 nonzeros
+Model fingerprint: 0x4a6a5479
+Variable types: 1313 continuous, 897 integer (897 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 2145 rows and 1014 columns
+Presolve time: 0.04s
+Presolved: 1835 rows, 1196 columns, 7605 nonzeros
+Variable types: 629 continuous, 567 integer (567 binary)
+
+Root relaxation: objective 8.412000e+03, 742 iterations, 0.00 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 8412.00000    0   69          - 8412.00000      -     -    0s
+     0     0 8785.74064    0  134          - 8785.74064      -     -    0s
+     0     0 8818.80853    0  120          - 8818.80853      -     -    0s
+     0     0 8818.80853    0  119          - 8818.80853      -     -    0s
+     0     0 8818.80853    0  119          - 8818.80853      -     -    0s
+     0     0 8942.58382    0  112          - 8942.58382      -     -    0s
+     0     0 8954.67270    0  118          - 8954.67270      -     -    0s
+     0     0 8954.67270    0  113          - 8954.67270      -     -    0s
+H    0     0                    9359.0363539 8954.67270  4.32%     -    0s
+     0     0 8956.68056    0   91 9359.03635 8956.68056  4.30%     -    0s
+     0     0 8956.68056    0   99 9359.03635 8956.68056  4.30%     -    0s
+     0     0 8956.70746    0   92 9359.03635 8956.70746  4.30%     -    0s
+     0     0 8956.70746    0   95 9359.03635 8956.70746  4.30%     -    0s
+     0     0 8956.76221    0   94 9359.03635 8956.76221  4.30%     -    0s
+     0     0 8956.76221    0   67 9359.03635 8956.76221  4.30%     -    0s
+     0     2 8956.76221    0   58 9359.03635 8956.76221  4.30%     -    0s
+*  558   448              61    9357.3833591 8985.13285  3.98%   9.0    0s
+*  647   523              65    9310.0723474 8985.13285  3.49%   8.6    0s
+*  714   535              91    9189.9571959 8994.29608  2.13%   8.5    0s
+*  875   442              72    9186.5690085 9129.47070  0.62%   8.3    0s
+* 1437   661              69    9185.9815815 9185.41576  0.01%   7.6    0s
+* 1599   661              67    9185.4157594 9185.41576  0.00%   7.4    0s
+
+Cutting planes:
+  Learned: 35
+  Gomory: 18
+  Cover: 53
+  Implied bound: 34
+  Clique: 30
+  MIR: 96
+  Inf proof: 1
+  Network: 5
+  RLT: 17
+  Relax-and-lift: 7
+
+Explored 1831 nodes (16118 simplex iterations) in 0.66 seconds (0.56 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 7: 9185.42 9185.98 9186.57 ... 9359.04
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.185415759423e+03, best bound 9.185415759423e+03, gap 0.0000%
+
+User-callback calls 4759, time in user-callback 0.01 sec
+
+Statistics for modelBBOS_BWIN_BTG:
+  Linear constraint matrix    : 3980 Constrs, 2210 Vars, 14468 NZs
+  Variable types              : 1313 Continuous,
+897 Integer (897 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 396 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

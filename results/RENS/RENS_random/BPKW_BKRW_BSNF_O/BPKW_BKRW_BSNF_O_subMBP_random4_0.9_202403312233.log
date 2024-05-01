@@ -1,0 +1,107 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Mon Apr  1 02:40:51 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BPKW_BKRW_BSNF_O/RENS/BPKW_BKRW_BSNF_O_subMBP_random4_0.9_202403312233.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 4471 rows, 2168 columns and 15823 nonzeros
+Model fingerprint: 0xd8d25525
+Variable types: 838 continuous, 1330 integer (358 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 2575 rows and 1096 columns
+Presolve time: 0.07s
+Presolved: 1896 rows, 1072 columns, 7569 nonzeros
+Variable types: 352 continuous, 720 integer (720 binary)
+
+Root relaxation: objective 9.180000e+03, 613 iterations, 0.00 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 9180.00000    0   37          - 9180.00000      -     -    0s
+H    0     0                    10961.000000 9180.00000  16.2%     -    0s
+H    0     0                    10882.000000 9180.00000  15.6%     -    0s
+     0     0 9191.16788    0   77 10882.0000 9191.16788  15.5%     -    0s
+H    0     0                    10820.000000 9191.16788  15.1%     -    0s
+     0     0 9191.16788    0   75 10820.0000 9191.16788  15.1%     -    0s
+     0     0 9214.00000    0   72 10820.0000 9214.00000  14.8%     -    0s
+     0     0 9214.00000    0   72 10820.0000 9214.00000  14.8%     -    0s
+     0     0 9214.00000    0   82 10820.0000 9214.00000  14.8%     -    0s
+     0     0 9214.00000    0   81 10820.0000 9214.00000  14.8%     -    0s
+     0     0 9214.00000    0   26 10820.0000 9214.00000  14.8%     -    0s
+H    0     0                    9944.0000000 9214.00000  7.34%     -    0s
+     0     0 9214.00000    0   56 9944.00000 9214.00000  7.34%     -    0s
+     0     0 9214.00000    0   37 9944.00000 9214.00000  7.34%     -    0s
+     0     0 9214.00000    0   36 9944.00000 9214.00000  7.34%     -    0s
+     0     0 9214.00000    0   35 9944.00000 9214.00000  7.34%     -    0s
+     0     0 9214.00000    0   35 9944.00000 9214.00000  7.34%     -    0s
+     0     2 9214.00000    0   33 9944.00000 9214.00000  7.34%     -    0s
+H  122   123                    9939.0000000 9214.00000  7.29%  20.3    0s
+H  186   173                    9938.0000000 9214.00000  7.29%  18.6    0s
+H  281   229                    9921.0000000 9214.00000  7.13%  16.9    0s
+H  424   344                    9915.0000000 9214.00000  7.07%  16.2    0s
+H  425   344                    9895.0000000 9214.00000  6.88%  16.2    0s
+H  440   344                    9877.0000000 9214.00000  6.71%  16.0    0s
+H  481   396                    9872.0000000 9214.00000  6.67%  15.5    0s
+H 1615  1030                    9869.0000000 9214.00000  6.64%  14.1    1s
+H 1659  1016                    9796.0000000 9214.00000  5.94%  18.6    1s
+ 10773  5386 infeasible   40      9796.00000 9276.61560  5.30%  21.4    5s
+ 29468 12781 9707.00000   55   35 9796.00000 9360.21721  4.45%  21.8   11s
+ 29503 12804 9465.42300   26   90 9796.00000 9360.21721  4.45%  21.8   15s
+ 41408 13973 9473.02745   43   81 9796.00000 9462.00000  3.41%  22.1   20s
+*51781 13340              61    9793.0000000 9482.81714  3.17%  21.9   22s
+ 61715 13352 9725.23758   38   47 9793.00000 9496.97727  3.02%  21.9   25s
+ 79224 16924 9772.62434   37   50 9793.00000 9515.00000  2.84%  22.0   30s
+ 97871 21376 9709.69340   46   24 9793.00000 9531.97181  2.67%  22.3   35s
+ 113578 24285 9734.94000   39   33 9793.00000 9551.00000  2.47%  22.8   40s
+ 129361 26735 9690.91214   39   66 9793.00000 9569.17131  2.29%  23.2   45s
+ 144243 27691     cutoff   45      9793.00000 9591.02020  2.06%  23.7   50s
+ 159457 27767     cutoff   53      9793.00000 9615.22583  1.82%  24.2   55s
+ 173243 26019 9761.35027   40   30 9793.00000 9642.16831  1.54%  24.5   60s
+*185090 23908              69    9792.9999951 9665.39697  1.30%  24.7   63s
+ 189355 22762 9699.73333   46   50 9793.00000 9674.00000  1.22%  24.8   65s
+ 205764 19172     cutoff   62      9793.00000 9701.64350  0.93%  24.9   70s
+ 221087 12752 infeasible   48      9793.00000 9727.00000  0.67%  25.0   75s
+ 237136  3311     cutoff   50      9793.00000 9763.47893  0.30%  24.9   80s
+
+Cutting planes:
+  Learned: 51
+  Gomory: 171
+  Cover: 358
+  Implied bound: 50
+  Clique: 6
+  MIR: 240
+  StrongCG: 18
+  Flow cover: 788
+  GUB cover: 2
+  Inf proof: 21
+  Zero half: 3
+  Network: 5
+  RLT: 32
+  Relax-and-lift: 58
+
+Explored 242262 nodes (6022304 simplex iterations) in 81.23 seconds (98.19 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 10: 9793 9793 9793 ... 9921
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.793000000000e+03, best bound 9.793000000000e+03, gap 0.0000%
+
+User-callback calls 506609, time in user-callback 0.76 sec
+
+Statistics for modelBPKW_BKRW_BSNF_O:
+  Linear constraint matrix    : 4471 Constrs, 2168 Vars, 15823 NZs
+  Variable types              : 838 Continuous,
+1330 Integer (358 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 368 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

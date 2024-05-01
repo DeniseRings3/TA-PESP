@@ -1,0 +1,23 @@
+root_processed_folder: '../processed/'
+root_scenario_folder: '../processed/BPKW_BKRW_BSNF/'
+
+infrastructure_generation: False
+line_generation: False
+
+
+number_of_concatenated_paths: 2
+
+
+timetabling:
+  period_time: 200
+  ptt_instance_subfolder:  '../processed/BPKW_BKRW_BSNF/generic_tt_input/'
+  ptt_line_concept: '/generic_tt_input/lineconcept_original.csv'
+  ptt_instance_name: 'BPKW_BKRW_BSNF_O'
+  write_ean_arcs: True
+  write_ean_nodes: True
+  write_lp: True
+  zugfolgezeit : 25
+  min_event_abstand : 17
+
+
+

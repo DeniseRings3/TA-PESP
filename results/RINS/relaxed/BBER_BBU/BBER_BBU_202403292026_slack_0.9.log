@@ -1,0 +1,42 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Fri Mar 29 20:26:17 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBER_BBU/RINS/BBER_BBU_202403292026_slack_0.9.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 146 rows, 105 columns and 487 nonzeros
+Model fingerprint: 0x071e77cb
+Variable types: 52 continuous, 53 integer (23 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 1e+03]
+
+User MIP start did not produce a new incumbent solution
+User MIP start violates constraint objective_cutoff by 9.820000000
+
+Presolve removed 119 rows and 80 columns
+Presolve time: 0.00s
+Presolved: 27 rows, 25 columns, 104 nonzeros
+Variable types: 12 continuous, 13 integer (13 binary)
+
+Root relaxation: infeasible, 6 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (6 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 648, time in user-callback 0.00 sec

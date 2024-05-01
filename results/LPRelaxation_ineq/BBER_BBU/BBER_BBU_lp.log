@@ -1,0 +1,61 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Thu Mar 28 19:08:56 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBER_BBU/original/LP_based/BBER_BBU_lp.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 145 rows, 105 columns and 451 nonzeros
+Model fingerprint: 0x7f260288
+Variable types: 75 continuous, 30 integer (30 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 3e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 89 rows and 55 columns
+Presolve time: 0.00s
+Presolved: 56 rows, 50 columns, 172 nonzeros
+Variable types: 28 continuous, 22 integer (22 binary)
+Found heuristic solution: objective 820.5207101
+Found heuristic solution: objective 808.9565217
+Found heuristic solution: objective 649.7012842
+
+Root relaxation: objective 5.820000e+02, 37 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  582.00000    0   10  649.70128  582.00000  10.4%     -    0s
+     0     0  582.00000    0   10  649.70128  582.00000  10.4%     -    0s
+
+Cutting planes:
+  Learned: 2
+  Gomory: 2
+  Cover: 9
+  Implied bound: 13
+  Clique: 33
+  MIR: 14
+  RLT: 1
+  Relax-and-lift: 1
+
+Explored 1 nodes (45 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 649.701 808.957 820.521 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 6.497012841988e+02, best bound 6.497012841988e+02, gap 0.0000%
+
+User-callback calls 580, time in user-callback 0.00 sec
+
+Statistics for modelBBER_BBU:
+  Linear constraint matrix    : 145 Constrs, 105 Vars, 451 NZs
+  Variable types              : 75 Continuous,
+30 Integer (30 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 322 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

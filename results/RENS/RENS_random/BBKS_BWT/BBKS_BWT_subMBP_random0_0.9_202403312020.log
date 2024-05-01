@@ -1,0 +1,65 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Sun Mar 31 20:20:22 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBKS_BWT/RENS/BBKS_BWT_subMBP_random0_0.9_202403312020.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 10868 rows, 4381 columns and 43162 nonzeros
+Model fingerprint: 0xf76bba36
+Variable types: 1295 continuous, 3086 integer (911 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 4649 rows and 1494 columns
+Presolve time: 0.08s
+Presolved: 6219 rows, 2887 columns, 26440 nonzeros
+Variable types: 730 continuous, 2157 integer (2157 binary)
+
+Root relaxation: objective 9.096000e+03, 1751 iterations, 0.02 seconds (0.03 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 9096.00000    0  120          - 9096.00000      -     -    0s
+     0     0 9096.65028    0  279          - 9096.65028      -     -    0s
+     0     0 9096.65028    0  229          - 9096.65028      -     -    0s
+     0     0 9100.79845    0  328          - 9100.79845      -     -    0s
+     0     0 9101.08936    0  283          - 9101.08936      -     -    0s
+     0     0 9109.94621    0  312          - 9109.94621      -     -    0s
+     0     0 9109.95528    0  268          - 9109.95528      -     -    0s
+     0     0 9109.95528    0  272          - 9109.95528      -     -    0s
+     0     0 9110.17315    0  301          - 9110.17315      -     -    0s
+     0     0 9110.45472    0  279          - 9110.45472      -     -    0s
+     0     0 9110.45472    0  265          - 9110.45472      -     -    0s
+     0     0 9112.56847    0  292          - 9112.56847      -     -    0s
+     0     0 9113.45472    0  278          - 9113.45472      -     -    0s
+     0     0 9113.45472    0  276          - 9113.45472      -     -    0s
+     0     0 9113.69744    0  286          - 9113.69744      -     -    0s
+     0     0 9113.69744    0  298          - 9113.69744      -     -    0s
+     0     0 9113.69744    0  284          - 9113.69744      -     -    0s
+     0     0 9113.69744    0  256          - 9113.69744      -     -    0s
+     0     0 9113.69744    0  176          - 9113.69744      -     -    0s
+     0     0 9113.69744    0  189          - 9113.69744      -     -    0s
+     0     0 9113.92347    0  178          - 9113.92347      -     -    1s
+     0     0 9113.92347    0  211          - 9113.92347      -     -    1s
+     0     0 9113.92347    0  222          - 9113.92347      -     -    1s
+     0     0 9113.92347    0  238          - 9113.92347      -     -    1s
+     0     0 9113.92347    0  193          - 9113.92347      -     -    1s
+     0     0 9113.92347    0  168          - 9113.92347      -     -    1s
+     0     2 9113.92347    0  135          - 9113.92347      -     -    1s
+H 3345  2034                    10623.000000 9160.00000  13.8%  20.9    4s
+H 3774  1890                    9913.0000000 9160.00000  7.60%  20.8    4s
+H 3850  1778                    9891.0000000 9160.00000  7.39%  21.0    4s
+  4354  2133 9168.00000   16  132 9891.00000 9160.00000  7.39%  22.5    5s
+H 4924  2410                    9887.0000000 9160.00000  7.35%  23.4    5s
+H 5319  2625                    9883.0000000 9160.00000  7.32%  24.3    5s
+ 16913  9801 9688.00000   34  132 9883.00000 9160.00000  7.32%  26.8   10s
+H18878 10592                    9871.0000000 9160.00000  7.20%  26.9   11s
+ 22212 12408 infeasible   28      9871.00000 9160.00000  7.20%  29.1   15s
+ 29526 15711 9745.00000   47  168 9871.00000 9160.81481  7.19%  29.4   23s
+ 29534 15716 9807.00000   60  324 9871.00000 9160.81481  7.19%  29.4   25s

@@ -1,0 +1,12 @@
+\ Model BNB_BSNH_BSAL_BPHD_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ test_start_h_('BNB_418_A_53_1_21_dep_left',_'BNB_416_A_53_1_21_arr_left'):
+   h[BNB_418_A_53_1_21_dep_left,BNB_416_A_53_1_21_arr_left]
+   = 0.3567834730086055
+Bounds
+Binaries
+ h[BNB_418_A_53_1_21_dep_left,BNB_416_A_53_1_21_arr_left]
+End

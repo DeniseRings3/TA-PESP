@@ -1,0 +1,1 @@
+{"start type": null, "feasibility_stop": true, "feasibility_time_limit": 1, "overall timeout": 3600, "sheaf sortierung": null, "period": 200, "epsilon": 17, "zugfolge": 25, "penalty": null, "henkelvorsortierung": false, "h_type": "continuous", "b_type": "continuous", "comment": "", "feasibility checked": "no check"}

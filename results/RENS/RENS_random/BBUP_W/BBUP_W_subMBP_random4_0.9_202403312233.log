@@ -1,0 +1,58 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Mon Apr  1 01:16:50 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBUP_W/RENS/BBUP_W_subMBP_random4_0.9_202403312233.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 12216 rows, 5181 columns and 44821 nonzeros
+Model fingerprint: 0x8a11ba82
+Variable types: 1726 continuous, 3455 integer (649 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 5901 rows and 1957 columns
+Presolve time: 0.10s
+Presolved: 6315 rows, 3224 columns, 24156 nonzeros
+Variable types: 894 continuous, 2330 integer (2330 binary)
+
+Root relaxation: objective 1.283204e+04, 2176 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 12832.0447    0  161          - 12832.0447      -     -    0s
+     0     0 12839.7715    0  389          - 12839.7715      -     -    0s
+     0     0 12840.3289    0  359          - 12840.3289      -     -    0s
+     0     0 12840.3520    0  356          - 12840.3520      -     -    0s
+     0     0 12840.3520    0  354          - 12840.3520      -     -    0s
+     0     0 1.000e+100    0  371          - infeasible      -     -    0s
+
+Cutting planes:
+  Learned: 56
+  Gomory: 66
+  Cover: 212
+  Implied bound: 69
+  Clique: 258
+  MIR: 345
+  StrongCG: 9
+  Flow cover: 32
+  GUB cover: 1
+  Mod-K: 1
+  Network: 6
+  RLT: 32
+  Relax-and-lift: 46
+
+Explored 1 nodes (5131 simplex iterations) in 0.39 seconds (0.48 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 842, time in user-callback 0.00 sec

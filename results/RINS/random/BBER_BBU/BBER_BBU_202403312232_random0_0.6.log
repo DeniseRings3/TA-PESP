@@ -1,0 +1,42 @@
+
+Gurobi 10.0.1 (linux64) logging started Sun Mar 31 22:32:47 2024
+
+Set parameter LogFile to value "/data/optimi/optimi/kombadon/drings/SBahn/s-bahn-data/scripts/DeniseMA/processed/BBER_BBU/RINS/BBER_BBU_202403312232_random0_0.6.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (linux64)
+
+CPU model: Intel(R) Xeon(R) CPU E3-1270 v6 @ 3.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 146 rows, 105 columns and 487 nonzeros
+Model fingerprint: 0x071e77cb
+Variable types: 52 continuous, 53 integer (23 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 1e+03]
+
+User MIP start did not produce a new incumbent solution
+User MIP start violates constraint objective_cutoff by 9.820000000
+
+Presolve removed 119 rows and 80 columns
+Presolve time: 0.00s
+Presolved: 27 rows, 25 columns, 104 nonzeros
+Variable types: 12 continuous, 13 integer (13 binary)
+
+Root relaxation: infeasible, 6 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 1 nodes (6 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 648, time in user-callback 0.00 sec

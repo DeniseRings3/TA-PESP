@@ -1,0 +1,37 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Thu Mar 28 21:26:31 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BNB_BSNH_BSAL_BPHD/RENS/BNB_BSNH_BSAL_BPHD_subMBP_202403282027_test.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 29165 rows, 8010 columns and 86773 nonzeros
+Model fingerprint: 0xfcd5029b
+Variable types: 2735 continuous, 5275 integer (1117 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e-17, 5e+02]
+
+User MIP start did not produce a new incumbent solution
+User MIP start violates constraint slack_henkel_2_S1_PI_BFOH_BWSS_0_S1_PI_BWSS_BFOH_0_53_1_12BAHU_473_B_53_1_2_arr_right by 0.000030066
+
+Presolve removed 4084 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.02 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 43, time in user-callback 0.00 sec
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+Warning: constraint name "test_start_h_('BNB_418_A_53_1_21_dep_left', 'BNB_416_A_53_1_21_arr_left')" has a space

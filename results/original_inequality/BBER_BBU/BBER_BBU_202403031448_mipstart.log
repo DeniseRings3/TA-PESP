@@ -1,0 +1,57 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Sun Mar  3 14:48:25 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBER_BBU/original/BBER_BBU_202403031448_mipstart.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 145 rows, 105 columns and 451 nonzeros
+Model fingerprint: 0xadd6456f
+Variable types: 52 continuous, 53 integer (23 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 3e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 119 rows and 80 columns
+Presolve time: 0.00s
+Presolved: 26 rows, 25 columns, 98 nonzeros
+Variable types: 12 continuous, 13 integer (13 binary)
+Found heuristic solution: objective 982.0000000
+
+Root relaxation: objective 8.840000e+02, 10 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  884.00000    0    6  982.00000  884.00000  10.0%     -    0s
+     0     0     cutoff    0       982.00000  982.00000  0.00%     -    0s
+
+Cutting planes:
+  Learned: 1
+  Gomory: 3
+  Cover: 4
+  MIR: 4
+  GUB cover: 1
+  Relax-and-lift: 1
+
+Explored 1 nodes (17 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 982 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.820000000000e+02, best bound 9.820000000000e+02, gap 0.0000%
+
+User-callback calls 658, time in user-callback 0.00 sec
+
+Statistics for modelBBER_BBU:
+  Linear constraint matrix    : 145 Constrs, 105 Vars, 451 NZs
+  Variable types              : 52 Continuous,
+53 Integer (23 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 322 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

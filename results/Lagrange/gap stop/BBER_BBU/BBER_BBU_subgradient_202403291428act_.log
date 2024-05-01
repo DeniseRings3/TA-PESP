@@ -1,0 +1,267 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Fri Mar 29 14:28:48 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBER_BBU/original/LP_based/BBER_BBU_subgradient_202403291428act_.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 164 rows, 124 columns and 552 nonzeros
+Model fingerprint: 0x7188ae93
+Variable types: 71 continuous, 53 integer (23 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 3e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Found heuristic solution: objective 18.0000000
+Presolve removed 164 rows and 124 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 18 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.800000000000e+01, best bound 1.800000000000e+01, gap 0.0000%
+
+User-callback calls 845, time in user-callback 0.00 sec
+
+Statistics for modelBBER_BBU:
+  Linear constraint matrix    : 164 Constrs, 124 Vars, 552 NZs
+  Variable types              : 71 Continuous,
+53 Integer (23 Binary)
+  Matrix coefficient range    : [ 1, 322 ]
+  Objective coefficient range : [ 1, 320 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]
+
+Gurobi 10.0.1 (mac64[arm]) logging started Fri Mar 29 14:28:48 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBER_BBU/original/LP_based/BBER_BBU_subgradient_202403291428act_.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 168 rows, 124 columns and 560 nonzeros
+Model fingerprint: 0x950ca692
+Variable types: 71 continuous, 53 integer (23 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 6e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+
+User MIP start produced solution with objective 1281.4 (0.00s)
+Loaded user MIP start with objective 1281.4
+
+Presolve removed 80 rows and 46 columns
+Presolve time: 0.00s
+Presolved: 88 rows, 78 columns, 340 nonzeros
+Variable types: 36 continuous, 42 integer (42 binary)
+
+Root relaxation: objective 4.244861e+02, 31 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  424.48608    0   10 1281.40257  424.48608  66.9%     -    0s
+H    0     0                     652.9721624  424.48608  35.0%     -    0s
+H    0     0                     456.7291218  424.48608  7.06%     -    0s
+
+Cutting planes:
+  Gomory: 7
+  Cover: 2
+  MIR: 21
+  Flow cover: 5
+  Network: 1
+  RLT: 1
+
+Explored 1 nodes (85 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 456.729 652.972 1281.4 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.567291217995e+02, best bound 4.567291217995e+02, gap 0.0000%
+
+User-callback calls 328, time in user-callback 0.00 sec
+
+Statistics for modelBBER_BBU:
+  Linear constraint matrix    : 168 Constrs, 124 Vars, 560 NZs
+  Variable types              : 71 Continuous,
+53 Integer (23 Binary)
+  Matrix coefficient range    : [ 1, 322 ]
+  Objective coefficient range : [ 1, 640.701 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]
+
+Gurobi 10.0.1 (mac64[arm]) logging started Fri Mar 29 14:28:48 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBER_BBU/original/LP_based/BBER_BBU_subgradient_202403291428act_.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 179 rows, 124 columns and 592 nonzeros
+Model fingerprint: 0x4b3c2b6d
+Variable types: 71 continuous, 53 integer (23 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 9e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+
+User MIP start produced solution with objective 842.673 (0.00s)
+Loaded user MIP start with objective 842.673
+
+Presolve removed 140 rows and 83 columns
+Presolve time: 0.00s
+Presolved: 39 rows, 41 columns, 141 nonzeros
+Variable types: 18 continuous, 23 integer (23 binary)
+
+Root relaxation: objective 6.797521e+02, 21 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  679.75206    0    7  842.67345  679.75206  19.3%     -    0s
+H    0     0                     792.7822977  679.75206  14.3%     -    0s
+H    0     0                     743.7822977  679.75206  8.61%     -    0s
+
+Cutting planes:
+  Learned: 2
+  Gomory: 1
+  MIR: 5
+  Flow cover: 1
+
+Explored 1 nodes (21 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 743.782 792.782 842.673 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.437822977320e+02, best bound 7.437822977320e+02, gap 0.0000%
+
+User-callback calls 560, time in user-callback 0.00 sec
+
+Statistics for modelBBER_BBU:
+  Linear constraint matrix    : 179 Constrs, 124 Vars, 592 NZs
+  Variable types              : 71 Continuous,
+53 Integer (23 Binary)
+  Matrix coefficient range    : [ 1, 322 ]
+  Objective coefficient range : [ 1, 897.998 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]
+
+Gurobi 10.0.1 (mac64[arm]) logging started Fri Mar 29 14:28:48 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBER_BBU/original/LP_based/BBER_BBU_subgradient_202403291428act_.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 180 rows, 124 columns and 594 nonzeros
+Model fingerprint: 0xd1c7d05f
+Variable types: 71 continuous, 53 integer (23 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 8e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+
+User MIP start produced solution with objective 555.62 (0.00s)
+Loaded user MIP start with objective 555.62
+
+Presolve removed 180 rows and 124 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 555.62 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.556202706655e+02, best bound 5.556202706655e+02, gap 0.0000%
+
+User-callback calls 567, time in user-callback 0.00 sec
+
+Statistics for modelBBER_BBU:
+  Linear constraint matrix    : 180 Constrs, 124 Vars, 594 NZs
+  Variable types              : 71 Continuous,
+53 Integer (23 Binary)
+  Matrix coefficient range    : [ 1, 322 ]
+  Objective coefficient range : [ 1, 803.916 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]
+
+Gurobi 10.0.1 (mac64[arm]) logging started Fri Mar 29 14:28:48 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBER_BBU/original/LP_based/BBER_BBU_subgradient_202403291428act_.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 180 rows, 124 columns and 594 nonzeros
+Model fingerprint: 0xb6a7cef2
+Variable types: 71 continuous, 53 integer (23 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 3e+02]
+  Objective range  [1e+00, 2e+03]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+
+User MIP start produced solution with objective 2625.4 (0.00s)
+Loaded user MIP start with objective 2625.4
+
+Presolve removed 132 rows and 80 columns
+Presolve time: 0.00s
+Presolved: 48 rows, 44 columns, 175 nonzeros
+Variable types: 19 continuous, 25 integer (25 binary)
+
+Root relaxation: objective 5.820000e+02, 27 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0  582.00000    0    7 2625.40257  582.00000  77.8%     -    0s
+H    0     0                     982.0000000  884.00000  10.0%     -    0s
+     0     0  884.00000    0   11  982.00000  884.00000  10.0%     -    0s
+     0     0  884.00000    0   10  982.00000  884.00000  10.0%     -    0s
+     0     0  884.00000    0   14  982.00000  884.00000  10.0%     -    0s
+     0     0  982.00000    0   12  982.00000  982.00000  0.00%     -    0s
+
+Cutting planes:
+  Learned: 2
+  Cover: 2
+  Implied bound: 1
+  Clique: 3
+  RLT: 1
+  Relax-and-lift: 1
+
+Explored 1 nodes (55 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 2: 982 2625.4 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.820000000000e+02, best bound 9.820000000000e+02, gap 0.0000%
+
+User-callback calls 550, time in user-callback 0.00 sec
+
+Statistics for modelBBER_BBU:
+  Linear constraint matrix    : 180 Constrs, 124 Vars, 594 NZs
+  Variable types              : 71 Continuous,
+53 Integer (23 Binary)
+  Matrix coefficient range    : [ 1, 322 ]
+  Objective coefficient range : [ 1, 1838.81 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

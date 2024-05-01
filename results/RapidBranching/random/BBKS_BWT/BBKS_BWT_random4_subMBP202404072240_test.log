@@ -1,0 +1,37 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Sun Apr  7 23:51:06 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBKS_BWT/Branching/BBKS_BWT_random4_subMBP202404072240_test.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 14549 rows, 4381 columns and 46843 nonzeros
+Model fingerprint: 0x91db0ada
+Variable types: 1295 continuous, 3086 integer (911 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [2e-16, 5e+02]
+
+User MIP start did not produce a new incumbent solution
+User MIP start violates constraint slack_BFFO_702_B_48_1_1_dep_rightBLI_692_B_48_1_1_arr_right by 0.000016614
+
+Presolve removed 1944 rows and 0 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 40, time in user-callback 0.00 sec
+
+IIS computed: 1 constraints, 0 bounds
+IIS runtime: 0.00 seconds (0.00 work units)
+Warning: constraint name "test_start_h_('BLI_9_A_18_1_21_dep_right', 'BLI_35_A_18_1_21_arr_right')" has a space

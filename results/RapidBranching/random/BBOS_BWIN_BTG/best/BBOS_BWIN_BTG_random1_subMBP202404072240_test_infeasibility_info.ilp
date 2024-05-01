@@ -1,0 +1,12 @@
+\ Model BBOS_BWIN_BTG_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ test_start_h_('BWAI_541_A_22_1_12_dep_right',_'BWAI_542_A_22_1_12_arr_right'):
+   h[BWAI_541_A_22_1_12_dep_right,BWAI_542_A_22_1_12_arr_right]
+   = 0.7286432160804017
+Bounds
+Binaries
+ h[BWAI_541_A_22_1_12_dep_right,BWAI_542_A_22_1_12_arr_right]
+End

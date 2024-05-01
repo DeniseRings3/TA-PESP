@@ -1,0 +1,45 @@
+Model;filename;comment;date;time;timeout;gap in %;objective;fixed integer values ratio;solvable;relaxed;ratio;type;feasibility check;postprocessing;first_sol_time;first_sol_obj;first_sol_gap;plateau_time;plateau_time_obj;plateau_time_gap
+BBER_BBU;BBER_BBU_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.028748167;False;-;-;0.2;False;True;0.9;other alternatives;False;0;-1;-1;-1;-1;-1;-1
+BBER_BBU;BBER_BBU_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.035110542;False;-;-;0.2;False;True;0.9;slack;False;0;-1;-1;-1;-1;-1;-1
+BBER_BBU;BBER_BBU_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.040029875;False;-;-;0.2;False;True;0.6;other alternatives;False;0;-1;-1;-1;-1;-1;-1
+BBER_BBU;BBER_BBU_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.044536042;False;-;-;0.2;False;True;0.6;slack;False;0;-1;-1;-1;-1;-1;-1
+BBKS_BWT;BBKS_BWT_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.308570958;False;-;-;0.851351351;True;True;0.9;other alternatives;True;0.012959541;115;10040.05;8.09;120;9868;6.49
+BBKS_BWT;BBKS_BWT_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;6.990865041;False;-;-;0.851351351;True;True;0.9;slack;True;6.727778166;15;9915;6.93;17;9868;6.49
+BBKS_BWT;BBKS_BWT_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;2.468585083;False;-;-;0.851351351;True;True;0.6;other alternatives;True;0.019374208;155;10350.05;11.4;159;9868;7.1
+BBKS_BWT;BBKS_BWT_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.307631;False;-;-;0.851351351;True;True;0.6;slack;True;0.011495583;24;10365;11.5;56;9868;6.73
+BBOS_BWIN_BTG;BBOS_BWIN_BTG_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;273.3451685;False;-;-;0.7;False;True;0.9;other alternatives;False;0;-1;-1;-1;-1;-1;-1
+BBOS_BWIN_BTG;BBOS_BWIN_BTG_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;873.7811196;False;-;-;0.7;False;True;0.9;slack;False;0;-1;-1;-1;-1;-1;-1
+BBOS_BWIN_BTG;BBOS_BWIN_BTG_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;1473.972333;False;-;-;0.7;False;True;0.6;other alternatives;False;0;-1;-1;-1;-1;-1;-1
+BBOS_BWIN_BTG;BBOS_BWIN_BTG_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;2074.379382;False;-;-;0.7;False;True;0.6;slack;False;0;-1;-1;-1;-1;-1;-1
+BGAS_BKW;BGAS_BKW_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;1.878201292;False;-;-;0.52;False;True;0.9;other alternatives;False;0;-1;-1;-1;-1;-1;-1
+BGAS_BKW;BGAS_BKW_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;3.9015035;False;-;-;0.52;False;True;0.9;slack;False;0;-1;-1;-1;-1;-1;-1
+BGAS_BKW;BGAS_BKW_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;26.95870937;False;-;-;0.52;False;True;0.6;other alternatives;False;0;-1;-1;-1;-1;-1;-1
+BGAS_BKW;BGAS_BKW_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;36.39228258;False;-;-;0.52;False;True;0.6;slack;False;0;-1;-1;-1;-1;-1;-1
+BNB_BSNH_BSAL_BPHD;BNB_BSNH_BSAL_BPHD_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.464315917;False;-;-;0.586826347;True;True;0.9;other alternatives;True;0.083842625;17;24091.25;13.5;589;23365;10.5
+BNB_BSNH_BSAL_BPHD;BNB_BSNH_BSAL_BPHD_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.504249167;False;-;-;0.586826347;True;True;0.9;slack;True;0.013938667;159;24209.25;13.3;210;23364;10.2
+BNB_BSNH_BSAL_BPHD;BNB_BSNH_BSAL_BPHD_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.489039125;False;-;-;0.586826347;True;True;0.6;other alternatives;True;0.027128583;97;24290;14.1;727;22093;5.43
+BNB_BSNH_BSAL_BPHD;BNB_BSNH_BSAL_BPHD_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.794835;False;-;-;0.586826347;True;True;0.6;slack;True;0.036290709;140;24271.25;14.3;553;23359;10.8
+BBUP_O;BBUP_O_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.279457833;False;-;-;0.632352941;True;True;0.9;other alternatives;True;0.011043166;15;14656;8.47;186;14526;7.52
+BBUP_O;BBUP_O_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.270386583;False;-;-;0.632352941;True;True;0.9;slack;True;0.017911333;34;15540;13.7;97;14537;7.73
+BBUP_O;BBUP_O_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.25309375;False;-;-;0.632352941;True;True;0.6;other alternatives;True;0.011970333;25;14992;10.5;76;14526;7.66
+BBUP_O;BBUP_O_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.428346583;False;-;-;0.632352941;True;True;0.6;slack;True;0.01177225;5;15471;13.3;684;14570;7.79
+BBUP_W;BBUP_W_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.671423333;False;-;-;0.440677966;True;True;0.9;other alternatives;True;0.014498083;50;14078;8.59;60;13993;8.03
+BBUP_W;BBUP_W_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.235460708;False;-;-;0.440677966;True;True;0.9;slack;True;0.009861333;546;14309;9.83;563;13993;7.77
+BBUP_W;BBUP_W_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.2407225;False;-;-;0.440677966;True;True;0.6;other alternatives;True;0.013190917;337;14052;8.4;345;13993;8.01
+BBUP_W;BBUP_W_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;601.0819665;False;-;-;0.440677966;False;True;0.6;slack;False;0;-1;-1;-1;-1;-1;-1
+BPKW_BKRW_BSNF_O;BPKW_BKRW_BSNF_O_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;600.1991002;False;-;-;0.5;False;True;0.9;other alternatives;False;0;-1;-1;-1;-1;-1;-1
+BPKW_BKRW_BSNF_O;BPKW_BKRW_BSNF_O_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;1200.569036;False;-;-;0.5;False;True;0.9;slack;False;0;-1;-1;-1;-1;-1;-1
+BPKW_BKRW_BSNF_O;BPKW_BKRW_BSNF_O_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;1800.811702;False;-;-;0.5;False;True;0.6;other alternatives;False;0;-1;-1;-1;-1;-1;-1
+BPKW_BKRW_BSNF_O;BPKW_BKRW_BSNF_O_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;2401.262294;False;-;-;0.5;False;True;0.6;slack;False;0;-1;-1;-1;-1;-1;-1
+BWKS_medium_september;BWKS_medium_september_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.442143667;False;-;-;0.934545455;True;True;0.9;other alternatives;True;0.018120875;5;9285;11.8;145;8771;2.78
+BWKS_medium_september;BWKS_medium_september_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.4063695;False;-;-;0.934545455;True;True;0.9;slack;True;0.01304675;7;8897;5.02;28;8771;3.5
+BWKS_medium_september;BWKS_medium_september_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;0.415477291;False;-;-;0.934545455;True;True;0.6;other alternatives;True;0.00938075;28;9210;10.3;431;8771;3.89
+BWKS_medium_september;BWKS_medium_september_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;7.901622875;False;-;-;0.934545455;True;True;0.6;slack;True;0.014207708;8;9193;8.08;78;8776;3.63
+BGB_BWES;BGB_BWES_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;605.1500086;False;-;-;0.572614108;False;True;0.9;other alternatives;False;0;-1;-1;-1;-1;-1;-1
+BGB_BWES;BGB_BWES_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;1206.755355;False;-;-;0.572614108;False;True;0.9;slack;False;0;-1;-1;-1;-1;-1;-1
+BGB_BWES;BGB_BWES_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;1813.562186;False;-;-;0.572614108;False;True;0.6;other alternatives;False;0;-1;-1;-1;-1;-1;-1
+BGB_BWES;BGB_BWES_subMBP_202403292026;standard RINS, inequality;29.03.24 20:26;2415.203148;False;-;-;0.572614108;False;True;0.6;slack;False;0;-1;-1;-1;-1;-1;-1
+BBUP_O; ;BBUP_O_subMBP_202403301128;30.03.24 11:28;0.278296708;False;-;-;0.647058824;False;False;0.9;other alternatives;False;-1;-1;-1;-1;-1;-1;
+BBUP_O; ;BBUP_O_subMBP_202403301130;30.03.24 11:30;0.243330958;False;-;-;0.647058824;False;False;0.9;other alternatives;False;-1;-1;-1;-1;-1;-1;
+BBUP_O; ;BBUP_O_subMBP_202403301130;30.03.24 11:30;799.490538;False;8.26;14531;0.647058824;True;False;0.9;slack;True;41;16570;19.6;188;14531;8.28;
+BBUP_O; ;BBUP_O_subMBP_202403301130;30.03.24 11:30;799.7676876;False;-;-;0.647058824;False;False;0.6;other alternatives;False;-1;-1;-1;-1;-1;-1;

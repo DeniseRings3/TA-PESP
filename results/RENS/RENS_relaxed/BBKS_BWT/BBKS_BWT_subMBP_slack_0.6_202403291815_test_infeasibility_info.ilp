@@ -1,0 +1,19 @@
+\ Model BBKS_BWT_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ arc_activation_BLI_9_A_18_1_21_arr_rightBLI_9_A_18_1_21_dep_right:
+   - h[BLI_9_A_18_1_21_arr_right,BLI_9_A_18_1_21_dep_right] + b[51] + b[52]
+   + b[71] + b[72] = 0
+ test_start_h_('BLI_9_A_18_1_21_arr_right',_'BLI_9_A_18_1_21_dep_right'):
+   h[BLI_9_A_18_1_21_arr_right,BLI_9_A_18_1_21_dep_right] = 1
+ test_start_b_51: b[51] = 0
+ test_start_b_52: b[52] = 0
+ test_start_b_71: b[71] = 0
+ test_start_b_72: b[72] = 0
+Bounds
+Binaries
+ h[BLI_9_A_18_1_21_arr_right,BLI_9_A_18_1_21_dep_right] b[51] b[52] b[71]
+ b[72]
+End

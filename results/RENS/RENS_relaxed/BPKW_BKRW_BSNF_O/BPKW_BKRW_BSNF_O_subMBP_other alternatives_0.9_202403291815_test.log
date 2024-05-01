@@ -1,0 +1,42 @@
+
+Gurobi 10.0.1 (linux64) logging started Fri Mar 29 21:21:13 2024
+
+Set parameter LogFile to value "/data/optimi/optimi/kombadon/drings/SBahn/s-bahn-data/scripts/DeniseMA/processed/BPKW_BKRW_BSNF_O/RENS/BPKW_BKRW_BSNF_O_subMBP_other alternatives_0.9_202403291815_test.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (linux64)
+
+CPU model: Intel(R) Xeon(R) CPU E3-1270 v6 @ 3.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 6579 rows, 2168 columns and 17931 nonzeros
+Model fingerprint: 0xa6ebb108
+Variable types: 838 continuous, 1330 integer (358 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+
+Loaded user MIP start with objective 9793
+
+Presolve removed 6579 rows and 2168 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 9793 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.793000000000e+03, best bound 9.793000000000e+03, gap 0.0000%
+
+User-callback calls 138, time in user-callback 0.00 sec
+
+Statistics for modelBPKW_BKRW_BSNF_O:
+  Linear constraint matrix    : 6579 Constrs, 2168 Vars, 17931 NZs
+  Variable types              : 838 Continuous,
+1330 Integer (358 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 368 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

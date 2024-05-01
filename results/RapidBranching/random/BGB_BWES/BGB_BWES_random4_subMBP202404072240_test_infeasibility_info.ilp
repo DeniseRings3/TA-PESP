@@ -1,0 +1,12 @@
+\ Model BGB_BWES_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ test_start_h_('BTHF_570_A_493_1_12_dep_right',_'BTHF_536_A_493_1_12_arr_right'):
+   h[BTHF_570_A_493_1_12_dep_right,BTHF_536_A_493_1_12_arr_right]
+   = 0.9195979899497487
+Bounds
+Binaries
+ h[BTHF_570_A_493_1_12_dep_right,BTHF_536_A_493_1_12_arr_right]
+End

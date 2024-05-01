@@ -1,0 +1,12 @@
+\ Model BBUP_W_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ test_start_h_('BJUN_956_B_626_1_3_dep_right',_'BWES_812_B_626_1_3_arr_right'):
+   h[BJUN_956_B_626_1_3_dep_right,BWES_812_B_626_1_3_arr_right]
+   = 5.01485e-06
+Bounds
+Binaries
+ h[BJUN_956_B_626_1_3_dep_right,BWES_812_B_626_1_3_arr_right]
+End

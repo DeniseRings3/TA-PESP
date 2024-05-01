@@ -1,0 +1,95 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Fri Mar 29 18:17:55 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBKS_BWT/original/BBKS_BWT_202403291817_RINSstart.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 10168 rows, 4381 columns and 42462 nonzeros
+Model fingerprint: 0xa6e45f4c
+Variable types: 1295 continuous, 3086 integer (911 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 3707 rows and 1157 columns
+Presolve time: 0.09s
+Presolved: 6461 rows, 3224 columns, 30338 nonzeros
+Variable types: 759 continuous, 2465 integer (2465 binary)
+
+Root relaxation: objective 9.096000e+03, 2064 iterations, 0.03 seconds (0.05 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 9096.00000    0  186          - 9096.00000      -     -    0s
+     0     0 9096.00000    0  299          - 9096.00000      -     -    0s
+     0     0 9096.00000    0  326          - 9096.00000      -     -    0s
+     0     0 9096.56872    0  139          - 9096.56872      -     -    0s
+     0     0 9096.61856    0  164          - 9096.61856      -     -    0s
+     0     0 9096.61856    0  168          - 9096.61856      -     -    0s
+     0     0 9097.29148    0  220          - 9097.29148      -     -    0s
+     0     0 9106.00000    0  230          - 9106.00000      -     -    0s
+     0     0 9106.00000    0  237          - 9106.00000      -     -    0s
+     0     0 9106.11838    0  281          - 9106.11838      -     -    0s
+     0     0 9106.11838    0  242          - 9106.11838      -     -    0s
+     0     0 9107.00000    0  264          - 9107.00000      -     -    0s
+     0     0 9107.00000    0  282          - 9107.00000      -     -    0s
+     0     0 9107.00000    0  283          - 9107.00000      -     -    0s
+     0     0 9107.00000    0  241          - 9107.00000      -     -    0s
+     0     0 9107.00000    0  119          - 9107.00000      -     -    1s
+     0     0 9107.00000    0  266          - 9107.00000      -     -    1s
+     0     0 9107.00000    0  186          - 9107.00000      -     -    1s
+     0     0 9107.00000    0  205          - 9107.00000      -     -    1s
+     0     0 9107.00000    0  185          - 9107.00000      -     -    1s
+     0     0 9107.00000    0  185          - 9107.00000      -     -    1s
+     0     2 9107.00000    0  151          - 9107.00000      -     -    1s
+  1872  1598 9140.00000   20  283          - 9123.80219      -  45.7    5s
+H 3665  2466                    12847.000000 9133.38364  28.9%  29.0    8s
+H 3670  2432                    10546.000000 9133.38364  13.4%  29.0    8s
+H 3929  2429                    10536.000000 9134.15497  13.3%  30.7    8s
+H 3938  2356                    10535.000000 9134.15497  13.3%  30.7    8s
+H 3970  2280                    10526.000000 9134.15497  13.2%  31.0    8s
+H 4072  2256                    10521.000000 9134.15497  13.2%  31.8    8s
+H 4116  2266                    10502.000000 9134.15497  13.0%  31.8    8s
+H 4257  2264                    10498.000000 9134.15497  13.0%  32.2    8s
+  5100  2649 10060.6313   48  166 10498.0000 9134.74490  13.0%  33.5   10s
+H 5363  2730                    10495.000000 9134.74490  13.0%  33.8   10s
+
+Cutting planes:
+  Learned: 87
+  Gomory: 64
+  Cover: 154
+  Implied bound: 13
+  Projected implied bound: 1
+  Clique: 6
+  MIR: 97
+  StrongCG: 14
+  Flow cover: 296
+  GUB cover: 1
+  Zero half: 13
+  Network: 6
+  RLT: 28
+  Relax-and-lift: 6
+
+Explored 5392 nodes (284530 simplex iterations) in 10.24 seconds (14.07 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 9: 10495 10498 10502 ... 12847
+
+Solve interrupted
+Best objective 1.049500000000e+04, best bound 9.134744899046e+03, gap 12.9610%
+
+User-callback calls 14754, time in user-callback 0.03 sec
+
+Statistics for modelBBKS_BWT:
+  Linear constraint matrix    : 10168 Constrs, 4381 Vars, 42462 NZs
+  Variable types              : 1295 Continuous,
+3086 Integer (911 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 382 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

@@ -1,0 +1,12 @@
+\ Model BBUP_W_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ test_start_h_('BOK_551_B_206_2_1_dep_right',_'BTP_571_B_206_2_1_arr_right'):
+   h[BOK_551_B_206_2_1_dep_right,BTP_571_B_206_2_1_arr_right]
+   = 0.9999930077293716
+Bounds
+Binaries
+ h[BOK_551_B_206_2_1_dep_right,BTP_571_B_206_2_1_arr_right]
+End

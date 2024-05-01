@@ -1,0 +1,12 @@
+\ Model BBKS_BWT_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ test_start_h_('BLI_9_A_18_1_21_dep_right',_'BLI_35_A_18_1_21_arr_right'):
+   h[BLI_9_A_18_1_21_dep_right,BLI_35_A_18_1_21_arr_right]
+   = 0.1758793969849246
+Bounds
+Binaries
+ h[BLI_9_A_18_1_21_dep_right,BLI_35_A_18_1_21_arr_right]
+End

@@ -1,0 +1,13 @@
+\ Model BBKS_BWT_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ test_start_h_('BOKS_653_B_24_1_2_dep_right',_'henkel_1_S3_B_BE_BSPA_0_S3_B_BSPA_BE_0_24_1_21'):
+   h[BOKS_653_B_24_1_2_dep_right,henkel_1_S3_B_BE_BSPA_0_S3_B_BSPA_BE_0_24_1_21]
+   = -3.00964e-07
+Bounds
+Binaries
+
+ h[BOKS_653_B_24_1_2_dep_right,henkel_1_S3_B_BE_BSPA_0_S3_B_BSPA_BE_0_24_1_21]
+End

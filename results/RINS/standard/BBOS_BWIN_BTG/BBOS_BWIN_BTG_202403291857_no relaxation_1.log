@@ -1,0 +1,73 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Fri Mar 29 19:10:26 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBOS_BWIN_BTG/RINS/BBOS_BWIN_BTG_202403291857_no relaxation_1.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 4051 rows, 2210 columns and 15165 nonzeros
+Model fingerprint: 0xf9e9b4af
+Variable types: 896 continuous, 1314 integer (417 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 1e+04]
+
+User MIP start did not produce a new incumbent solution
+User MIP start violates constraint objective_cutoff by 102.100031963
+
+Presolve removed 2937 rows and 1349 columns
+Presolve time: 0.02s
+Presolved: 1114 rows, 861 columns, 4458 nonzeros
+Variable types: 356 continuous, 505 integer (505 binary)
+
+Root relaxation: objective 9.843000e+03, 251 iterations, 0.00 seconds (0.00 work units)
+Another try with MIP start
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 9843.00000    0   20          - 9843.00000      -     -    0s
+     0     0 9874.00000    0   30          - 9874.00000      -     -    0s
+     0     0 9874.00000    0   28          - 9874.00000      -     -    0s
+     0     0 9880.00000    0   44          - 9880.00000      -     -    0s
+     0     0 9880.00000    0   42          - 9880.00000      -     -    0s
+     0     0 9880.00000    0   42          - 9880.00000      -     -    0s
+     0     0 9880.00000    0   55          - 9880.00000      -     -    0s
+     0     0 9884.00000    0   36          - 9884.00000      -     -    0s
+     0     0 9884.00000    0   40          - 9884.00000      -     -    0s
+     0     0 9889.00000    0   39          - 9889.00000      -     -    0s
+     0     0 9889.00000    0   40          - 9889.00000      -     -    0s
+     0     0 9889.00000    0   15          - 9889.00000      -     -    0s
+     0     0 9889.00000    0   17          - 9889.00000      -     -    0s
+     0     0 9889.00000    0   15          - 9889.00000      -     -    0s
+     0     0 9889.00000    0   10          - 9889.00000      -     -    0s
+     0     2 9889.00000    0   10          - 9889.00000      -     -    0s
+ 84079 42322 10083.0000   43   10          - 9999.79028      -   5.2    5s
+ 171904 51331 10058.0000   42   13          - 10057.0000      -   6.0   10s
+
+Cutting planes:
+  Learned: 7
+  Gomory: 46
+  Cover: 50
+  Implied bound: 8
+  Clique: 3
+  MIR: 40
+  StrongCG: 1
+  Flow cover: 154
+  Inf proof: 19
+  RLT: 5
+  Relax-and-lift: 5
+
+Explored 255866 nodes (1536941 simplex iterations) in 14.60 seconds (16.54 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 518880, time in user-callback 1.24 sec

@@ -1,0 +1,440 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Sun Apr  7 12:35:02 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBOS_BWIN_BTG/Branching/BBOS_BWIN_BTG_other alternatives_subMBP202404071201.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3992 rows, 2210 columns and 14480 nonzeros
+Model fingerprint: 0x1ddbe658
+Variable types: 1213 continuous, 997 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+
+Loaded user MIP start with objective 10210
+
+Presolve removed 2894 rows and 1325 columns
+Presolve time: 0.24s
+Presolved: 1098 rows, 885 columns, 4909 nonzeros
+Found heuristic solution: objective 10209.999055
+Variable types: 464 continuous, 421 integer (421 binary)
+
+Root relaxation: objective 9.889000e+03, 297 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 9888.99998    0   11 10209.9991 9888.99998  3.14%     -    0s
+     0     0 9888.99998    0   19 10209.9991 9888.99998  3.14%     -    0s
+     0     0 9888.99998    0   20 10209.9991 9888.99998  3.14%     -    0s
+     0     0 9888.99998    0    7 10209.9991 9888.99998  3.14%     -    0s
+     0     0 9888.99998    0    8 10209.9991 9888.99998  3.14%     -    0s
+     0     0 9888.99998    0    9 10209.9991 9888.99998  3.14%     -    0s
+     0     0 9888.99998    0    9 10209.9991 9888.99998  3.14%     -    0s
+     0     0 9888.99998    0    5 10209.9991 9888.99998  3.14%     -    0s
+     0     0 9888.99998    0    7 10209.9991 9888.99998  3.14%     -    0s
+     0     0 9888.99998    0    7 10209.9991 9888.99998  3.14%     -    0s
+ 53454 19220     cutoff   45      10209.9991 9948.99998  2.56%  11.1    5s
+ 97134 29111 9968.99998   51   11 10209.9991 9968.99998  2.36%  11.9   10s
+ 163830 36341 9974.72971   56   17 10209.9991 9968.99998  2.36%  12.5   15s
+ 231813 56050 10021.2770   45    8 10209.9991 9968.99998  2.36%  12.6   20s
+ 300813 74773 10063.5501   48    7 10209.9991 9968.99998  2.36%  12.8   25s
+ 368452 90797 10013.0000   63   11 10209.9991 9968.99998  2.36%  12.8   30s
+ 441381 105318 10033.0000   59   13 10209.9991 9968.99998  2.36%  12.9   35s
+ 483173 117813 10023.0000   56   12 10209.9991 9968.99998  2.36%  13.4   40s
+ 552210 129404 10013.7297   64    7 10209.9991 9968.99998  2.36%  13.5   45s
+ 593648 139757     cutoff   39      10209.9991 9968.99998  2.36%  13.9   50s
+ 664272 152582 infeasible   60      10209.9991 9969.18957  2.36%  13.9   55s
+ 718648 163675 9990.80131   43    4 10209.9991 9970.80131  2.34%  14.0   60s
+ 771226 176879 10003.9279   64   10 10209.9991 9971.99905  2.33%  14.1   65s
+ 833591 187502 9973.39529   45    2 10209.9991 9973.39529  2.32%  14.2   70s
+ 883904 194986     cutoff   59      10209.9991 9982.99998  2.22%  14.4   75s
+ 947367 202141 10003.0000   66   13 10209.9991 9982.99998  2.22%  14.3   80s
+ 982035 210480 9985.87333   58    9 10209.9991 9982.99998  2.22%  14.6   85s
+ 1040151 220351 10053.0000   44    4 10209.9991 9982.99998  2.22%  14.6   90s
+ 1088071 219636 10013.0000   76   18 10209.9991 9988.99998  2.16%  14.7   95s
+ 1157366 227737 infeasible   73      10209.9991 9988.99998  2.16%  14.7  100s
+ 1182026 233321 10025.3037   70   14 10209.9991 9988.99998  2.16%  14.8  105s
+ 1235723 242384 10009.0000   40    3 10209.9991 9988.99998  2.16%  14.8  110s
+ 1269970 248447     cutoff   66      10209.9991 9988.99998  2.16%  14.8  115s
+ 1297191 253710     cutoff   59      10209.9991 9988.99998  2.16%  15.0  120s
+ 1338321 260651 10032.2036   37    6 10209.9991 9988.99998  2.16%  14.9  125s
+ 1374720 267294     cutoff   56      10209.9991 9988.99998  2.16%  15.0  130s
+ 1412795 272429 9988.99998   40    7 10209.9991 9988.99998  2.16%  15.0  135s
+ 1464667 280136     cutoff   57      10209.9991 9989.05713  2.16%  15.0  140s
+ 1491221 277228 10023.0000   72   13 10209.9991 9992.99998  2.13%  15.0  145s
+ 1532037 283376     cutoff   40      10209.9991 9992.99998  2.13%  15.0  150s
+ 1564266 288211     cutoff   53      10209.9991 9992.99998  2.13%  15.0  155s
+ 1579070 290512 10015.8977   71    7 10209.9991 9993.03686  2.12%  15.0  160s
+ 1596218 292534 10023.0000   82    9 10209.9991 9994.17358  2.11%  15.1  165s
+ 1630349 294069 10006.5644   40    6 10209.9991 9998.23104  2.07%  15.0  170s
+ 1672249 293012 infeasible   68      10209.9991 10003.0000  2.03%  15.0  175s
+ 1700969 292976 10014.8483   60   10 10209.9991 10003.0000  2.03%  15.0  180s
+
+Cutting planes:
+  Gomory: 5
+  Cover: 1
+  Implied bound: 3
+  MIR: 19
+  RLT: 2
+  Relax-and-lift: 5
+
+Explored 1702748 nodes (25532358 simplex iterations) in 180.86 seconds (133.02 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 10: 10210 10210 10210 ... 10210
+
+Solve interrupted
+Best objective 1.020999905475e+04, best bound 1.000299998370e+04, gap 2.0274%
+
+User-callback calls 3403287, time in user-callback 7.28 sec
+
+Statistics for modelBBOS_BWIN_BTG:
+  Linear constraint matrix    : 3992 Constrs, 2210 Vars, 14480 NZs
+  Variable types              : 1213 Continuous,
+997 Integer (100 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 396 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]
+
+Gurobi 10.0.1 (mac64[arm]) logging started Sun Apr  7 12:38:09 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBOS_BWIN_BTG/Branching/BBOS_BWIN_BTG_other alternatives_subMBP202404071201.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3986 rows, 2210 columns and 14474 nonzeros
+Model fingerprint: 0xc720f00f
+Variable types: 1213 continuous, 997 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+
+Loaded user MIP start with objective 10210
+
+Presolve removed 2793 rows and 1269 columns
+Presolve time: 0.26s
+Presolved: 1193 rows, 941 columns, 5235 nonzeros
+Found heuristic solution: objective 10209.998869
+Variable types: 498 continuous, 443 integer (443 binary)
+
+Root relaxation: objective 9.843000e+03, 405 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 9842.99977    0   16 10209.9989 9842.99977  3.59%     -    0s
+     0     0 9873.12967    0   24 10209.9989 9873.12967  3.30%     -    0s
+     0     0 9873.12967    0   23 10209.9989 9873.12967  3.30%     -    0s
+H    0     0                    10209.998840 9878.99977  3.24%     -    0s
+     0     0 9878.99977    0   32 10209.9988 9878.99977  3.24%     -    0s
+     0     0 9878.99977    0   32 10209.9988 9878.99977  3.24%     -    0s
+     0     0 9880.13862    0   19 10209.9988 9880.13862  3.23%     -    0s
+     0     0 9880.13862    0   29 10209.9988 9880.13862  3.23%     -    0s
+     0     0 9880.14165    0   28 10209.9988 9880.14165  3.23%     -    0s
+     0     0 9880.14165    0   28 10209.9988 9880.14165  3.23%     -    0s
+     0     0 9880.14185    0   28 10209.9988 9880.14185  3.23%     -    0s
+     0     0 9880.14185    0   21 10209.9988 9880.14185  3.23%     -    0s
+ 23106  7035     cutoff   38      10209.9988 9948.99980  2.56%  11.9    5s
+ 58565 18133 9977.45529   37    6 10209.9988 9968.99980  2.36%  13.0   10s
+ 91660 24849     cutoff   42      10209.9988 9968.99980  2.36%  13.2   15s
+ 106301 26715 10002.9998   67   12 10209.9988 9968.99980  2.36%  13.4   20s
+ 135324 32228     cutoff   76      10209.9988 9968.99980  2.36%  13.6   25s
+ 168179 37817 infeasible   69      10209.9988 9968.99980  2.36%  13.8   30s
+ 206751 46649 9969.37627   63   18 10209.9988 9969.36162  2.36%  13.9   35s
+ 230266 56879 9972.96599   60    6 10209.9988 9972.85077  2.32%  14.2   40s
+ 274442 68392 9982.99980   59   11 10209.9988 9982.99980  2.22%  14.0   45s
+ 291207 74423 9982.99980   58   10 10209.9988 9982.99980  2.22%  14.4   50s
+ 315524 81129 10097.1763   42    5 10209.9988 9982.99980  2.22%  14.5   55s
+ 350243 89252     cutoff   71      10209.9988 9983.10534  2.22%  14.5   60s
+ 369535 92962 10005.1879   67   17 10209.9988 9988.99980  2.16%  14.9   65s
+ 392112 99947 10038.9998   36    4 10209.9988 9988.99980  2.16%  15.2   70s
+ 440801 109299     cutoff   72      10209.9988 9988.99980  2.16%  14.9   75s
+ 458216 114613 10012.9998   72   11 10209.9988 9988.99980  2.16%  15.2   80s
+ 473619 119520 10022.9998   74   11 10209.9988 9988.99980  2.16%  15.5   85s
+ 489282 124315 10048.9998   37    6 10209.9988 9988.99980  2.16%  15.8   90s
+ 536476 132153     cutoff   45      10209.9988 9988.99980  2.16%  15.5   95s
+ 555426 138418 10012.9998   74   14 10209.9988 9988.99980  2.16%  15.8  100s
+ 569054 142650     cutoff   66      10209.9988 9988.99980  2.16%  16.0  105s
+ 581878 146396 10013.2064   82   12 10209.9988 9989.03654  2.16%  16.1  110s
+ 612174 151106 9989.95632   37    2 10209.9988 9989.95632  2.16%  16.1  115s
+ 649713 154361 9998.99980   60    5 10209.9988 9992.99980  2.13%  15.9  120s
+ 665424 159016 10012.9998   75   14 10209.9988 9992.99980  2.13%  16.1  125s
+ 682169 164214 10015.4998   76   11 10209.9988 9992.99980  2.13%  16.3  130s
+ 710462 169802     cutoff   28      10209.9988 9992.99980  2.13%  16.3  135s
+ 746250 176773     cutoff   81      10209.9988 9992.99980  2.13%  16.2  140s
+ 761884 181449 10002.9998   66   10 10209.9988 9992.99980  2.13%  16.4  145s
+ 780039 183937 10023.4390   90   10 10209.9988 9993.49980  2.12%  16.5  150s
+ 808807 182568 10002.9998   40    3 10209.9988 10002.9998  2.03%  16.5  155s
+ 849416 188277 10002.9998   62   11 10209.9988 10002.9998  2.03%  16.3  160s
+ 870484 189269 10003.9854   64   12 10209.9988 10002.9998  2.03%  16.4  165s
+ 888725 191980 10022.9998   77    7 10209.9988 10002.9998  2.03%  16.5  170s
+ 933142 197593     cutoff   44      10209.9988 10002.9998  2.03%  16.3  175s
+ 962265 201851 10012.9998   82   10 10209.9988 10002.9998  2.03%  16.4  180s
+
+Cutting planes:
+  Learned: 1
+  Gomory: 11
+  Cover: 11
+  Implied bound: 7
+  Clique: 1
+  MIR: 23
+  RLT: 6
+  Relax-and-lift: 3
+
+Explored 963611 nodes (15765598 simplex iterations) in 180.56 seconds (97.05 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 10: 10210 10210 10210 ... 10210
+
+Solve interrupted
+Best objective 1.020999884021e+04, best bound 1.000299979689e+04, gap 2.0274%
+
+User-callback calls 1926144, time in user-callback 5.57 sec
+
+Statistics for modelBBOS_BWIN_BTG:
+  Linear constraint matrix    : 3986 Constrs, 2210 Vars, 14474 NZs
+  Variable types              : 1213 Continuous,
+997 Integer (100 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 396 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]
+
+Gurobi 10.0.1 (mac64[arm]) logging started Sun Apr  7 12:41:10 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBOS_BWIN_BTG/Branching/BBOS_BWIN_BTG_other alternatives_subMBP202404071201.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3983 rows, 2210 columns and 14471 nonzeros
+Model fingerprint: 0x5559b3a4
+Variable types: 1213 continuous, 997 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+
+Loaded user MIP start with objective 10210
+
+Presolve removed 2658 rows and 1205 columns
+Presolve time: 0.40s
+Presolved: 1325 rows, 1005 columns, 5736 nonzeros
+Found heuristic solution: objective 10209.998168
+Variable types: 535 continuous, 470 integer (470 binary)
+
+Root relaxation: objective 9.839999e+03, 436 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 9839.99909    0   27 10209.9982 9839.99909  3.62%     -    0s
+     0     0 9869.08286    0   49 10209.9982 9869.08286  3.34%     -    0s
+     0     0 9869.12073    0   62 10209.9982 9869.12073  3.34%     -    0s
+     0     0 9869.18194    0   61 10209.9982 9869.18194  3.34%     -    0s
+H    0     0                    10209.998162 9869.18194  3.34%     -    0s
+     0     0 9879.12926    0   48 10209.9982 9879.12926  3.24%     -    0s
+     0     0 9879.12926    0   45 10209.9982 9879.12926  3.24%     -    0s
+     0     0 9879.99909    0   38 10209.9982 9879.99909  3.23%     -    0s
+     0     0 9879.99909    0   39 10209.9982 9879.99909  3.23%     -    0s
+     0     0 9887.99909    0   23 10209.9982 9887.99909  3.15%     -    0s
+     0     0 9887.99909    0   27 10209.9982 9887.99909  3.15%     -    0s
+     0     0 9887.99909    0   21 10209.9982 9887.99909  3.15%     -    0s
+     0     0 9887.99909    0   21 10209.9982 9887.99909  3.15%     -    0s
+     0     0 9887.99909    0   22 10209.9982 9887.99909  3.15%     -    0s
+     0     0 9887.99909    0   22 10209.9982 9887.99909  3.15%     -    0s
+H 1209   844                    10209.997970 9888.99909  3.14%   8.2    1s
+ 19408  5686 9950.35068   44   16 10209.9980 9903.04247  3.01%  10.6    5s
+ 59515 16821 10033.9688   38    3 10209.9980 9912.33243  2.92%  11.2   10s
+ 77985 21844 9921.20451   46   13 10209.9980 9921.20451  2.83%  11.3   15s
+ 106789 27129 9978.99909   39   11 10209.9980 9958.99909  2.46%  11.9   20s
+ 135716 31767     cutoff   60      10209.9980 9966.64176  2.38%  12.2   25s
+ 169099 36886     cutoff   54      10209.9980 9968.99909  2.36%  12.3   30s
+ 202642 44537     cutoff   37      10209.9980 9968.99909  2.36%  12.4   35s
+ 228976 54072 9973.19130   59   13 10209.9980 9968.99909  2.36%  12.6   40s
+ 273437 63425 10022.9991   66   12 10209.9980 9968.99909  2.36%  12.5   45s
+ 291642 71464 infeasible   73      10209.9980 9968.99909  2.36%  12.8   50s
+ 332955 79211 9988.99909   47    4 10209.9980 9968.99909  2.36%  12.7   55s
+ 361573 88050 10022.9991   67    7 10209.9980 9968.99909  2.36%  12.9   60s
+ 379993 96476 9969.38073   58   21 10209.9980 9968.99909  2.36%  13.1   65s
+ 429109 104993 9968.99909   29    3 10209.9980 9968.99909  2.36%  12.9   70s
+ 454421 113419 10022.9991   85    9 10209.9980 9968.99909  2.36%  13.0   75s
+ 472286 120706 9974.92103   82   14 10209.9980 9968.99909  2.36%  13.1   80s
+ 491261 127784     cutoff   41      10209.9980 9969.49409  2.36%  13.3   85s
+ 544282 137382     cutoff   65      10209.9980 9969.74909  2.35%  13.1   90s
+ 565443 147184     cutoff   66      10209.9980 9969.99909  2.35%  13.2   95s
+ 582559 154574 9973.32246   73   15 10209.9980 9969.99909  2.35%  13.4  100s
+ 635836 164003     cutoff   38      10209.9980 9969.99909  2.35%  13.3  105s
+ 661637 172687 10022.9991   72   12 10209.9980 9970.67273  2.34%  13.4  110s
+ 679342 179422 10022.9991   74    7 10209.9980 9971.36019  2.34%  13.5  115s
+ 710862 186430     cutoff   39      10209.9980 9971.89175  2.33%  13.5  120s
+ 752141 194082 10025.9991   91   10 10209.9980 9971.99909  2.33%  13.4  125s
+ 770443 202377 9973.74694   60   12 10209.9980 9971.99909  2.33%  13.5  130s
+ 789089 209938     cutoff   62      10209.9980 9972.18289  2.33%  13.6  135s
+ 839944 219724 10098.5546   40    4 10209.9980 9972.33930  2.33%  13.4  140s
+ 860530 225745 9975.61207   72    5 10209.9980 9972.89994  2.32%  13.5  145s
+ 878036 230977 9976.25850   80   12 10209.9980 9973.54387  2.32%  13.6  150s
+ 891471 234254 9974.19640   47    7 10209.9980 9974.09574  2.31%  13.7  155s
+ 934226 240494 9994.35575   37    3 10209.9980 9974.35575  2.31%  13.6  160s
+ 955186 244797     cutoff   64      10209.9980 9974.67787  2.30%  13.6  165s
+ 969460 247398 10015.9991   67   18 10209.9980 9975.36571  2.30%  13.7  170s
+ 981693 250471     cutoff   87      10209.9980 9975.99909  2.29%  13.8  175s
+ 1008399 255869 10096.0112   41    4 10209.9980 9976.28961  2.29%  13.8  180s
+
+Cutting planes:
+  Learned: 2
+  Gomory: 4
+  Cover: 12
+  Implied bound: 5
+  Clique: 2
+  MIR: 20
+  StrongCG: 2
+  RLT: 5
+  Relax-and-lift: 7
+
+Explored 1009780 nodes (13962772 simplex iterations) in 180.31 seconds (110.63 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 4: 10210 10210 10210 10210 
+
+Solve interrupted
+Best objective 1.020999797051e+04, best bound 9.976289607167e+03, gap 2.2890%
+
+User-callback calls 2018412, time in user-callback 5.33 sec
+
+Statistics for modelBBOS_BWIN_BTG:
+  Linear constraint matrix    : 3983 Constrs, 2210 Vars, 14471 NZs
+  Variable types              : 1213 Continuous,
+997 Integer (100 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 396 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]
+
+Gurobi 10.0.1 (mac64[arm]) logging started Sun Apr  7 12:44:11 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBOS_BWIN_BTG/Branching/BBOS_BWIN_BTG_other alternatives_subMBP202404071201.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3982 rows, 2210 columns and 14470 nonzeros
+Model fingerprint: 0x9546f39a
+Variable types: 1213 continuous, 997 integer (100 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+
+Loaded user MIP start with objective 10210
+
+Presolve removed 2649 rows and 1199 columns
+Presolve time: 0.37s
+Presolved: 1333 rows, 1011 columns, 5750 nonzeros
+Found heuristic solution: objective 10209.998249
+Variable types: 541 continuous, 470 integer (470 binary)
+
+Root relaxation: objective 9.839999e+03, 459 iterations, 0.01 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 9839.99917    0   28 10209.9982 9839.99917  3.62%     -    0s
+H    0     0                    10209.998228 9842.99917  3.59%     -    0s
+     0     0 9871.08294    0   42 10209.9982 9871.08294  3.32%     -    0s
+     0     0 9871.11086    0   51 10209.9982 9871.11086  3.32%     -    0s
+     0     0 9871.11771    0   51 10209.9982 9871.11771  3.32%     -    0s
+     0     0 9877.98938    0   22 10209.9982 9877.98938  3.25%     -    0s
+     0     0 9878.99918    0   23 10209.9982 9878.99918  3.24%     -    0s
+     0     0 9879.99917    0   44 10209.9982 9879.99917  3.23%     -    0s
+H    0     0                    10209.998225 9879.99917  3.23%     -    0s
+     0     0 9879.99917    0   42 10209.9982 9879.99917  3.23%     -    0s
+     0     0 9879.99917    0   31 10209.9982 9879.99917  3.23%     -    0s
+     0     0 9879.99917    0   31 10209.9982 9879.99917  3.23%     -    0s
+     0     0 9879.99917    0   28 10209.9982 9879.99917  3.23%     -    0s
+     0     0 9879.99917    0   17 10209.9982 9879.99917  3.23%     -    0s
+ 20401  6296 9944.99917   39    7 10209.9982 9888.99917  3.14%  11.6    5s
+ 56007 17496 9894.49552   41   37 10209.9982 9889.03575  3.14%  12.1   10s
+ 74815 23263 9911.67620   54   24 10209.9982 9908.99917  2.95%  12.4   15s
+H93834 26577                    10209.998192 9908.99917  2.95%  12.7   16s
+ 125554 33776 10005.3274   92   43 10209.9982 9908.99917  2.95%  13.1   20s
+ 169997 44419 9997.10967   54   12 10209.9982 9909.99917  2.94%  13.4   25s
+ 223213 63396 9912.23258   64   15 10209.9982 9909.99917  2.94%  13.2   30s
+ 274843 77735 10021.8451  113   16 10209.9982 9911.29997  2.93%  13.2   35s
+ 321751 93654 10018.8755   46    4 10209.9982 9913.63309  2.90%  13.2   40s
+ 362710 108521 10015.9992   82   18 10209.9982 9917.99917  2.86%  13.3   45s
+ 404236 121734 9975.25510   38    7 10209.9982 9923.04502  2.81%  13.3   50s
+H434050 126197                    10209.998189 9923.04502  2.81%  13.3   52s
+ 447981 132594 10025.5980   77   12 10209.9982 9928.26332  2.76%  13.4   55s
+ 466370 139246     cutoff   75      10209.9982 9929.99917  2.74%  13.6   60s
+ 497629 148496     cutoff   39      10209.9982 9930.91632  2.73%  13.7   65s
+ 538799 155375 10020.4718   68   11 10209.9982 9931.69372  2.73%  13.6   70s
+ 550164 159716     cutoff   68      10209.9982 9933.99917  2.70%  13.7   75s
+ 563234 164433 10039.9992   82   13 10209.9982 9936.26917  2.68%  13.9   80s
+ 584743 174364     cutoff   42      10209.9982 9942.85550  2.62%  14.0   85s
+H635705 180597                    10209.998123 9942.85550  2.62%  13.8   88s
+ 641217 182048 9946.23258   71   26 10209.9981 9942.99917  2.62%  13.8   90s
+ 665165 185604 10025.1844   74   12 10209.9981 9943.99917  2.61%  14.1   95s
+ 680125 189496     cutoff   62      10209.9981 9945.00726  2.60%  14.2  100s
+ 728466 197186 infeasible   43      10209.9981 9947.26547  2.57%  14.2  105s
+ 758259 203725 10013.9992   93   10 10209.9981 9953.99917  2.51%  14.3  110s
+ 782630 209405     cutoff   76      10209.9981 9962.29589  2.43%  14.4  115s
+H837800 217081                    10209.998068 9962.99917  2.42%  14.3  119s
+ 839016 217464     cutoff   67      10209.9981 9962.99917  2.42%  14.3  120s
+ 863449 220268 10026.9992   89   10 10209.9981 9963.99917  2.41%  14.4  125s
+ 889618 228770     cutoff   40      10209.9981 9968.99917  2.36%  14.5  130s
+ 944137 239645 9996.52164   73   20 10209.9981 9974.60811  2.31%  14.4  135s
+ 960083 248156     cutoff  100      10209.9981 9974.60811  2.31%  14.6  140s
+ 977447 256001 10021.6081   84   17 10209.9981 9977.60811  2.28%  14.7  145s
+ 1028790 263469 9993.99917   24    7 10209.9981 9993.99917  2.12%  14.7  150s
+ 1056973 272719 10044.9129   87   18 10209.9981 9994.30917  2.11%  14.9  155s
+ 1078235 283231 10029.9992   65   12 10209.9981 9995.99917  2.10%  15.0  160s
+ 1117353 288257     cutoff   42      10209.9981 9995.99917  2.10%  15.0  165s
+ 1155472 295776     cutoff   83      10209.9981 9996.99917  2.09%  15.1  170s
+ 1172673 303628 10005.0736   64    9 10209.9981 9997.99917  2.08%  15.2  175s
+ 1202162 312409     cutoff   36      10209.9981 9998.99917  2.07%  15.3  180s
+
+Cutting planes:
+  Learned: 2
+  Gomory: 3
+  Cover: 4
+  Implied bound: 6
+  Clique: 1
+  MIR: 19
+  Flow cover: 1
+  RLT: 15
+  Relax-and-lift: 1
+
+Explored 1203413 nodes (18423022 simplex iterations) in 180.54 seconds (124.16 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 7: 10210 10210 10210 ... 10210
+
+Solve interrupted
+Best objective 1.020999806844e+04, best bound 9.998999174173e+03, gap 2.0666%
+
+User-callback calls 2405887, time in user-callback 5.70 sec
+
+Statistics for modelBBOS_BWIN_BTG:
+  Linear constraint matrix    : 3982 Constrs, 2210 Vars, 14470 NZs
+  Variable types              : 1213 Continuous,
+997 Integer (100 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 396 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

@@ -1,0 +1,77 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Thu Mar 28 19:19:40 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BWKS_medium_september/original/LP_based/BWKS_medium_september_lp.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 9843 rows, 4887 columns and 48721 nonzeros
+Model fingerprint: 0xc0586294
+Variable types: 2689 continuous, 2198 integer (2198 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 3441 rows and 854 columns
+Presolve time: 0.04s
+Presolved: 6402 rows, 4033 columns, 41152 nonzeros
+Variable types: 2130 continuous, 1903 integer (1903 binary)
+
+Root relaxation: objective 8.079256e+03, 2072 iterations, 0.03 seconds (0.07 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 8079.25550    0   82          - 8079.25550      -     -    0s
+     0     0 8094.50389    0   97          - 8094.50389      -     -    0s
+     0     0 8094.50389    0   82          - 8094.50389      -     -    0s
+     0     0 8095.38870    0   96          - 8095.38870      -     -    0s
+     0     0 8095.38870    0   97          - 8095.38870      -     -    0s
+     0     0 8095.96598    0   96          - 8095.96598      -     -    0s
+     0     0 8095.96598    0   95          - 8095.96598      -     -    0s
+     0     0 8096.12972    0   98          - 8096.12972      -     -    0s
+     0     0 8096.12972    0   98          - 8096.12972      -     -    0s
+     0     0 8096.12972    0   99          - 8096.12972      -     -    0s
+     0     0 8096.12972    0   42          - 8096.12972      -     -    1s
+     0     0 8096.12972    0   55          - 8096.12972      -     -    1s
+H    0     0                    8097.7763347 8096.12972  0.02%     -    1s
+     0     0 8096.12972    0   30 8097.77633 8096.12972  0.02%     -    1s
+     0     0 8096.12972    0   31 8097.77633 8096.12972  0.02%     -    1s
+     0     0 8096.12972    0   33 8097.77633 8096.12972  0.02%     -    1s
+     0     0 8096.12972    0   33 8097.77633 8096.12972  0.02%     -    1s
+     0     0 8096.12972    0   33 8097.77633 8096.12972  0.02%     -    1s
+     0     0 8096.12972    0   33 8097.77633 8096.12972  0.02%     -    1s
+     0     0 8096.12972    0   33 8097.77633 8096.12972  0.02%     -    1s
+     0     2 8096.12972    0   33 8097.77633 8096.12972  0.02%     -    1s
+
+Cutting planes:
+  Learned: 2
+  Gomory: 5
+  Cover: 11
+  Implied bound: 15
+  Clique: 4
+  MIR: 51
+  RLT: 17
+  Relax-and-lift: 2
+
+Explored 19 nodes (9502 simplex iterations) in 2.06 seconds (3.85 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 8097.78 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 8.097776334704e+03, best bound 8.097159973395e+03, gap 0.0076%
+
+User-callback calls 1504, time in user-callback 0.00 sec
+
+Statistics for modelBWKS_medium_september:
+  Linear constraint matrix    : 9843 Constrs, 4887 Vars, 48721 NZs
+  Variable types              : 2689 Continuous,
+2198 Integer (2198 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 396 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

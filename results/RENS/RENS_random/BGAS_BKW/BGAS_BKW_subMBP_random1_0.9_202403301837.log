@@ -1,0 +1,88 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Sun Mar 31 05:35:12 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BGAS_BKW/RENS/BGAS_BKW_subMBP_random1_0.9_202403301837.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1977 rows, 1012 columns and 6876 nonzeros
+Model fingerprint: 0xa8027481
+Variable types: 411 continuous, 601 integer (170 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 1487 rows and 710 columns
+Presolve time: 0.07s
+Presolved: 490 rows, 302 columns, 1877 nonzeros
+Variable types: 108 continuous, 194 integer (194 binary)
+Found heuristic solution: objective 5077.0000000
+Found heuristic solution: objective 5063.0000000
+
+Root relaxation: objective 4.540000e+03, 149 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4540.00000    0   11 5063.00000 4540.00000  10.3%     -    0s
+H    0     0                    4988.0000000 4540.00000  8.98%     -    0s
+H    0     0                    4962.0000000 4540.00000  8.50%     -    0s
+     0     0 4540.00000    0   25 4962.00000 4540.00000  8.50%     -    0s
+H    0     0                    4957.0000000 4540.00000  8.41%     -    0s
+     0     0 4540.00000    0   26 4957.00000 4540.00000  8.41%     -    0s
+     0     0 4540.00000    0    6 4957.00000 4540.00000  8.41%     -    0s
+     0     0 4540.00000    0   21 4957.00000 4540.00000  8.41%     -    0s
+     0     0 4540.14188    0   23 4957.00000 4540.14188  8.41%     -    0s
+     0     0 4540.14188    0   32 4957.00000 4540.14188  8.41%     -    0s
+     0     0 4540.32000    0   32 4957.00000 4540.32000  8.41%     -    0s
+     0     0 4540.32000    0   32 4957.00000 4540.32000  8.41%     -    0s
+     0     0 4610.00000    0   33 4957.00000 4610.00000  7.00%     -    0s
+     0     0 4632.00000    0   32 4957.00000 4632.00000  6.56%     -    0s
+     0     0 4633.00000    0   26 4957.00000 4633.00000  6.54%     -    0s
+     0     0 4633.00000    0   33 4957.00000 4633.00000  6.54%     -    0s
+     0     0 4644.00000    0   29 4957.00000 4644.00000  6.31%     -    0s
+     0     0 4652.00000    0   31 4957.00000 4652.00000  6.15%     -    0s
+     0     0 4652.00000    0   21 4957.00000 4652.00000  6.15%     -    0s
+H    0     0                    4935.0000000 4652.00000  5.73%     -    0s
+     0     0 4652.00000    0   31 4935.00000 4652.00000  5.73%     -    0s
+     0     0 4652.00000    0   30 4935.00000 4652.00000  5.73%     -    0s
+     0     0 4652.00000    0   28 4935.00000 4652.00000  5.73%     -    0s
+     0     2 4652.00000    0   28 4935.00000 4652.00000  5.73%     -    0s
+H  175   113                    4920.0000000 4652.00000  5.45%  12.9    0s
+H  278   142                    4914.0000000 4652.00000  5.33%  12.1    0s
+
+Cutting planes:
+  Learned: 10
+  Gomory: 8
+  Cover: 20
+  Implied bound: 11
+  MIR: 41
+  StrongCG: 4
+  Flow cover: 43
+  Inf proof: 1
+  Mod-K: 2
+  Network: 1
+  RLT: 9
+  Relax-and-lift: 6
+
+Explored 1212 nodes (13811 simplex iterations) in 0.42 seconds (0.22 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 8: 4914 4920 4935 ... 5077
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.914000000000e+03, best bound 4.914000000000e+03, gap 0.0000%
+
+User-callback calls 3424, time in user-callback 0.01 sec
+
+Statistics for modelBGAS_BKW:
+  Linear constraint matrix    : 1977 Constrs, 1012 Vars, 6876 NZs
+  Variable types              : 411 Continuous,
+601 Integer (170 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 388 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

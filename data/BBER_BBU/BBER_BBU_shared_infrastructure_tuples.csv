@@ -1,0 +1,5 @@
+#file for arcs using the same infrastructure in the sense that activities (i,j) and (i_bar, j_bar) occupy the same underlying infrastructure
+i,j,i_bar,j_bar
+BBU_13_A-0-1-21-arr-right,BBU_13_A-0-1-21-dep-left,BBU_13_A-0-2-21-arr-right,BBU_13_A-0-2-21-dep-left
+BBU_112_B-0-2-21-arr-right,BBU_112_B-0-2-21-dep-right,BBU_112_B-0-1-21-arr-right,BBU_112_B-0-1-21-dep-right
+BBU_111_B-0-2-21-arr-right,BBU_111_B-0-2-21-dep-right,BBU_111_B-0-1-21-arr-right,BBU_111_B-0-1-21-dep-right

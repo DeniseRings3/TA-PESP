@@ -1,0 +1,118 @@
+
+Gurobi 10.0.1 (linux64) logging started Fri Mar 29 21:18:39 2024
+
+Set parameter LogFile to value "/data/optimi/optimi/kombadon/drings/SBahn/s-bahn-data/scripts/DeniseMA/processed/BPKW_BKRW_BSNF_O/RENS/BPKW_BKRW_BSNF_O_subMBP_other alternatives_0.9_202403291815.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (linux64)
+
+CPU model: Intel(R) Xeon(R) CPU E3-1270 v6 @ 3.80GHz, instruction set [SSE2|AVX|AVX2]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 4473 rows, 2168 columns and 15825 nonzeros
+Model fingerprint: 0x6d98dce3
+Variable types: 838 continuous, 1330 integer (358 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 2564 rows and 1088 columns
+Presolve time: 0.10s
+Presolved: 1909 rows, 1080 columns, 7608 nonzeros
+Variable types: 356 continuous, 724 integer (724 binary)
+
+Root relaxation: objective 9.180000e+03, 592 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 9180.00000    0   35          - 9180.00000      -     -    0s
+H    0     0                    10378.000000 9180.00000  11.5%     -    0s
+     0     0 9180.00000    0  118 10378.0000 9180.00000  11.5%     -    0s
+H    0     0                    10085.000000 9180.00000  8.97%     -    0s
+     0     0 9180.00000    0  116 10085.0000 9180.00000  8.97%     -    0s
+H    0     0                    10084.000000 9180.00000  8.96%     -    0s
+     0     0 9180.00000    0   25 10084.0000 9180.00000  8.96%     -    0s
+H    0     0                    10028.000000 9180.00000  8.46%     -    0s
+     0     0 9180.00000    0   47 10028.0000 9180.00000  8.46%     -    0s
+     0     0 9180.00000    0   28 10028.0000 9180.00000  8.46%     -    0s
+     0     0 9180.00000    0   43 10028.0000 9180.00000  8.46%     -    0s
+     0     0 9180.00000    0   49 10028.0000 9180.00000  8.46%     -    0s
+     0     0 9180.00000    0   42 10028.0000 9180.00000  8.46%     -    0s
+H    0     0                    9986.0000000 9180.00000  8.07%     -    0s
+     0     0 9180.00000    0   32 9986.00000 9180.00000  8.07%     -    0s
+     0     0 9180.00000    0   30 9986.00000 9180.00000  8.07%     -    0s
+     0     2 9180.00000    0   30 9986.00000 9180.00000  8.07%     -    0s
+H   79   113                    9855.0000000 9180.00000  6.85%  16.2    0s
+H  211   228                    9850.0000000 9180.00000  6.80%  14.6    0s
+H  386   320                    9845.0000000 9180.00000  6.75%  13.5    0s
+H  587   425                    9844.0000000 9180.00000  6.75%  14.4    0s
+H  636   456                    9817.0000000 9180.00000  6.49%  14.5    0s
+H  859   664                    9801.0000000 9180.00000  6.34%  14.1    0s
+  3264  1533 9574.72170   55   40 9801.00000 9258.72170  5.53%  21.8    5s
+H 9971  5490                    9796.0000000 9274.11439  5.33%  18.2    6s
+ 23935 13132 9784.00000   92   18 9796.00000 9302.70570  5.04%  16.6   10s
+ 29088 15269 9669.99431   66  119 9796.00000 9316.19980  4.90%  16.4   15s
+ 29123 15292 9581.70570   68  150 9796.00000 9355.00000  4.50%  16.4   20s
+ 30088 15621 9415.54475   54   84 9796.00000 9355.00000  4.50%  17.3   25s
+ 44015 18525 9555.64316   67   66 9796.00000 9475.60400  3.27%  19.1   30s
+*50395 18240             100    9793.0000000 9482.29540  3.17%  19.4   31s
+ 61228 19575 9515.32126   71   43 9793.00000 9489.95374  3.09%  19.7   35s
+ 76689 21603 9617.00000   57   42 9793.00000 9502.97363  2.96%  20.6   40s
+ 90284 25642 infeasible   62      9793.00000 9514.10574  2.85%  21.1   45s
+ 104466 29615 infeasible   71      9793.00000 9523.68345  2.75%  21.7   50s
+ 117718 33064 9579.00000   67   27 9793.00000 9535.00000  2.63%  22.3   55s
+ 131912 36577 9781.00000   72   29 9793.00000 9544.96799  2.53%  22.9   60s
+ 143634 38967 9672.00000   63   22 9793.00000 9555.00000  2.43%  23.4   65s
+H151854 40085                    9792.9999932 9562.06300  2.36%  23.8   68s
+ 154046 40320 9673.00000   65   38 9792.99999 9565.00000  2.33%  24.0   70s
+ 165568 41682 9791.00000   65   29 9792.99999 9575.54399  2.22%  24.5   75s
+ 176888 42308     cutoff   76      9792.99999 9587.19808  2.10%  25.1   80s
+ 187679 42711 9686.94142   58   81 9792.99999 9599.49410  1.98%  25.6   85s
+ 198273 42649 9675.86000   71   33 9792.99999 9612.36000  1.84%  26.0   90s
+ 208935 42194 9709.00000   72   55 9792.99999 9626.85182  1.70%  26.3   95s
+ 219398 41106     cutoff   74      9792.99999 9641.90192  1.54%  26.8  100s
+ 230506 39387     cutoff   72      9792.99999 9656.53042  1.39%  27.0  105s
+ 241810 37758 infeasible   67      9792.99999 9669.78788  1.26%  27.1  110s
+ 253687 35359 9740.00000   74    8 9792.99999 9682.00000  1.13%  27.2  115s
+ 264614 32946 9702.59934   69   71 9792.99999 9692.08781  1.03%  27.3  120s
+ 276459 29366 9716.00000   63   54 9792.99999 9703.00000  0.92%  27.4  125s
+ 287470 26214     cutoff   69      9792.99999 9712.00000  0.83%  27.4  130s
+ 299003 21736     cutoff   72      9792.99999 9723.00000  0.71%  27.5  135s
+ 309893 16920 9755.34500   62   57 9792.99999 9733.10318  0.61%  27.6  140s
+ 319928 11938     cutoff   76      9792.99999 9744.60000  0.49%  27.7  145s
+ 331395  6442     cutoff   75      9792.99999 9758.00000  0.36%  27.8  150s
+
+Cutting planes:
+  Learned: 63
+  Gomory: 158
+  Cover: 475
+  Implied bound: 61
+  Projected implied bound: 3
+  MIR: 256
+  StrongCG: 7
+  Flow cover: 812
+  GUB cover: 1
+  Inf proof: 29
+  Zero half: 9
+  Network: 5
+  RLT: 57
+  Relax-and-lift: 32
+
+Explored 342022 nodes (9491329 simplex iterations) in 154.52 seconds (141.13 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 10: 9793 9793 9793 ... 9855
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.793000000000e+03, best bound 9.793000000000e+03, gap 0.0000%
+
+User-callback calls 720487, time in user-callback 1.70 sec
+
+Statistics for modelBPKW_BKRW_BSNF_O:
+  Linear constraint matrix    : 4473 Constrs, 2168 Vars, 15825 NZs
+  Variable types              : 838 Continuous,
+1330 Integer (358 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 368 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

@@ -1,0 +1,10 @@
+\ Model BPKW_BKRW_BSNF_O_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ test_start_y_('BFOH_132_B_24_1_1_arr_right',_'BFOH_132_B_24_1_1_dep_right'):
+   y[BFOH_132_B_24_1_1_arr_right,BFOH_132_B_24_1_1_dep_right]
+   = -9.11025e-06
+Bounds
+End

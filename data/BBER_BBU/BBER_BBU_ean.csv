@@ -1,0 +1,23 @@
+# number of nodes: 16
+# number of edges: 18
+# number of fixed handles: 1
+# 
+start;end;type;l;u;w;in_regelrichtung
+BBU_111_B-0-1-21-dep-right;BBU_13_A-0-1-21-arr-right;driving;15;15;1;-
+BBU_13_A-0-1-21-arr-right;BBU_13_A-0-1-21-dep-left;turn;20;180;1;-
+BBU_13_A-0-1-21-dep-left;BBU_112_B-0-1-21-arr-right;driving;15;15;1;-
+BBU_112_B-0-1-21-arr-right;BBU_112_B-0-1-21-dep-right;waiting;5;100;1;-
+BBU_112_B-0-1-21-dep-right;henkel_0_S2_W_BBER_BLRD_0_S2_W_BLRD_BBER_0-0-1-12;henkel-to;61;61;2;-
+BBU_112_B-0-1-21-dep-right;henkel_0_S2_WI_BBU_BLRD_0_S2_WI_BLRD_BBU_0-0-1-12;henkel-to;161;161;2;-
+henkel_0_S2_W_BBER_BLRD_0_S2_W_BLRD_BBER_0-0-1-12;BBU_111_B-0-1-21-arr-right;henkel-from;30;30;2;-
+BBU_111_B-0-1-21-arr-right;BBU_111_B-0-1-21-dep-right;waiting;5;100;1;-
+henkel_0_S2_WI_BBU_BLRD_0_S2_WI_BLRD_BBU_0-0-1-12;BBU_111_B-0-1-21-arr-right;henkel-from;130;130;2;-
+BBU_111_B-0-2-21-dep-right;BBU_13_A-0-2-21-arr-right;driving;15;15;1;-
+BBU_13_A-0-2-21-arr-right;BBU_13_A-0-2-21-dep-left;turn;20;180;1;-
+BBU_13_A-0-2-21-dep-left;BBU_112_B-0-2-21-arr-right;driving;15;15;1;-
+BBU_112_B-0-2-21-arr-right;BBU_112_B-0-2-21-dep-right;waiting;5;100;1;-
+BBU_112_B-0-2-21-dep-right;henkel_0_S2_W_BBER_BLRD_0_S2_W_BLRD_BBER_0-0-2-12;henkel-to;61;61;2;-
+BBU_112_B-0-2-21-dep-right;henkel_0_S2_WI_BBU_BLRD_0_S2_WI_BLRD_BBU_0-0-2-12;henkel-to;161;161;2;-
+henkel_0_S2_W_BBER_BLRD_0_S2_W_BLRD_BBER_0-0-2-12;BBU_111_B-0-2-21-arr-right;henkel-from;30;30;2;-
+BBU_111_B-0-2-21-arr-right;BBU_111_B-0-2-21-dep-right;waiting;5;100;1;-
+henkel_0_S2_WI_BBU_BLRD_0_S2_WI_BLRD_BBU_0-0-2-12;BBU_111_B-0-2-21-arr-right;henkel-from;130;130;2;-

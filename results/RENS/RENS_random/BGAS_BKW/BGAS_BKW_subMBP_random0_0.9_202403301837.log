@@ -1,0 +1,73 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Sun Mar 31 05:35:11 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BGAS_BKW/RENS/BGAS_BKW_subMBP_random0_0.9_202403301837.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 1977 rows, 1012 columns and 6876 nonzeros
+Model fingerprint: 0xb28a3145
+Variable types: 411 continuous, 601 integer (170 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 1487 rows and 710 columns
+Presolve time: 0.06s
+Presolved: 490 rows, 302 columns, 1877 nonzeros
+Variable types: 108 continuous, 194 integer (194 binary)
+Found heuristic solution: objective 5077.0000000
+Found heuristic solution: objective 5063.0000000
+
+Root relaxation: objective 4.540000e+03, 170 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4540.00000    0   16 5063.00000 4540.00000  10.3%     -    0s
+H    0     0                    5009.0000000 4540.00000  9.36%     -    0s
+     0     0 4540.00000    0   34 5009.00000 4540.00000  9.36%     -    0s
+H    0     0                    4914.0000000 4540.00000  7.61%     -    0s
+     0     0 4540.00000    0   38 4914.00000 4540.00000  7.61%     -    0s
+     0     0 4540.00000    0   17 4914.00000 4540.00000  7.61%     -    0s
+     0     0 4540.00000    0   23 4914.00000 4540.00000  7.61%     -    0s
+     0     0 4540.00000    0   14 4914.00000 4540.00000  7.61%     -    0s
+     0     0 4540.00000    0   16 4914.00000 4540.00000  7.61%     -    0s
+     0     0 4540.00000    0   13 4914.00000 4540.00000  7.61%     -    0s
+     0     0 4540.00000    0   13 4914.00000 4540.00000  7.61%     -    0s
+     0     2 4540.00000    0   13 4914.00000 4540.00000  7.61%     -    0s
+
+Cutting planes:
+  Learned: 19
+  Gomory: 10
+  Cover: 39
+  Implied bound: 6
+  Clique: 5
+  MIR: 49
+  Flow cover: 21
+  Mod-K: 2
+  Network: 1
+  RLT: 6
+  Relax-and-lift: 3
+
+Explored 3189 nodes (29539 simplex iterations) in 0.45 seconds (0.28 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 4: 4914 5009 5063 5077 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.914000000000e+03, best bound 4.914000000000e+03, gap 0.0000%
+
+User-callback calls 7310, time in user-callback 0.01 sec
+
+Statistics for modelBGAS_BKW:
+  Linear constraint matrix    : 1977 Constrs, 1012 Vars, 6876 NZs
+  Variable types              : 411 Continuous,
+601 Integer (170 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 388 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

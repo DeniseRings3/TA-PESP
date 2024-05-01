@@ -1,0 +1,33 @@
+root_processed_folder: '../processed/'
+root_scenario_folder: '../processed/BGB_BWES/'
+
+infrastructure_generation: False
+line_generation: False
+
+
+number_of_concatenated_paths: 2
+
+
+
+timetabling:
+  period_time: 200
+  ptt_instance_subfolder:  '../processed/BGB_BWES/generic_tt_input/'
+  ptt_line_concept: 'timetabling/lineconcept_0.csv'
+  ptt_instance_name: 'BGB_BWES'
+  write_ean_arcs: True
+  write_ean_nodes: True
+  zugfolgezeit : 25
+  min_event_abstand : 20
+  suggest_regularity:
+    max_freq: 4
+    min_freq: 2
+    weight_factor: 0.1
+
+
+
+
+
+
+
+
+

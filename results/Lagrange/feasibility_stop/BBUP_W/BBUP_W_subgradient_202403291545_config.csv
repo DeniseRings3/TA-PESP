@@ -1,0 +1,2 @@
+Model;timestamp;c_k;Z_star_type;feasibility_stop;c_k_dynamic;gap_stop;time_limit_after_callback;time_out_per_iteration;overall_time_out;hard_fix;hard_fix_relaxation_Ratio;max_iterations
+BBUP_W;2024-03-29 15:45;2;LP;False;True;True;5;300;600;False;1;40

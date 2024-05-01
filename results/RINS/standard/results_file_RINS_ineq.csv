@@ -1,0 +1,11 @@
+Model;filename;comment;date;time;timeout;gap in %;objective;fixed integer values ratio;solvable;relaxed;ratio;type;feasibility check;postprocessing;first_sol_time;first_sol_obj;first_sol_gap;plateau_time;plateau_time_obj;plateau_time_gap;
+BBER_BBU;BBER_BBU_subMBP_202403291857;standard RINS, inequality;29.03.24 18:57;0.034388;False;-;-;0.2;False;True;1;no relaxation;False;0;-1;-1;-1;-1;-1;-1;infeasible
+BBKS_BWT;BBKS_BWT_subMBP_202403291857;standard RINS, inequality;29.03.24 18:57;0.310041625;False;-;-;0.851351351;True;True;1;no relaxation;True;0.024131791;11;10243;10.3;160;9868;6.12;
+BBOS_BWIN_BTG;BBOS_BWIN_BTG_subMBP_202403291857;standard RINS, inequality;29.03.24 18:57;14.66872829;False;-;-;0.7;False;True;1;no relaxation;False;0;-1;-1;-1;-1;-1;-1;infeasible
+BGAS_BKW;BGAS_BKW_subMBP_202403291857;standard RINS, inequality;29.03.24 18:57;1.696996625;False;-;-;0.52;False;True;1;no relaxation;False;0;-1;-1;-1;-1;-1;-1;infeasible
+BNB_BSNH_BSAL_BPHD;BNB_BSNH_BSAL_BPHD_subMBP_202403291857;standard RINS, inequality;29.03.24 18:57;1.004010166;False;-;-;0.586826347;True;True;1;no relaxation;True;0.470165375;84;24409.25;13.8;148;23353;9.75;
+BBUP_O;BBUP_O_subMBP_202403291857;standard RINS, inequality;29.03.24 18:57;0.796152083;False;-;-;0.632352941;True;True;1;no relaxation;True;0.035012541;6;15240;12.1;87;14547;7.79;
+BBUP_W;BBUP_W_subMBP_202403291857;standard RINS, inequality;29.03.24 18:57;602.5352953;False;-;-;0.440677966;False;True;1;no relaxation;False;0;-1;-1;-1;-1;-1;-1;timeout
+BPKW_BKRW_BSNF_O;BPKW_BKRW_BSNF_O_subMBP_202403291857;standard RINS, inequality;29.03.24 18:57;600.4081263;False;-;-;0.5;False;True;1;no relaxation;False;0;-1;-1;-1;-1;-1;-1;timeout
+BWKS_medium_september;BWKS_medium_september_subMBP_202403291857;standard RINS, inequality;29.03.24 18:57;0.64193925;False;-;-;0.934545455;True;True;1;no relaxation;True;0.028430875;6;9146;7.61;15;8776;3.65;
+BGB_BWES;BGB_BWES_subMBP_202403291857;standard RINS, inequality;29.03.24 18:57;601.761752;False;-;-;0.572614108;False;True;1;no relaxation;False;0;-1;-1;-1;-1;-1;-1;timeout

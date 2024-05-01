@@ -1,0 +1,89 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Fri Mar 29 18:18:06 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBOS_BWIN_BTG/original/BBOS_BWIN_BTG_202403291817_RINSstart.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3980 rows, 2210 columns and 14468 nonzeros
+Model fingerprint: 0x3dfcc431
+Variable types: 896 continuous, 1314 integer (417 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 2467 rows and 1111 columns
+Presolve time: 0.36s
+Presolved: 1513 rows, 1099 columns, 6500 nonzeros
+Variable types: 420 continuous, 679 integer (679 binary)
+Found heuristic solution: objective 11324.000000
+
+Root relaxation: objective 9.290000e+03, 556 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 9290.00000    0   95 11324.0000 9290.00000  18.0%     -    0s
+     0     0 9290.00000    0   96 11324.0000 9290.00000  18.0%     -    0s
+     0     0 9756.77265    0  127 11324.0000 9756.77265  13.8%     -    0s
+H    0     0                    10701.000000 9756.77265  8.82%     -    0s
+H    0     0                    10553.000000 9756.77265  7.55%     -    0s
+     0     0 9756.83368    0  129 10553.0000 9756.83368  7.54%     -    0s
+     0     0 9763.03089    0  102 10553.0000 9763.03089  7.49%     -    0s
+     0     0 9763.06467    0   91 10553.0000 9763.06467  7.49%     -    0s
+     0     0 9768.97760    0  117 10553.0000 9768.97760  7.43%     -    0s
+     0     0 9798.74256    0  108 10553.0000 9798.74256  7.15%     -    0s
+     0     0 9798.74256    0  100 10553.0000 9798.74256  7.15%     -    0s
+     0     0 9800.58056    0   97 10553.0000 9800.58056  7.13%     -    0s
+     0     0 9800.64629    0   89 10553.0000 9800.64629  7.13%     -    0s
+     0     0 9800.64689    0   91 10553.0000 9800.64689  7.13%     -    0s
+     0     0 9800.64693    0  101 10553.0000 9800.64693  7.13%     -    0s
+     0     0 9800.65523    0   96 10553.0000 9800.65523  7.13%     -    0s
+     0     0 9800.65523    0   69 10553.0000 9800.65523  7.13%     -    0s
+H    0     0                    10548.000000 9800.65523  7.09%     -    0s
+H 1152   786                    10274.000000 9847.33333  4.15%   9.9    0s
+H 2692  1529                    10242.000000 9849.83607  3.83%   8.9    1s
+H 4813  2150                    10215.999863 9889.00000  3.20%   9.5    1s
+H 7259  2731                    10210.000000 9889.00000  3.14%   9.6    2s
+ 43366 14595 10001.0000   54    4 10210.0000 9890.00000  3.13%  10.3    5s
+ 68857 21880     cutoff   39      10210.0000 9893.00000  3.10%  10.9   10s
+ 141466 36779 infeasible   36      10210.0000 9920.04880  2.84%  11.3   15s
+ 221021 62513 9980.69388   65   23 10210.0000 9930.00000  2.74%  11.4   20s
+ 285821 83631 9931.32743   59   41 10210.0000 9930.00000  2.74%  11.5   25s
+ 363089 106906     cutoff   64      10210.0000 9930.13311  2.74%  11.6   30s
+H440069 127119                    10209.999071 9933.95833  2.70%  11.5   34s
+
+Cutting planes:
+  Learned: 7
+  Gomory: 6
+  Cover: 12
+  Implied bound: 11
+  Clique: 17
+  MIR: 27
+  StrongCG: 2
+  Flow cover: 6
+  GUB cover: 2
+  RLT: 13
+  Relax-and-lift: 1
+
+Explored 440069 nodes (5066630 simplex iterations) in 34.43 seconds (38.89 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 10: 10210 10210 10210 ... 11324
+
+Solve interrupted
+Best objective 1.020999907105e+04, best bound 9.933958333333e+03, gap 2.7036%
+
+User-callback calls 881369, time in user-callback 0.52 sec
+
+Statistics for modelBBOS_BWIN_BTG:
+  Linear constraint matrix    : 3980 Constrs, 2210 Vars, 14468 NZs
+  Variable types              : 896 Continuous,
+1314 Integer (417 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 396 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

@@ -1,0 +1,87 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Thu Mar 28 19:09:18 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BNB_BSNH_BSAL_BPHD/original/LP_based/BNB_BSNH_BSAL_BPHD_lp.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 21155 rows, 8010 columns and 78763 nonzeros
+Model fingerprint: 0x46edf5fe
+Variable types: 3852 continuous, 4158 integer (4158 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 8323 rows and 2314 columns
+Presolve time: 2.06s
+Presolved: 12832 rows, 5696 columns, 53952 nonzeros
+Variable types: 2009 continuous, 3687 integer (3687 binary)
+
+Root relaxation: objective 1.985000e+04, 3581 iterations, 0.03 seconds (0.03 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 19850.0000    0  177          - 19850.0000      -     -    2s
+     0     0 19950.5460    0  613          - 19950.5460      -     -    2s
+     0     0 19950.5460    0  606          - 19950.5460      -     -    2s
+     0     0 19952.7573    0  592          - 19952.7573      -     -    2s
+     0     0 19959.2949    0  600          - 19959.2949      -     -    2s
+     0     0 19959.2949    0  600          - 19959.2949      -     -    2s
+     0     0 19959.2949    0  594          - 19959.2949      -     -    2s
+     0     0 19965.2949    0  539          - 19965.2949      -     -    2s
+     0     0 19965.2949    0  622          - 19965.2949      -     -    2s
+     0     0 19965.2949    0  620          - 19965.2949      -     -    2s
+     0     0 19965.2949    0  686          - 19965.2949      -     -    2s
+     0     0 19965.2949    0  177          - 19965.2949      -     -    3s
+     0     0 19965.2949    0  281          - 19965.2949      -     -    3s
+     0     0 19965.2949    0  149          - 19965.2949      -     -    3s
+     0     0 19965.2949    0  201          - 19965.2949      -     -    3s
+     0     0 19965.2949    0  152          - 19965.2949      -     -    3s
+     0     0 19965.2949    0  150          - 19965.2949      -     -    3s
+     0     0 19965.2949    0  302          - 19965.2949      -     -    3s
+     0     0 19965.2949    0  163          - 19965.2949      -     -    4s
+     0     0 19965.2949    0  161          - 19965.2949      -     -    4s
+     3     4 19965.2949    2   66          - 19965.2949      -  7701    7s
+  2528  1863 19982.9174   11  276          - 19965.8879      -  36.0   10s
+  4671  1666 19971.1989   48   60          - 19970.9320      -  59.5   31s
+H 4708  1674                    20051.435182 19970.9320  0.40%  57.6   31s
+  5020  1456 19974.3772   16   60 20051.4352 19974.3772  0.38%  61.4   35s
+H 6207  1153                    20008.295926 19977.0196  0.16%  51.0   36s
+  7436  1140 19979.4429   71  240 20008.2959 19977.0196  0.16%  49.3   40s
+H 8138   782                    19980.471883 19977.0196  0.02%  46.8   40s
+H10076   957                    19977.977653 19977.0196  0.00%  44.4   42s
+
+Cutting planes:
+  Learned: 173
+  Gomory: 12
+  Cover: 253
+  Implied bound: 37
+  Clique: 362
+  MIR: 176
+  StrongCG: 11
+  GUB cover: 1
+  RLT: 23
+  Relax-and-lift: 24
+
+Explored 10076 nodes (470743 simplex iterations) in 42.35 seconds (55.32 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 4: 19978 19980.5 20008.3 20051.4 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.997797765346e+04, best bound 1.997701961975e+04, gap 0.0048%
+
+User-callback calls 21928, time in user-callback 0.05 sec
+
+Statistics for modelBNB_BSNH_BSAL_BPHD:
+  Linear constraint matrix    : 21155 Constrs, 8010 Vars, 78763 NZs
+  Variable types              : 3852 Continuous,
+4158 Integer (4158 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 382 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

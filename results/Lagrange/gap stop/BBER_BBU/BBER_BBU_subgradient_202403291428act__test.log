@@ -1,0 +1,42 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Fri Mar 29 14:28:48 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBER_BBU/original/LP_based/BBER_BBU_subgradient_202403291428act__test.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 250 rows, 105 columns and 556 nonzeros
+Model fingerprint: 0x42af3ea4
+Variable types: 52 continuous, 53 integer (23 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 3e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+
+Loaded user MIP start with objective 982
+
+Presolve removed 250 rows and 105 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 982 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 9.820000000000e+02, best bound 9.820000000000e+02, gap 0.0000%
+
+User-callback calls 138, time in user-callback 0.00 sec
+
+Statistics for modelBBER_BBU:
+  Linear constraint matrix    : 250 Constrs, 105 Vars, 556 NZs
+  Variable types              : 52 Continuous,
+53 Integer (23 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 322 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

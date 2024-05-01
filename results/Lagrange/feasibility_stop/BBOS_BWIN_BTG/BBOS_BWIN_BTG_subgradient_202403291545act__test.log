@@ -1,0 +1,42 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Fri Mar 29 15:50:18 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBOS_BWIN_BTG/original/LP_based/BBOS_BWIN_BTG_subgradient_202403291545act__test.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 6190 rows, 2210 columns and 16678 nonzeros
+Model fingerprint: 0x2260bf9c
+Variable types: 896 continuous, 1314 integer (417 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [4e-15, 5e+02]
+
+Loaded user MIP start with objective 10210
+
+Presolve removed 6190 rows and 2210 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 10210 10210 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.021000000000e+04, best bound 1.021000000000e+04, gap 0.0000%
+
+User-callback calls 139, time in user-callback 0.00 sec
+
+Statistics for modelBBOS_BWIN_BTG:
+  Linear constraint matrix    : 6190 Constrs, 2210 Vars, 16678 NZs
+  Variable types              : 896 Continuous,
+1314 Integer (417 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 396 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 3.55271e-15, 549 ]

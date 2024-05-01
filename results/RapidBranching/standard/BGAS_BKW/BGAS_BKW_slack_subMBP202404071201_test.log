@@ -1,0 +1,43 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Sun Apr  7 13:04:49 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BGAS_BKW/Branching/BGAS_BKW_slack_subMBP202404071201_test.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 2967 rows, 1012 columns and 7866 nonzeros
+Model fingerprint: 0x88e46266
+Variable types: 411 continuous, 601 integer (170 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e-05, 5e+02]
+
+Loaded user MIP start with objective 4914
+
+Presolve removed 1410 rows and 1012 columns
+Presolve time: 0.00s
+Presolve removed 1410 rows and 1012 columns
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 2: 4914 4914 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.913999842892e+03, best bound 4.913999842906e+03, gap 0.0000%
+
+User-callback calls 72, time in user-callback 0.00 sec
+
+Statistics for modelBGAS_BKW:
+  Linear constraint matrix    : 2967 Constrs, 1012 Vars, 7866 NZs
+  Variable types              : 411 Continuous,
+601 Integer (170 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 388 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1.39456e-05, 549 ]

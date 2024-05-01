@@ -1,0 +1,117 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Fri Apr  5 17:38:13 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BGB_BWES/RINS/BGB_BWES_202404051212_random4_0.9.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 23774 rows, 9987 columns and 90214 nonzeros
+Model fingerprint: 0xe204356e
+Variable types: 3270 continuous, 6717 integer (1378 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 3e+04]
+
+User MIP start did not produce a new incumbent solution
+User MIP start violates constraint objective_cutoff by 278.410000000
+
+Presolve removed 10358 rows and 2833 columns
+Presolve time: 0.15s
+Presolved: 13416 rows, 7154 columns, 53270 nonzeros
+Variable types: 1868 continuous, 5286 integer (5286 binary)
+
+Root relaxation: objective 2.329800e+04, 4324 iterations, 0.04 seconds (0.05 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 23298.0000    0  398          - 23298.0000      -     -    0s
+Another try with MIP start
+     0     0 23348.0983    0  808          - 23348.0983      -     -    0s
+     0     0 23348.0983    0  797          - 23348.0983      -     -    0s
+     0     0 23368.7896    0 1038          - 23368.7896      -     -    1s
+     0     0 23368.8308    0  967          - 23368.8308      -     -    1s
+     0     0 23368.8308    0 1029          - 23368.8308      -     -    1s
+     0     0 23381.3433    0 1074          - 23381.3433      -     -    1s
+     0     0 23381.9048    0  969          - 23381.9048      -     -    1s
+     0     0 23381.9048    0  933          - 23381.9048      -     -    1s
+     0     0 23389.6687    0 1128          - 23389.6687      -     -    1s
+     0     0 23389.9354    0  978          - 23389.9354      -     -    1s
+     0     0 23389.9354    0  869          - 23389.9354      -     -    1s
+     0     0 23389.9354    0 1084          - 23389.9354      -     -    1s
+     0     0 23392.3112    0 1017          - 23392.3112      -     -    1s
+     0     0 23394.0529    0  982          - 23394.0529      -     -    1s
+     0     0 23394.0529    0  951          - 23394.0529      -     -    1s
+     0     0 23394.0529    0 1076          - 23394.0529      -     -    1s
+     0     0 23394.8382    0 1051          - 23394.8382      -     -    1s
+     0     0 23394.8382    0  996          - 23394.8382      -     -    1s
+     0     0 23394.8382    0 1013          - 23394.8382      -     -    1s
+     0     0 23394.8382    0  915          - 23394.8382      -     -    2s
+     0     0 23394.8382    0 1071          - 23394.8382      -     -    2s
+     0     0 23394.8382    0 1036          - 23394.8382      -     -    2s
+     0     0 23394.8382    0  409          - 23394.8382      -     -    2s
+     0     0 23394.8382    0  753          - 23394.8382      -     -    2s
+     0     0 23394.8382    0  361          - 23394.8382      -     -    2s
+     0     0 23394.8382    0  696          - 23394.8382      -     -    2s
+     0     0 23394.8382    0  472          - 23394.8382      -     -    3s
+     0     0 23394.8382    0  418          - 23394.8382      -     -    3s
+     0     0 23394.8382    0  345          - 23394.8382      -     -    3s
+     0     0 23514.0464    0  653          - 23514.0464      -     -    4s
+     0     0 23521.6000    0  564          - 23521.6000      -     -    4s
+     0     0 23521.6000    0  572          - 23521.6000      -     -    4s
+     0     0 23521.6000    0  731          - 23521.6000      -     -    4s
+     0     0 23521.6000    0  678          - 23521.6000      -     -    4s
+     0     0 23521.6000    0  840          - 23521.6000      -     -    4s
+     0     0 23521.6000    0  851          - 23521.6000      -     -    4s
+     0     0 23522.6652    0  315          - 23522.6652      -     -    4s
+     0     0 23522.6979    0  368          - 23522.6979      -     -    4s
+     0     0 23522.6979    0  539          - 23522.6979      -     -    4s
+     0     0 23522.6979    0  590          - 23522.6979      -     -    4s
+     0     0 23522.6979    0  692          - 23522.6979      -     -    5s
+     0     0 23522.6979    0  651          - 23522.6979      -     -    5s
+     0     0 23522.6979    0  379          - 23522.6979      -     -    5s
+     0     0 23522.6979    0  319          - 23522.6979      -     -    5s
+     0     2 23522.6979    0  299          - 23522.6979      -     -    5s
+  3391  2982 23661.0000   64  679          - 23559.0000      -  22.2  961s
+  3411  2995 23692.6000   47  649          - 23570.9986      -  22.1  965s
+
+Cutting planes:
+  Learned: 30
+  Gomory: 58
+  Cover: 184
+  Implied bound: 37
+  Projected implied bound: 4
+  Clique: 72
+  MIR: 84
+  StrongCG: 39
+  Flow cover: 315
+  GUB cover: 1
+  Inf proof: 1
+  Zero half: 3
+  Network: 3
+  RLT: 18
+  Relax-and-lift: 36
+  PSD: 1
+
+Explored 3417 nodes (179842 simplex iterations) in 2007.97 seconds (17.66 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 0
+
+Time limit reached
+Best objective -, best bound 2.357099859846e+04, gap -
+
+User-callback calls 11734, time in user-callback 0.03 sec
+
+Statistics for modelBGB_BWES:
+  Linear constraint matrix    : 23774 Constrs, 9987 Vars, 90214 NZs
+  Variable types              : 3270 Continuous,
+6717 Integer (1378 Binary)
+  Matrix coefficient range    : [ 1, 386 ]
+  Objective coefficient range : [ 1, 386 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 27562.6 ]

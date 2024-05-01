@@ -1,0 +1,42 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Fri Mar 29 23:17:07 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBUP_O/RINS/BBUP_O_202403292026_other alternatives_0.9_test.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 20089 rows, 5774 columns and 58945 nonzeros
+Model fingerprint: 0xda9ffb09
+Variable types: 1824 continuous, 3950 integer (691 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [6e-12, 5e+02]
+
+Loaded user MIP start with objective 14526
+
+Presolve removed 20089 rows and 5774 columns
+Presolve time: 0.01s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds (0.01 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 1: 14526 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.452600000000e+04, best bound 1.452600000000e+04, gap 0.0000%
+
+User-callback calls 141, time in user-callback 0.00 sec
+
+Statistics for modelBBUP_O:
+  Linear constraint matrix    : 20089 Constrs, 5774 Vars, 58945 NZs
+  Variable types              : 1824 Continuous,
+3950 Integer (691 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 384 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 5.84177e-12, 549 ]

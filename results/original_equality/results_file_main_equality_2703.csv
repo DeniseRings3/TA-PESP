@@ -1,0 +1,11 @@
+Model;comment;filename;date;time first sol;ojective first sol;gap first sol;time last sol;ojective final sol;gap final sol;improvement ratio
+BBER_BBU;standard model with equality constraints;BBER_BBU_202403271204;27.03.24 12:04;0;982;10;0;982;0;1.00
+BBKS_BWT;standard model with equality constraints;BBKS_BWT_202403271204;27.03.24 12:04;20;10172;10.1;30;9868;6.81;0.97
+BBOS_BWIN_BTG;standard model with equality constraints;BBOS_BWIN_BTG_202403271204;27.03.24 12:04;0;11733;17.4;9;10210;2.93;0.87
+BGAS_BKW;standard model with equality constraints;BGAS_BKW_202403271204;27.03.24 12:04;0;5090;10.8;0;4914;0;0.97
+BNB_BSNH_BSAL_BPHD;standard model with equality constraints;BNB_BSNH_BSAL_BPHD_202403271204;27.03.24 12:04;1067;23290;9.94;2944;22057;4.09;0.95
+BBUP_O;standard model with equality constraints;BBUP_O_202403271204;27.03.24 12:04;10;16131;17.4;1075;14511;8.04;0.90
+BBUP_W;standard model with equality constraints;BBUP_W_202403271204;27.03.24 12:04;13;15194;15.9;659;14014;8.36;0.92
+BPKW_BKRW_BSNF_O;standard model with equality constraints;BPKW_BKRW_BSNF_O_202403271204;27.03.24 12:04;0;10752;14.6;4;9771;3.47;0.91
+BWKS_medium_september;standard model with equality constraints;BWKS_medium_september_202403271204;27.03.24 12:04;0;10409;21.6;223;8772;3.67;0.84
+BGB_BWES;standard model with equality constraints;BGB_BWES_202403271730;27.03.24 17:30;1001;34149;30.8;1345;24753;4.52;0.72

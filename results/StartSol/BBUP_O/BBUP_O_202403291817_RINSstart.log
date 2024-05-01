@@ -1,0 +1,110 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Fri Mar 29 18:19:16 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBUP_O/original/BBUP_O_202403291817_RINSstart.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 14315 rows, 5774 columns and 53171 nonzeros
+Model fingerprint: 0x8af65fd5
+Variable types: 1824 continuous, 3950 integer (691 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 6264 rows and 1867 columns
+Presolve time: 0.10s
+Presolved: 8051 rows, 3907 columns, 31609 nonzeros
+Variable types: 1001 continuous, 2906 integer (2906 binary)
+
+Root relaxation: objective 1.323804e+04, 2756 iterations, 0.02 seconds (0.02 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 13238.0447    0  203          - 13238.0447      -     -    0s
+     0     0 13252.1148    0  416          - 13252.1148      -     -    0s
+     0     0 13252.1148    0  432          - 13252.1148      -     -    0s
+     0     0 13271.8550    0  557          - 13271.8550      -     -    0s
+     0     0 13274.7989    0  541          - 13274.7989      -     -    0s
+     0     0 13274.7989    0  577          - 13274.7989      -     -    0s
+     0     0 13290.3250    0  591          - 13290.3250      -     -    0s
+     0     0 13290.4085    0  588          - 13290.4085      -     -    0s
+     0     0 13290.4085    0  553          - 13290.4085      -     -    0s
+     0     0 13298.3876    0  601          - 13298.3876      -     -    0s
+     0     0 13302.1641    0  644          - 13302.1641      -     -    0s
+     0     0 13302.1708    0  576          - 13302.1708      -     -    0s
+     0     0 13302.4293    0  688          - 13302.4293      -     -    0s
+     0     0 13302.4293    0  651          - 13302.4293      -     -    0s
+     0     0 13302.4293    0  617          - 13302.4293      -     -    0s
+     0     0 13302.4293    0  597          - 13302.4293      -     -    0s
+     0     0 13302.4313    0  152          - 13302.4313      -     -    1s
+     0     0 13302.4313    0  319          - 13302.4313      -     -    1s
+     0     0 13302.4313    0  458          - 13302.4313      -     -    1s
+     0     0 13302.4313    0  434          - 13302.4313      -     -    1s
+     0     0 13303.1591    0  259          - 13303.1591      -     -    1s
+     0     0 13303.1591    0  476          - 13303.1591      -     -    1s
+     0     0 13303.2161    0  495          - 13303.2161      -     -    1s
+     0     0 13303.2161    0  549          - 13303.2161      -     -    1s
+     0     0 13303.2161    0  504          - 13303.2161      -     -    1s
+     0     0 13303.2161    0  182          - 13303.2161      -     -    1s
+     0     0 13303.2161    0  167          - 13303.2161      -     -    2s
+     0     0 13303.2161    0  434          - 13303.2161      -     -    2s
+     0     0 13303.2161    0  400          - 13303.2161      -     -    2s
+     0     0 13303.2239    0  415          - 13303.2239      -     -    2s
+     0     0 13303.4190    0  414          - 13303.4190      -     -    2s
+     0     0 13303.4190    0  422          - 13303.4190      -     -    2s
+     0     0 13310.2341    0  456          - 13310.2341      -     -    2s
+     0     0 13310.2426    0  443          - 13310.2426      -     -    2s
+     0     0 13310.4382    0  451          - 13310.4382      -     -    2s
+     0     0 13310.4382    0  399          - 13310.4382      -     -    2s
+     0     0 13310.6019    0  352          - 13310.6019      -     -    2s
+     0     0 13310.6268    0  338          - 13310.6268      -     -    2s
+     0     0 13310.6268    0  348          - 13310.6268      -     -    2s
+     0     0 13310.6662    0  322          - 13310.6662      -     -    2s
+     0     0 13310.6662    0  395          - 13310.6662      -     -    2s
+     0     0 13310.6785    0  377          - 13310.6785      -     -    2s
+     0     0 13310.6785    0  173          - 13310.6785      -     -    2s
+     0     2 13310.6785    0  127          - 13310.6785      -     -    3s
+  1570  1269 13429.0000   67  459          - 13328.0000      -  30.6    5s
+H 1576  1209                    15780.000000 13328.0000  15.5%  30.5    5s
+H 1866  1393                    15769.000000 13328.0000  15.5%  45.2    8s
+H 1932  1313                    15761.000000 13328.0000  15.4%  45.6    8s
+
+Cutting planes:
+  Learned: 39
+  Gomory: 38
+  Cover: 228
+  Implied bound: 23
+  Projected implied bound: 5
+  Clique: 106
+  MIR: 39
+  StrongCG: 46
+  Flow cover: 158
+  GUB cover: 3
+  Zero half: 3
+  Network: 19
+  RLT: 17
+  Relax-and-lift: 26
+
+Explored 1957 nodes (125187 simplex iterations) in 8.79 seconds (11.78 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 3: 15761 15769 15780 
+
+Solve interrupted
+Best objective 1.576100000000e+04, best bound 1.332800000000e+04, gap 15.4368%
+
+User-callback calls 7376, time in user-callback 0.01 sec
+
+Statistics for modelBBUP_O:
+  Linear constraint matrix    : 14315 Constrs, 5774 Vars, 53171 NZs
+  Variable types              : 1824 Continuous,
+3950 Integer (691 Binary)
+  Matrix coefficient range    : [ 1, 200 ]
+  Objective coefficient range : [ 1, 384 ]
+  Variable bound range        : [ 1, 199 ]
+  RHS coefficient range       : [ 1, 549 ]

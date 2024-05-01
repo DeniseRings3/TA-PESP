@@ -1,0 +1,13 @@
+\ Model BBOS_BWIN_BTG_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ test_start_h_('henkel_2_S2_WI_BBU_BLRD_0_S2_WI_BLRD_BBU_0_37_1_12',_'BGB_724_B_37_1_2_arr_right'):
+   h[henkel_2_S2_WI_BBU_BLRD_0_S2_WI_BLRD_BBU_0_37_1_12,BGB_724_B_37_1_2_arr_right]
+   = -7.76286e-07
+Bounds
+Binaries
+
+ h[henkel_2_S2_WI_BBU_BLRD_0_S2_WI_BLRD_BBU_0_37_1_12,BGB_724_B_37_1_2_arr_right]
+End

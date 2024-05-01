@@ -1,0 +1,10 @@
+\ Model BNB_BSNH_BSAL_BPHD_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ test_start_y_bar_('BPOP_456_A_2066_2_21_arr_right',_'BPOP_456_A_2066_2_21_dep_left'):
+   y_bar[BPOP_456_A_2066_2_21_arr_right,BPOP_456_A_2066_2_21_dep_left]
+   = -9.54012e-06
+Bounds
+End

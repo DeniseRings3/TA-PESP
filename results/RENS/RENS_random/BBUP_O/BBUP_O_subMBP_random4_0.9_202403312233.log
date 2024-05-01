@@ -1,0 +1,29 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Sun Mar 31 23:15:54 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBUP_O/RENS/BBUP_O_subMBP_random4_0.9_202403312233.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 14393 rows, 5774 columns and 53249 nonzeros
+Model fingerprint: 0xbc0a9ef7
+Variable types: 1824 continuous, 3950 integer (691 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 6229 rows and 1793 columns
+Presolve time: 0.04s
+
+Explored 0 nodes (0 simplex iterations) in 0.04 seconds (0.08 work units)
+Thread count was 1 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 321, time in user-callback 0.00 sec

@@ -1,0 +1,613 @@
+alt_idx;sheaf_idx;s-t-tuple;weight;u;v
+0;0;inevitable;0;BFA_541_B-6-1-1-dep-right;BOK_551_B-6-1-1-arr-right
+0;0;inevitable;0;BOK_551_B-6-1-1-arr-right;BOK_551_B-6-1-1-dep-right
+0;0;inevitable;0;BWED_841_B-6-1-1-dep-right;BGB_723_B-6-1-1-arr-right
+0;0;inevitable;0;BGB_723_B-6-1-1-arr-right;BGB_723_B-6-1-1-dep-right
+0;0;inevitable;0;BSKR_531_B-6-1-1-dep-right;BSGR_601_B-6-1-1-arr-right
+0;0;inevitable;0;BSGR_601_B-6-1-1-arr-right;BSGR_601_B-6-1-1-dep-right
+0;0;inevitable;0;BTHF_511_B-6-1-1-arr-right;BTHF_511_B-6-1-1-dep-right
+0;0;inevitable;0;BTHF_511_B-6-1-1-dep-right;BSKR_531_B-6-1-1-arr-right
+0;0;inevitable;0;BWH_831_B-6-1-1-arr-right;BWH_831_B-6-1-1-dep-right
+0;0;inevitable;0;BWH_831_B-6-1-1-dep-right;BWED_841_B-6-1-1-arr-right
+0;0;inevitable;0;BSKR_531_B-6-1-1-arr-right;BSKR_531_B-6-1-1-dep-right
+0;0;inevitable;0;BSGR_601_B-6-1-1-dep-right;BIP_611_B-6-1-1-arr-right
+0;0;inevitable;0;BIP_611_B-6-1-1-arr-right;BIP_611_B-6-1-1-dep-right
+0;0;inevitable;0;BHAL_711_B-6-1-1-arr-right;BHAL_711_B-6-1-1-dep-right
+0;0;inevitable;0;BHAL_711_B-6-1-1-dep-right;BWKRR_801_B-6-1-1-arr-right
+0;0;inevitable;0;BHO_701_B-6-1-1-arr-right;BHO_701_B-6-1-1-dep-right
+0;0;inevitable;0;BHO_701_B-6-1-1-dep-right;BHAL_711_B-6-1-1-arr-right
+0;0;inevitable;0;BSTO_541_B-6-1-1-dep-right;BFA_541_B-6-1-1-arr-right
+0;0;inevitable;0;BFA_541_B-6-1-1-arr-right;BFA_541_B-6-1-1-dep-right
+0;0;inevitable;0;BHER_471_B-6-1-1-dep-right;BTHF_511_B-6-1-1-arr-right
+0;0;inevitable;0;BBUP_621_B-6-1-1-dep-right;BHEI_631_B-6-1-1-arr-right
+0;0;inevitable;0;BHEI_631_B-6-1-1-arr-right;BHEI_631_B-6-1-1-dep-right
+0;0;inevitable;0;BBUP_621_B-6-1-1-arr-right;BBUP_621_B-6-1-1-dep-right
+0;0;inevitable;0;BGB_723_B-6-1-1-dep-right;BSAL_771_B-6-1-1-arr-right
+0;0;inevitable;0;BWKRR_801_B-6-1-1-arr-right;BWKRR_801_B-6-1-1-dep-right
+0;0;inevitable;0;BSAL_771_B-6-1-1-arr-right;BSAL_771_B-6-1-1-dep-right
+0;0;inevitable;0;BGSS_511_B-6-1-1-arr-right;BGSS_511_B-6-1-1-dep-right
+0;0;inevitable;0;BWES_811_B-6-1-1-dep-right;BJUN_955_B-6-1-1-arr-right
+0;0;inevitable;0;BJUN_955_B-6-1-1-arr-right;BJUN_955_B-6-1-1-dep-right
+0;0;inevitable;0;BWED_841_B-6-1-1-arr-right;BWED_841_B-6-1-1-dep-right
+0;0;inevitable;0;BJUN_955_B-6-1-1-dep-right;BBEU_811_B-6-1-1-arr-right
+0;0;inevitable;0;BBEU_811_B-6-1-1-arr-right;BBEU_811_B-6-1-1-dep-right
+0;0;inevitable;0;BSAL_771_B-6-1-1-dep-right;BPLA_781_B-6-1-1-arr-right
+0;0;inevitable;0;BPLA_781_B-6-1-1-arr-right;BPLA_781_B-6-1-1-dep-right
+0;0;inevitable;0;BPLA_781_B-6-1-1-dep-right;BGSS_511_B-6-1-1-arr-right
+0;0;inevitable;0;BNK_461_B-6-1-1-dep-right;BHER_471_B-6-1-1-arr-right
+0;0;inevitable;0;BHER_471_B-6-1-1-arr-right;BHER_471_B-6-1-1-dep-right
+0;0;inevitable;0;BWKRR_801_B-6-1-1-dep-right;BMN_801_B-6-1-1-arr-right
+0;0;inevitable;0;BIP_611_B-6-1-1-dep-right;BBUP_621_B-6-1-1-arr-right
+0;0;inevitable;0;BSO_401_B-6-1-1-dep-right;BNK_461_B-6-1-1-arr-right
+0;0;inevitable;0;BNK_461_B-6-1-1-arr-right;BNK_461_B-6-1-1-dep-right
+0;0;inevitable;0;BMN_801_B-6-1-1-dep-right;BWES_811_B-6-1-1-arr-right
+0;0;inevitable;0;BWES_811_B-6-1-1-arr-right;BWES_811_B-6-1-1-dep-right
+0;0;inevitable;0;BBEU_811_B-6-1-1-dep-right;BWH_831_B-6-1-1-arr-right
+0;0;inevitable;0;BSO_401_B-6-1-1-arr-right;BSO_401_B-6-1-1-dep-right
+0;0;inevitable;0;BHEI_631_B-6-1-1-dep-right;BHO_701_B-6-1-1-arr-right
+0;0;inevitable;0;BSTO_541_B-6-1-1-arr-right;BSTO_541_B-6-1-1-dep-right
+0;0;inevitable;0;BMN_801_B-6-1-1-arr-right;BMN_801_B-6-1-1-dep-right
+0;0;inevitable;0;BWED_841_B-6-2-1-arr-right;BWED_841_B-6-2-1-dep-right
+0;0;inevitable;0;BWED_841_B-6-2-1-dep-right;BGB_723_B-6-2-1-arr-right
+0;0;inevitable;0;BGB_723_B-6-2-1-dep-right;BSAL_771_B-6-2-1-arr-right
+0;0;inevitable;0;BSAL_771_B-6-2-1-arr-right;BSAL_771_B-6-2-1-dep-right
+0;0;inevitable;0;BBUP_621_B-6-2-1-dep-right;BHEI_631_B-6-2-1-arr-right
+0;0;inevitable;0;BHEI_631_B-6-2-1-arr-right;BHEI_631_B-6-2-1-dep-right
+0;0;inevitable;0;BWES_811_B-6-2-1-arr-right;BWES_811_B-6-2-1-dep-right
+0;0;inevitable;0;BWES_811_B-6-2-1-dep-right;BJUN_955_B-6-2-1-arr-right
+0;0;inevitable;0;BSGR_601_B-6-2-1-arr-right;BSGR_601_B-6-2-1-dep-right
+0;0;inevitable;0;BSGR_601_B-6-2-1-dep-right;BIP_611_B-6-2-1-arr-right
+0;0;inevitable;0;BHO_701_B-6-2-1-dep-right;BHAL_711_B-6-2-1-arr-right
+0;0;inevitable;0;BHAL_711_B-6-2-1-arr-right;BHAL_711_B-6-2-1-dep-right
+0;0;inevitable;0;BBEU_811_B-6-2-1-dep-right;BWH_831_B-6-2-1-arr-right
+0;0;inevitable;0;BWH_831_B-6-2-1-arr-right;BWH_831_B-6-2-1-dep-right
+0;0;inevitable;0;BGB_723_B-6-2-1-arr-right;BGB_723_B-6-2-1-dep-right
+0;0;inevitable;0;BTHF_511_B-6-2-1-arr-right;BTHF_511_B-6-2-1-dep-right
+0;0;inevitable;0;BTHF_511_B-6-2-1-dep-right;BSKR_531_B-6-2-1-arr-right
+0;0;inevitable;0;BWKRR_801_B-6-2-1-arr-right;BWKRR_801_B-6-2-1-dep-right
+0;0;inevitable;0;BWKRR_801_B-6-2-1-dep-right;BMN_801_B-6-2-1-arr-right
+0;0;inevitable;0;BSO_401_B-6-2-1-arr-right;BSO_401_B-6-2-1-dep-right
+0;0;inevitable;0;BSO_401_B-6-2-1-dep-right;BNK_461_B-6-2-1-arr-right
+0;0;inevitable;0;BIP_611_B-6-2-1-arr-right;BIP_611_B-6-2-1-dep-right
+0;0;inevitable;0;BIP_611_B-6-2-1-dep-right;BBUP_621_B-6-2-1-arr-right
+0;0;inevitable;0;BHO_701_B-6-2-1-arr-right;BHO_701_B-6-2-1-dep-right
+0;0;inevitable;0;BSKR_531_B-6-2-1-arr-right;BSKR_531_B-6-2-1-dep-right
+0;0;inevitable;0;BSKR_531_B-6-2-1-dep-right;BSGR_601_B-6-2-1-arr-right
+0;0;inevitable;0;BFA_541_B-6-2-1-arr-right;BFA_541_B-6-2-1-dep-right
+0;0;inevitable;0;BFA_541_B-6-2-1-dep-right;BOK_551_B-6-2-1-arr-right
+0;0;inevitable;0;BWH_831_B-6-2-1-dep-right;BWED_841_B-6-2-1-arr-right
+0;0;inevitable;0;BMN_801_B-6-2-1-dep-right;BWES_811_B-6-2-1-arr-right
+0;0;inevitable;0;BHER_471_B-6-2-1-arr-right;BHER_471_B-6-2-1-dep-right
+0;0;inevitable;0;BHER_471_B-6-2-1-dep-right;BTHF_511_B-6-2-1-arr-right
+0;0;inevitable;0;BHAL_711_B-6-2-1-dep-right;BWKRR_801_B-6-2-1-arr-right
+0;0;inevitable;0;BJUN_955_B-6-2-1-arr-right;BJUN_955_B-6-2-1-dep-right
+0;0;inevitable;0;BJUN_955_B-6-2-1-dep-right;BBEU_811_B-6-2-1-arr-right
+0;0;inevitable;0;BBEU_811_B-6-2-1-arr-right;BBEU_811_B-6-2-1-dep-right
+0;0;inevitable;0;BSTO_541_B-6-2-1-arr-right;BSTO_541_B-6-2-1-dep-right
+0;0;inevitable;0;BSAL_771_B-6-2-1-dep-right;BPLA_781_B-6-2-1-arr-right
+0;0;inevitable;0;BOK_551_B-6-2-1-arr-right;BOK_551_B-6-2-1-dep-right
+0;0;inevitable;0;BMN_801_B-6-2-1-arr-right;BMN_801_B-6-2-1-dep-right
+0;0;inevitable;0;BBUP_621_B-6-2-1-arr-right;BBUP_621_B-6-2-1-dep-right
+0;0;inevitable;0;BHEI_631_B-6-2-1-dep-right;BHO_701_B-6-2-1-arr-right
+0;0;inevitable;0;BPLA_781_B-6-2-1-arr-right;BPLA_781_B-6-2-1-dep-right
+0;0;inevitable;0;BSTO_541_B-6-2-1-dep-right;BFA_541_B-6-2-1-arr-right
+0;0;inevitable;0;BNK_461_B-6-2-1-dep-right;BHER_471_B-6-2-1-arr-right
+0;0;inevitable;0;BPLA_781_B-6-2-1-dep-right;BGSS_511_B-6-2-1-arr-right
+0;0;inevitable;0;BGSS_511_B-6-2-1-arr-right;BGSS_511_B-6-2-1-dep-right
+0;0;inevitable;0;BNK_461_B-6-2-1-arr-right;BNK_461_B-6-2-1-dep-right
+0;0;inevitable;0;BIP_611_B-7-1-1-arr-left;BIP_611_B-7-1-1-dep-left
+0;0;inevitable;0;BIP_611_B-7-1-1-dep-left;BSGR_602_B-7-1-1-arr-right
+0;0;inevitable;0;BTP_572_B-7-1-1-dep-right;BOK_552_B-7-1-1-arr-right
+0;0;inevitable;0;BOK_552_B-7-1-1-arr-right;BOK_552_B-7-1-1-dep-right
+0;0;inevitable;0;BWKRR_802_B-7-1-1-arr-right;BWKRR_802_B-7-1-1-dep-right
+0;0;inevitable;0;BSGR_602_B-7-1-1-arr-right;BSGR_602_B-7-1-1-dep-right
+0;0;inevitable;0;BSGR_602_B-7-1-1-dep-right;BSKR_532_B-7-1-1-arr-right
+0;0;inevitable;0;BMN_802_B-7-1-1-dep-right;BWKRR_802_B-7-1-1-arr-right
+0;0;inevitable;0;BTHF_512_B-7-1-1-dep-right;BHER_472_B-7-1-1-arr-right
+0;0;inevitable;0;BHER_472_B-7-1-1-arr-right;BHER_472_B-7-1-1-dep-right
+0;0;inevitable;0;BSO_402_B-7-1-1-arr-right;BSO_402_B-7-1-1-dep-right
+0;0;inevitable;0;BSO_402_B-7-1-1-dep-right;BTP_572_B-7-1-1-arr-right
+0;0;inevitable;0;BSKR_532_B-7-1-1-arr-right;BSKR_532_B-7-1-1-dep-right
+0;0;inevitable;0;BSKR_532_B-7-1-1-dep-right;BTHF_512_B-7-1-1-arr-right
+0;0;inevitable;0;BFA_542_B-7-1-1-dep-right;BSTO_542_B-7-1-1-arr-right
+0;0;inevitable;0;BSTO_542_B-7-1-1-arr-right;BSTO_542_B-7-1-1-dep-right
+0;0;inevitable;0;BTHF_512_B-7-1-1-arr-right;BTHF_512_B-7-1-1-dep-right
+0;0;inevitable;0;BTP_572_B-7-1-1-arr-right;BTP_572_B-7-1-1-dep-right
+0;0;inevitable;0;BSTO_542_B-7-1-1-dep-right;BLST_532_B-7-1-1-arr-right
+0;0;inevitable;0;BHER_472_B-7-1-1-dep-right;BNK_462_B-7-1-1-arr-right
+0;0;inevitable;0;BHO_702_B-7-1-1-arr-right;BHO_702_B-7-1-1-dep-right
+0;0;inevitable;0;BGB_722_B-7-1-1-arr-right;BGB_722_B-7-1-1-dep-right
+0;0;inevitable;0;BNK_462_B-7-1-1-arr-right;BNK_462_B-7-1-1-dep-right
+0;0;inevitable;0;BLST_532_B-7-1-1-arr-right;BLST_532_B-7-1-1-dep-right
+0;0;inevitable;0;BLST_532_B-7-1-1-dep-right;BGSS_512_B-7-1-1-arr-right
+0;0;inevitable;0;BWH_832_B-7-1-1-dep-right;BBEU_812_B-7-1-1-arr-right
+0;0;inevitable;0;BBEU_812_B-7-1-1-arr-right;BBEU_812_B-7-1-1-dep-right
+0;0;inevitable;0;BOK_552_B-7-1-1-dep-right;BFA_542_B-7-1-1-arr-right
+0;0;inevitable;0;BBUP_621_B-7-1-1-dep-left;BIP_611_B-7-1-1-arr-left
+0;0;inevitable;0;BPLA_782_B-7-1-1-arr-right;BPLA_782_B-7-1-1-dep-right
+0;0;inevitable;0;BBEU_812_B-7-1-1-dep-right;BJUN_956_B-7-1-1-arr-right
+0;0;inevitable;0;BMN_802_B-7-1-1-arr-right;BMN_802_B-7-1-1-dep-right
+0;0;inevitable;0;BGSS_512_B-7-1-1-arr-right;BGSS_512_B-7-1-1-dep-right
+0;0;inevitable;0;BGSS_512_B-7-1-1-dep-right;BPLA_782_B-7-1-1-arr-right
+0;0;inevitable;0;BHEI_632_B-7-1-1-dep-right;BBUP_621_B-7-1-1-arr-left
+0;0;inevitable;0;BBUP_621_B-7-1-1-arr-left;BBUP_621_B-7-1-1-dep-left
+0;0;inevitable;0;BJUN_956_B-7-1-1-arr-right;BJUN_956_B-7-1-1-dep-right
+0;0;inevitable;0;BWH_832_B-7-1-1-arr-right;BWH_832_B-7-1-1-dep-right
+0;0;inevitable;0;BWED_842_B-7-1-1-arr-right;BWED_842_B-7-1-1-dep-right
+0;0;inevitable;0;BWED_842_B-7-1-1-dep-right;BWH_832_B-7-1-1-arr-right
+0;0;inevitable;0;BHO_702_B-7-1-1-dep-right;BHEI_632_B-7-1-1-arr-right
+0;0;inevitable;0;BHEI_632_B-7-1-1-arr-right;BHEI_632_B-7-1-1-dep-right
+0;0;inevitable;0;BGB_722_B-7-1-1-dep-right;BWED_842_B-7-1-1-arr-right
+0;0;inevitable;0;BNK_462_B-7-1-1-dep-right;BSO_402_B-7-1-1-arr-right
+0;0;inevitable;0;BFA_542_B-7-1-1-arr-right;BFA_542_B-7-1-1-dep-right
+0;0;inevitable;0;BWH_832_B-7-2-1-arr-right;BWH_832_B-7-2-1-dep-right
+0;0;inevitable;0;BWH_832_B-7-2-1-dep-right;BBEU_812_B-7-2-1-arr-right
+0;0;inevitable;0;BLST_532_B-7-2-1-dep-right;BGSS_512_B-7-2-1-arr-right
+0;0;inevitable;0;BGSS_512_B-7-2-1-arr-right;BGSS_512_B-7-2-1-dep-right
+0;0;inevitable;0;BIP_611_B-7-2-1-arr-left;BIP_611_B-7-2-1-dep-left
+0;0;inevitable;0;BIP_611_B-7-2-1-dep-left;BSGR_602_B-7-2-1-arr-right
+0;0;inevitable;0;BMN_802_B-7-2-1-arr-right;BMN_802_B-7-2-1-dep-right
+0;0;inevitable;0;BSTO_542_B-7-2-1-arr-right;BSTO_542_B-7-2-1-dep-right
+0;0;inevitable;0;BSTO_542_B-7-2-1-dep-right;BLST_532_B-7-2-1-arr-right
+0;0;inevitable;0;BLST_532_B-7-2-1-arr-right;BLST_532_B-7-2-1-dep-right
+0;0;inevitable;0;BBUP_621_B-7-2-1-dep-left;BIP_611_B-7-2-1-arr-left
+0;0;inevitable;0;BBUP_621_B-7-2-1-arr-left;BBUP_621_B-7-2-1-dep-left
+0;0;inevitable;0;BOK_552_B-7-2-1-arr-right;BOK_552_B-7-2-1-dep-right
+0;0;inevitable;0;BOK_552_B-7-2-1-dep-right;BFA_542_B-7-2-1-arr-right
+0;0;inevitable;0;BHO_702_B-7-2-1-arr-right;BHO_702_B-7-2-1-dep-right
+0;0;inevitable;0;BNK_462_B-7-2-1-dep-right;BSO_402_B-7-2-1-arr-right
+0;0;inevitable;0;BSO_402_B-7-2-1-arr-right;BSO_402_B-7-2-1-dep-right
+0;0;inevitable;0;BTHF_512_B-7-2-1-arr-right;BTHF_512_B-7-2-1-dep-right
+0;0;inevitable;0;BTHF_512_B-7-2-1-dep-right;BHER_472_B-7-2-1-arr-right
+0;0;inevitable;0;BHO_702_B-7-2-1-dep-right;BHEI_632_B-7-2-1-arr-right
+0;0;inevitable;0;BHEI_632_B-7-2-1-arr-right;BHEI_632_B-7-2-1-dep-right
+0;0;inevitable;0;BJUN_956_B-7-2-1-arr-right;BJUN_956_B-7-2-1-dep-right
+0;0;inevitable;0;BNK_462_B-7-2-1-arr-right;BNK_462_B-7-2-1-dep-right
+0;0;inevitable;0;BSO_402_B-7-2-1-dep-right;BTP_572_B-7-2-1-arr-right
+0;0;inevitable;0;BGB_722_B-7-2-1-arr-right;BGB_722_B-7-2-1-dep-right
+0;0;inevitable;0;BGB_722_B-7-2-1-dep-right;BWED_842_B-7-2-1-arr-right
+0;0;inevitable;0;BWED_842_B-7-2-1-arr-right;BWED_842_B-7-2-1-dep-right
+0;0;inevitable;0;BFA_542_B-7-2-1-dep-right;BSTO_542_B-7-2-1-arr-right
+0;0;inevitable;0;BBEU_812_B-7-2-1-arr-right;BBEU_812_B-7-2-1-dep-right
+0;0;inevitable;0;BFA_542_B-7-2-1-arr-right;BFA_542_B-7-2-1-dep-right
+0;0;inevitable;0;BGSS_512_B-7-2-1-dep-right;BPLA_782_B-7-2-1-arr-right
+0;0;inevitable;0;BPLA_782_B-7-2-1-arr-right;BPLA_782_B-7-2-1-dep-right
+0;0;inevitable;0;BTP_572_B-7-2-1-arr-right;BTP_572_B-7-2-1-dep-right
+0;0;inevitable;0;BSGR_602_B-7-2-1-arr-right;BSGR_602_B-7-2-1-dep-right
+0;0;inevitable;0;BHER_472_B-7-2-1-arr-right;BHER_472_B-7-2-1-dep-right
+0;0;inevitable;0;BHER_472_B-7-2-1-dep-right;BNK_462_B-7-2-1-arr-right
+0;0;inevitable;0;BWKRR_802_B-7-2-1-arr-right;BWKRR_802_B-7-2-1-dep-right
+0;0;inevitable;0;BSGR_602_B-7-2-1-dep-right;BSKR_532_B-7-2-1-arr-right
+0;0;inevitable;0;BBEU_812_B-7-2-1-dep-right;BJUN_956_B-7-2-1-arr-right
+0;0;inevitable;0;BSKR_532_B-7-2-1-arr-right;BSKR_532_B-7-2-1-dep-right
+0;0;inevitable;0;BHEI_632_B-7-2-1-dep-right;BBUP_621_B-7-2-1-arr-left
+0;0;inevitable;0;BTP_572_B-7-2-1-dep-right;BOK_552_B-7-2-1-arr-right
+0;0;inevitable;0;BSKR_532_B-7-2-1-dep-right;BTHF_512_B-7-2-1-arr-right
+0;0;inevitable;0;BMN_802_B-7-2-1-dep-right;BWKRR_802_B-7-2-1-arr-right
+0;0;inevitable;0;BWED_842_B-7-2-1-dep-right;BWH_832_B-7-2-1-arr-right
+0;0;inevitable;0;BHER_471_B-626-1-4-arr-right;BHER_471_B-626-1-4-dep-right
+0;0;inevitable;0;BHER_471_B-626-1-4-dep-right;BTHF_511_B-626-1-4-arr-right
+0;0;inevitable;0;BNK_462_B-626-1-3-dep-right;BSO_402_B-626-1-3-arr-right
+0;0;inevitable;0;BSO_402_B-626-1-3-arr-right;BSO_402_B-626-1-3-dep-right
+0;0;inevitable;0;BSTO_541_B-626-1-4-arr-right;BSTO_541_B-626-1-4-dep-right
+0;0;inevitable;0;BSTO_541_B-626-1-4-dep-right;BFA_541_B-626-1-4-arr-right
+0;0;inevitable;0;BWKRR_801_B-626-1-4-dep-right;BMN_801_B-626-1-4-arr-right
+0;0;inevitable;0;BMN_801_B-626-1-4-arr-right;BMN_801_B-626-1-4-dep-right
+0;0;inevitable;0;BWED_842_B-626-1-3-dep-right;BWH_832_B-626-1-3-arr-right
+0;0;inevitable;0;BWH_832_B-626-1-3-arr-right;BWH_832_B-626-1-3-dep-right
+0;0;inevitable;0;BTHF_511_B-626-1-4-arr-right;BTHF_511_B-626-1-4-dep-right
+0;0;inevitable;0;BTHF_511_B-626-1-4-dep-right;BSKR_531_B-626-1-4-arr-right
+0;0;inevitable;0;BFA_542_B-626-1-3-arr-right;BFA_542_B-626-1-3-dep-right
+0;0;inevitable;0;BFA_542_B-626-1-3-dep-right;BSTO_542_B-626-1-3-arr-right
+0;0;inevitable;0;BGB_723_B-626-1-4-arr-right;BGB_723_B-626-1-4-dep-right
+0;0;inevitable;0;BGB_723_B-626-1-4-dep-right;BSAL_771_B-626-1-4-arr-right
+0;0;inevitable;0;BSGR_601_B-626-1-4-arr-right;BSGR_601_B-626-1-4-dep-right
+0;0;inevitable;0;BBUP_621_B-626-1-3-dep-left;BIP_611_B-626-1-34-arr-left
+0;0;inevitable;0;BIP_611_B-626-1-34-arr-left;BIP_611_B-626-1-34-dep-right
+0;0;inevitable;0;BHEI_632_B-626-1-3-arr-right;BHEI_632_B-626-1-3-dep-right
+0;0;inevitable;0;BHEI_632_B-626-1-3-dep-right;BBUP_621_B-626-1-3-arr-left
+0;0;inevitable;0;BWH_832_B-626-1-3-dep-right;BBEU_812_B-626-1-3-arr-right
+0;0;inevitable;0;BBEU_812_B-626-1-3-arr-right;BBEU_812_B-626-1-3-dep-right
+0;0;inevitable;0;BTP_572_B-626-1-3-arr-right;BTP_572_B-626-1-3-dep-right
+0;0;inevitable;0;BTP_572_B-626-1-3-dep-right;BOK_552_B-626-1-3-arr-right
+0;0;inevitable;0;BLST_532_B-626-1-3-dep-right;BGSS_512_B-626-1-3-arr-right
+0;0;inevitable;0;BGSS_512_B-626-1-3-arr-right;BGSS_512_B-626-1-3-dep-right
+0;0;inevitable;0;BTHF_512_B-626-1-3-arr-right;BTHF_512_B-626-1-3-dep-right
+0;0;inevitable;0;BTHF_512_B-626-1-3-dep-right;BHER_472_B-626-1-3-arr-right
+0;0;inevitable;0;BOK_551_B-626-1-4-arr-right;BOK_551_B-626-1-4-dep-right
+0;0;inevitable;0;BJUN_955_B-626-1-4-arr-right;BJUN_955_B-626-1-4-dep-right
+0;0;inevitable;0;BJUN_955_B-626-1-4-dep-right;BBEU_811_B-626-1-4-arr-right
+0;0;inevitable;0;BMN_801_B-626-1-4-dep-right;BWES_811_B-626-1-4-arr-right
+0;0;inevitable;0;BWES_811_B-626-1-4-arr-right;BWES_811_B-626-1-4-dep-right
+0;0;inevitable;0;BSKR_531_B-626-1-4-arr-right;BSKR_531_B-626-1-4-dep-right
+0;0;inevitable;0;BWH_831_B-626-1-4-arr-right;BWH_831_B-626-1-4-dep-right
+0;0;inevitable;0;BWH_831_B-626-1-4-dep-right;BWED_841_B-626-1-4-arr-right
+0;0;inevitable;0;BOK_552_B-626-1-3-dep-right;BFA_542_B-626-1-3-arr-right
+0;0;inevitable;0;BNK_461_B-626-1-4-dep-right;BHER_471_B-626-1-4-arr-right
+0;0;inevitable;0;BHO_701_B-626-1-4-arr-right;BHO_701_B-626-1-4-dep-right
+0;0;inevitable;0;BHO_701_B-626-1-4-dep-right;BHAL_711_B-626-1-4-arr-right
+0;0;inevitable;0;BHER_472_B-626-1-3-dep-right;BNK_462_B-626-1-3-arr-right
+0;0;inevitable;0;BNK_462_B-626-1-3-arr-right;BNK_462_B-626-1-3-dep-right
+0;0;inevitable;0;BSGR_602_B-626-1-3-arr-right;BSGR_602_B-626-1-3-dep-right
+0;0;inevitable;0;BSGR_602_B-626-1-3-dep-right;BSKR_532_B-626-1-3-arr-right
+0;0;inevitable;0;BSO_402_B-626-1-3-dep-right;BTP_572_B-626-1-3-arr-right
+0;0;inevitable;0;BWED_841_B-626-1-4-dep-right;BGB_723_B-626-1-4-arr-right
+0;0;inevitable;0;BHO_702_B-626-1-3-arr-right;BHO_702_B-626-1-3-dep-right
+0;0;inevitable;0;BPLA_781_B-626-1-4-dep-right;BGSS_511_B-626-1-4-arr-right
+0;0;inevitable;0;BGSS_511_B-626-1-4-arr-right;BGSS_511_B-626-1-4-dep-right
+0;0;inevitable;0;BGSS_512_B-626-1-3-dep-right;BPLA_782_B-626-1-3-arr-right
+0;0;inevitable;0;BSTO_542_B-626-1-3-arr-right;BSTO_542_B-626-1-3-dep-right
+0;0;inevitable;0;BOK_552_B-626-1-3-arr-right;BOK_552_B-626-1-3-dep-right
+0;0;inevitable;0;BHAL_711_B-626-1-4-arr-right;BHAL_711_B-626-1-4-dep-right
+0;0;inevitable;0;BHAL_711_B-626-1-4-dep-right;BWKRR_801_B-626-1-4-arr-right
+0;0;inevitable;0;BFA_541_B-626-1-4-dep-right;BOK_551_B-626-1-4-arr-right
+0;0;inevitable;0;BPLA_782_B-626-1-3-arr-right;BPLA_782_B-626-1-3-dep-right
+0;0;inevitable;0;BSAL_771_B-626-1-4-arr-right;BSAL_771_B-626-1-4-dep-right
+0;0;inevitable;0;BSAL_771_B-626-1-4-dep-right;BPLA_781_B-626-1-4-arr-right
+0;0;inevitable;0;BLST_532_B-626-1-3-arr-right;BLST_532_B-626-1-3-dep-right
+0;0;inevitable;0;BBUP_621_B-626-1-3-arr-left;BBUP_621_B-626-1-3-dep-left
+0;0;inevitable;0;BSKR_532_B-626-1-3-arr-right;BSKR_532_B-626-1-3-dep-right
+0;0;inevitable;0;BFA_541_B-626-1-4-arr-right;BFA_541_B-626-1-4-dep-right
+0;0;inevitable;0;BHO_702_B-626-1-3-dep-right;BHEI_632_B-626-1-3-arr-right
+0;0;inevitable;0;BWKRR_801_B-626-1-4-arr-right;BWKRR_801_B-626-1-4-dep-right
+0;0;inevitable;0;BBEU_811_B-626-1-4-arr-right;BBEU_811_B-626-1-4-dep-right
+0;0;inevitable;0;BJUN_956_B-626-1-3-arr-right;BJUN_956_B-626-1-3-dep-right
+0;0;inevitable;0;BSTO_542_B-626-1-3-dep-right;BLST_532_B-626-1-3-arr-right
+0;0;inevitable;0;BNK_461_B-626-1-4-arr-right;BNK_461_B-626-1-4-dep-right
+0;0;inevitable;0;BBEU_811_B-626-1-4-dep-right;BWH_831_B-626-1-4-arr-right
+0;0;inevitable;0;BMN_802_B-626-1-3-arr-right;BMN_802_B-626-1-3-dep-right
+0;0;inevitable;0;BGB_722_B-626-1-3-arr-right;BGB_722_B-626-1-3-dep-right
+0;0;inevitable;0;BIP_611_B-626-1-34-dep-right;BBUP_621_B-626-1-4-arr-right
+0;0;inevitable;0;BWED_841_B-626-1-4-arr-right;BWED_841_B-626-1-4-dep-right
+0;0;inevitable;0;BWES_811_B-626-1-4-dep-right;BJUN_955_B-626-1-4-arr-right
+0;0;inevitable;0;BMN_802_B-626-1-3-dep-right;BWKRR_802_B-626-1-3-arr-right
+0;0;inevitable;0;BWKRR_802_B-626-1-3-arr-right;BWKRR_802_B-626-1-3-dep-right
+0;0;inevitable;0;BSO_401_B-626-1-4-arr-right;BSO_401_B-626-1-4-dep-right
+0;0;inevitable;0;BSO_401_B-626-1-4-dep-right;BNK_461_B-626-1-4-arr-right
+0;0;inevitable;0;BHER_472_B-626-1-3-arr-right;BHER_472_B-626-1-3-dep-right
+0;0;inevitable;0;BGB_722_B-626-1-3-dep-right;BWED_842_B-626-1-3-arr-right
+0;0;inevitable;0;BSKR_532_B-626-1-3-dep-right;BTHF_512_B-626-1-3-arr-right
+0;0;inevitable;0;BHEI_631_B-626-1-4-dep-right;BHO_701_B-626-1-4-arr-right
+0;0;inevitable;0;BSKR_531_B-626-1-4-dep-right;BSGR_601_B-626-1-4-arr-right
+0;0;inevitable;0;BBEU_812_B-626-1-3-dep-right;BJUN_956_B-626-1-3-arr-right
+0;0;inevitable;0;BBUP_621_B-626-1-4-arr-right;BBUP_621_B-626-1-4-dep-right
+0;0;inevitable;0;BBUP_621_B-626-1-4-dep-right;BHEI_631_B-626-1-4-arr-right
+0;0;inevitable;0;BPLA_781_B-626-1-4-arr-right;BPLA_781_B-626-1-4-dep-right
+0;0;inevitable;0;BWED_842_B-626-1-3-arr-right;BWED_842_B-626-1-3-dep-right
+0;0;inevitable;0;BHEI_631_B-626-1-4-arr-right;BHEI_631_B-626-1-4-dep-right
+0;0;inevitable;0;BGSS_511_B-376-1-21-arr-right;BGSS_511_B-376-1-21-dep-right
+0;0;inevitable;0;BGSS_511_B-376-1-21-dep-right;BGSS_516_A-376-1-21-arr-right
+0;0;inevitable;0;BGSS_516_A-376-1-21-arr-right;BGSS_516_A-376-1-21-dep-left
+0;0;inevitable;0;BGSS_516_A-376-1-21-dep-left;BGSS_512_B-376-1-21-arr-right
+0;0;inevitable;0;BGSS_512_B-376-1-21-arr-right;BGSS_512_B-376-1-21-dep-right
+0;0;inevitable;0;BWH_831_B-376-1-2-dep-right;BWED_841_B-376-1-2-arr-right
+0;0;inevitable;0;BWED_841_B-376-1-2-arr-right;BWED_841_B-376-1-2-dep-right
+0;0;inevitable;0;BBEU_811_B-376-1-2-arr-right;BBEU_811_B-376-1-2-dep-right
+0;0;inevitable;0;BBEU_811_B-376-1-2-dep-right;BWH_831_B-376-1-2-arr-right
+0;0;inevitable;0;BGB_722_B-376-1-1-arr-right;BGB_722_B-376-1-1-dep-right
+0;0;inevitable;0;BGB_722_B-376-1-1-dep-right;BWED_842_B-376-1-1-arr-right
+0;0;inevitable;0;BGSS_512_B-376-1-21-dep-right;BPLA_782_B-376-1-1-arr-right
+0;0;inevitable;0;BPLA_782_B-376-1-1-arr-right;BPLA_782_B-376-1-1-dep-right
+0;0;inevitable;0;BWH_832_B-376-1-1-dep-right;BBEU_812_B-376-1-1-arr-right
+0;0;inevitable;0;BBEU_812_B-376-1-1-arr-right;BBEU_812_B-376-1-1-dep-right
+0;0;inevitable;0;BPLA_781_B-376-1-2-dep-right;BGSS_511_B-376-1-21-arr-right
+0;0;inevitable;0;BWH_831_B-376-1-2-arr-right;BWH_831_B-376-1-2-dep-right
+0;0;inevitable;0;BWED_841_B-376-1-2-dep-right;BGB_723_B-376-1-2-arr-right
+0;0;inevitable;0;BGB_723_B-376-1-2-arr-right;BGB_723_B-376-1-2-dep-right
+0;0;inevitable;0;BWED_842_B-376-1-1-arr-right;BWED_842_B-376-1-1-dep-right
+0;0;inevitable;0;BSAL_771_B-376-1-2-arr-right;BSAL_771_B-376-1-2-dep-right
+0;0;inevitable;0;BSAL_771_B-376-1-2-dep-right;BPLA_781_B-376-1-2-arr-right
+0;0;inevitable;0;BGB_723_B-376-1-2-dep-right;BSAL_771_B-376-1-2-arr-right
+0;0;inevitable;0;BBEU_812_B-376-1-1-dep-right;BJUN_956_B-376-1-1-arr-right
+0;0;inevitable;0;BJUN_956_B-376-1-1-arr-right;BJUN_956_B-376-1-1-dep-right
+0;0;inevitable;0;BPLA_781_B-376-1-2-arr-right;BPLA_781_B-376-1-2-dep-right
+0;0;inevitable;0;BWED_842_B-376-1-1-dep-right;BWH_832_B-376-1-1-arr-right
+0;0;inevitable;0;BJUN_955_B-376-1-2-arr-right;BJUN_955_B-376-1-2-dep-right
+0;0;inevitable;0;BWH_832_B-376-1-1-arr-right;BWH_832_B-376-1-1-dep-right
+0;0;inevitable;0;BJUN_955_B-376-1-2-dep-right;BBEU_811_B-376-1-2-arr-right
+0;0;inevitable;0;BHER_472_B-489-1-2-arr-right;BHER_472_B-489-1-2-dep-right
+0;0;inevitable;0;BNK_462_B-489-1-2-arr-right;BNK_462_B-489-1-2-dep-right
+0;0;inevitable;0;BNK_462_B-489-1-2-dep-right;henkel_5_S45_U_BFBB_BSKR_0_S45_U_BSKR_BFBB_0-489-1-21
+0;0;inevitable;0;BHER_472_B-489-1-2-dep-right;BNK_462_B-489-1-2-arr-right
+0;0;inevitable;0;henkel_5_S45_U_BFBB_BSKR_0_S45_U_BSKR_BFBB_0-489-1-21;BNK_461_B-489-1-1-arr-right
+0;0;inevitable;0;BNK_461_B-489-1-1-arr-right;BNK_461_B-489-1-1-dep-right
+0;0;inevitable;0;BNK_461_B-489-1-1-dep-right;BHER_471_B-489-1-1-arr-right
+0;0;inevitable;0;BHER_471_B-489-1-1-arr-right;BHER_471_B-489-1-1-dep-right
+0;0;inevitable;0;BTHF_511_B-486-1-1-dep-right;BSKR_531_B-486-1-12-arr-right
+0;0;inevitable;0;BHER_472_B-486-1-2-dep-right;BNK_462_B-486-1-2-arr-right
+0;0;inevitable;0;BNK_462_B-486-1-2-arr-right;BNK_462_B-486-1-2-dep-right
+0;0;inevitable;0;BHER_471_B-486-1-1-arr-right;BHER_471_B-486-1-1-dep-right
+0;0;inevitable;0;BHER_471_B-486-1-1-dep-right;BTHF_511_B-486-1-1-arr-right
+0;0;inevitable;0;BSKR_532_B-486-1-12-dep-right;BTHF_512_B-486-1-2-arr-right
+0;0;inevitable;0;BNK_461_B-486-1-1-dep-right;BHER_471_B-486-1-1-arr-right
+0;0;inevitable;0;BHER_472_B-486-1-2-arr-right;BHER_472_B-486-1-2-dep-right
+0;0;inevitable;0;BTHF_512_B-486-1-2-arr-right;BTHF_512_B-486-1-2-dep-right
+0;0;inevitable;0;BTHF_512_B-486-1-2-dep-right;BHER_472_B-486-1-2-arr-right
+0;0;inevitable;0;BTHF_511_B-486-1-1-arr-right;BTHF_511_B-486-1-1-dep-right
+0;0;inevitable;0;BNK_462_B-486-1-2-dep-right;henkel_6_S46_D_BKW_BWES_0_S46_D_BWES_BKW_0-486-1-21
+0;0;inevitable;0;henkel_6_S46_D_BKW_BWES_0_S46_D_BWES_BKW_0-486-1-21;BNK_461_B-486-1-1-arr-right
+0;0;inevitable;0;BNK_461_B-486-1-1-arr-right;BNK_461_B-486-1-1-dep-right
+0;0;inevitable;0;BPLA_782_B-566-1-2-arr-right;BPLA_782_B-566-1-2-dep-right
+0;0;inevitable;0;BPLA_782_B-566-1-2-dep-right;BSAL_772_B-566-1-2-arr-right
+0;0;inevitable;0;BGSS_512_B-566-1-2-arr-right;BGSS_512_B-566-1-2-dep-right
+0;0;inevitable;0;BGSS_512_B-566-1-2-dep-right;BPLA_782_B-566-1-2-arr-right
+0;0;inevitable;0;BTP_574_B-566-1-2-dep-right;BOK_552_B-566-1-2-arr-right
+0;0;inevitable;0;BOK_552_B-566-1-2-arr-right;BOK_552_B-566-1-2-dep-right
+0;0;inevitable;0;BLST_532_B-566-1-2-arr-right;BLST_532_B-566-1-2-dep-right
+0;0;inevitable;0;BLST_532_B-566-1-2-dep-right;BGSS_512_B-566-1-2-arr-right
+0;0;inevitable;0;BTP_573_B-566-1-1-dep-right;henkel_8_S8_N_BBIW_BZTH_0_S8_N_BZTH_BBIW_0-566-1-12
+0;0;inevitable;0;henkel_8_S8_N_BBIW_BZTH_0_S8_N_BZTH_BBIW_0-566-1-12;BTP_574_B-566-1-2-arr-right
+0;0;inevitable;0;BSTO_541_B-566-1-1-arr-right;BSTO_541_B-566-1-1-dep-right
+0;0;inevitable;0;BSTO_541_B-566-1-1-dep-right;BFA_541_B-566-1-1-arr-right
+0;0;inevitable;0;BSTO_542_B-566-1-2-dep-right;BLST_532_B-566-1-2-arr-right
+0;0;inevitable;0;BFA_541_B-566-1-1-dep-right;BOK_551_B-566-1-1-arr-right
+0;0;inevitable;0;BOK_551_B-566-1-1-arr-right;BOK_551_B-566-1-1-dep-right
+0;0;inevitable;0;BOK_552_B-566-1-2-dep-right;BFA_542_B-566-1-2-arr-right
+0;0;inevitable;0;BFA_542_B-566-1-2-arr-right;BFA_542_B-566-1-2-dep-right
+0;0;inevitable;0;BFA_541_B-566-1-1-arr-right;BFA_541_B-566-1-1-dep-right
+0;0;inevitable;0;BFA_542_B-566-1-2-dep-right;BSTO_542_B-566-1-2-arr-right
+0;0;inevitable;0;BPLA_781_B-566-1-1-dep-right;BGSS_511_B-566-1-1-arr-right
+0;0;inevitable;0;BGSS_511_B-566-1-1-arr-right;BGSS_511_B-566-1-1-dep-right
+0;0;inevitable;0;BSAL_772_B-566-1-2-dep-right;henkel_9_S8_N_BBIW_BZTH_0_S8_N_BZTH_BBIW_0-566-1-21
+0;0;inevitable;0;henkel_9_S8_N_BBIW_BZTH_0_S8_N_BZTH_BBIW_0-566-1-21;BSAL_771_B-566-1-1-arr-right
+0;0;inevitable;0;BTP_573_B-566-1-1-arr-right;BTP_573_B-566-1-1-dep-right
+0;0;inevitable;0;BOK_551_B-566-1-1-dep-right;BTP_573_B-566-1-1-arr-right
+0;0;inevitable;0;BSAL_772_B-566-1-2-arr-right;BSAL_772_B-566-1-2-dep-right
+0;0;inevitable;0;BSTO_542_B-566-1-2-arr-right;BSTO_542_B-566-1-2-dep-right
+0;0;inevitable;0;BSAL_771_B-566-1-1-arr-right;BSAL_771_B-566-1-1-dep-right
+0;0;inevitable;0;BSAL_771_B-566-1-1-dep-right;BPLA_781_B-566-1-1-arr-right
+0;0;inevitable;0;BPLA_781_B-566-1-1-arr-right;BPLA_781_B-566-1-1-dep-right
+0;0;inevitable;0;BTP_574_B-566-1-2-arr-right;BTP_574_B-566-1-2-dep-right
+0;0;inevitable;0;BSTO_542_B-571-1-1-arr-right;BSTO_542_B-571-1-1-dep-right
+0;0;inevitable;0;BSTO_542_B-571-1-1-dep-right;BLST_532_B-571-1-1-arr-right
+0;0;inevitable;0;henkel_10_S85_NI_BGAS_BPKW_0_S85_NI_BPKW_BGAS_0-571-1-12;BSAL_771_B-571-1-2-arr-right
+0;0;inevitable;0;BSAL_771_B-571-1-2-arr-right;BSAL_771_B-571-1-2-dep-right
+0;0;inevitable;0;BLST_532_B-571-1-1-arr-right;BLST_532_B-571-1-1-dep-right
+0;0;inevitable;0;BLST_532_B-571-1-1-dep-right;BGSS_512_B-571-1-1-arr-right
+0;0;inevitable;0;BTP_574_B-571-1-1-dep-right;BOK_552_B-571-1-1-arr-right
+0;0;inevitable;0;BOK_552_B-571-1-1-arr-right;BOK_552_B-571-1-1-dep-right
+0;0;inevitable;0;BPLA_782_B-571-1-1-dep-right;BSAL_772_B-571-1-1-arr-right
+0;0;inevitable;0;BSAL_772_B-571-1-1-arr-right;BSAL_772_B-571-1-1-dep-right
+0;0;inevitable;0;BOK_551_B-571-1-2-dep-right;BTP_571_B-571-1-2-arr-right
+0;0;inevitable;0;BTP_571_B-571-1-2-arr-right;BTP_571_B-571-1-2-dep-right
+0;0;inevitable;0;BFA_541_B-571-1-2-dep-right;BOK_551_B-571-1-2-arr-right
+0;0;inevitable;0;BOK_551_B-571-1-2-arr-right;BOK_551_B-571-1-2-dep-right
+0;0;inevitable;0;BGSS_511_B-571-1-2-arr-right;BGSS_511_B-571-1-2-dep-right
+0;0;inevitable;0;BGSS_512_B-571-1-1-arr-right;BGSS_512_B-571-1-1-dep-right
+0;0;inevitable;0;BGSS_512_B-571-1-1-dep-right;BPLA_782_B-571-1-1-arr-right
+0;0;inevitable;0;BFA_542_B-571-1-1-arr-right;BFA_542_B-571-1-1-dep-right
+0;0;inevitable;0;BFA_542_B-571-1-1-dep-right;BSTO_542_B-571-1-1-arr-right
+0;0;inevitable;0;BPLA_781_B-571-1-2-dep-right;BGSS_511_B-571-1-2-arr-right
+0;0;inevitable;0;BPLA_782_B-571-1-1-arr-right;BPLA_782_B-571-1-1-dep-right
+0;0;inevitable;0;BSTO_541_B-571-1-2-dep-right;BFA_541_B-571-1-2-arr-right
+0;0;inevitable;0;BFA_541_B-571-1-2-arr-right;BFA_541_B-571-1-2-dep-right
+0;0;inevitable;0;BTP_571_B-571-1-2-dep-right;henkel_11_S85_NI_BGAS_BPKW_0_S85_NI_BPKW_BGAS_0-571-1-21
+0;0;inevitable;0;henkel_11_S85_NI_BGAS_BPKW_0_S85_NI_BPKW_BGAS_0-571-1-21;BTP_574_B-571-1-1-arr-right
+0;0;inevitable;0;BSAL_772_B-571-1-1-dep-right;henkel_10_S85_NI_BGAS_BPKW_0_S85_NI_BPKW_BGAS_0-571-1-12
+0;0;inevitable;0;BOK_552_B-571-1-1-dep-right;BFA_542_B-571-1-1-arr-right
+0;0;inevitable;0;BPLA_781_B-571-1-2-arr-right;BPLA_781_B-571-1-2-dep-right
+0;0;inevitable;0;BTP_574_B-571-1-1-arr-right;BTP_574_B-571-1-1-dep-right
+0;0;inevitable;0;BSTO_541_B-571-1-2-arr-right;BSTO_541_B-571-1-2-dep-right
+0;0;inevitable;0;BSAL_771_B-571-1-2-dep-right;BPLA_781_B-571-1-2-arr-right
+1;1;(BGSS_511_B-6-1-1-dep-right-out, BSTO_541_B-6-1-1-arr-right-in);2;BGSS_511_B-6-1-1-dep-right;BLST_531_B-6-1-1-arr-right
+1;1;(BGSS_511_B-6-1-1-dep-right-out, BSTO_541_B-6-1-1-arr-right-in);2;BLST_531_B-6-1-1-arr-right;BLST_531_B-6-1-1-dep-right
+1;1;(BGSS_511_B-6-1-1-dep-right-out, BSTO_541_B-6-1-1-arr-right-in);2;BLST_531_B-6-1-1-dep-right;BSTO_541_B-6-1-1-arr-right
+2;1;(BGSS_511_B-6-1-1-dep-right-out, BSTO_541_B-6-1-1-arr-right-in);15;BGSS_511_B-6-1-1-dep-right;BLST_532_B-6-1-1-arr-left
+2;1;(BGSS_511_B-6-1-1-dep-right-out, BSTO_541_B-6-1-1-arr-right-in);15;BLST_532_B-6-1-1-arr-left;BLST_532_B-6-1-1-dep-left
+2;1;(BGSS_511_B-6-1-1-dep-right-out, BSTO_541_B-6-1-1-arr-right-in);15;BLST_532_B-6-1-1-dep-left;BSTO_541_B-6-1-1-arr-right
+3;2;(BOK_551_B-6-1-1-dep-right-out, BSO_401_B-6-1-1-arr-right-in);2;BOK_551_B-6-1-1-dep-right;BTP_571_B-6-1-1-arr-right
+3;2;(BOK_551_B-6-1-1-dep-right-out, BSO_401_B-6-1-1-arr-right-in);2;BTP_571_B-6-1-1-arr-right;BTP_571_B-6-1-1-dep-right
+3;2;(BOK_551_B-6-1-1-dep-right-out, BSO_401_B-6-1-1-arr-right-in);2;BTP_571_B-6-1-1-dep-right;BSO_401_B-6-1-1-arr-right
+4;2;(BOK_551_B-6-1-1-dep-right-out, BSO_401_B-6-1-1-arr-right-in);15;BOK_551_B-6-1-1-dep-right;BTP_572_B-6-1-1-arr-left
+4;2;(BOK_551_B-6-1-1-dep-right-out, BSO_401_B-6-1-1-arr-right-in);15;BTP_572_B-6-1-1-arr-left;BTP_572_B-6-1-1-dep-left
+4;2;(BOK_551_B-6-1-1-dep-right-out, BSO_401_B-6-1-1-arr-right-in);15;BTP_572_B-6-1-1-dep-left;BSO_401_B-6-1-1-arr-right
+5;2;(BOK_551_B-6-1-1-dep-right-out, BSO_401_B-6-1-1-arr-right-in);15;BOK_551_B-6-1-1-dep-right;BTP_574_B-6-1-1-arr-left
+5;2;(BOK_551_B-6-1-1-dep-right-out, BSO_401_B-6-1-1-arr-right-in);15;BTP_574_B-6-1-1-arr-left;BTP_574_B-6-1-1-dep-left
+5;2;(BOK_551_B-6-1-1-dep-right-out, BSO_401_B-6-1-1-arr-right-in);15;BTP_574_B-6-1-1-dep-left;BSO_401_B-6-1-1-arr-right
+6;2;(BOK_551_B-6-1-1-dep-right-out, BSO_401_B-6-1-1-arr-right-in);2;BOK_551_B-6-1-1-dep-right;BTP_573_B-6-1-1-arr-right
+6;2;(BOK_551_B-6-1-1-dep-right-out, BSO_401_B-6-1-1-arr-right-in);2;BTP_573_B-6-1-1-arr-right;BTP_573_B-6-1-1-dep-right
+6;2;(BOK_551_B-6-1-1-dep-right-out, BSO_401_B-6-1-1-arr-right-in);2;BTP_573_B-6-1-1-dep-right;BSO_401_B-6-1-1-arr-right
+7;3;(BGSS_511_B-6-2-1-dep-right-out, BSTO_541_B-6-2-1-arr-right-in);2;BGSS_511_B-6-2-1-dep-right;BLST_531_B-6-2-1-arr-right
+7;3;(BGSS_511_B-6-2-1-dep-right-out, BSTO_541_B-6-2-1-arr-right-in);2;BLST_531_B-6-2-1-arr-right;BLST_531_B-6-2-1-dep-right
+7;3;(BGSS_511_B-6-2-1-dep-right-out, BSTO_541_B-6-2-1-arr-right-in);2;BLST_531_B-6-2-1-dep-right;BSTO_541_B-6-2-1-arr-right
+8;3;(BGSS_511_B-6-2-1-dep-right-out, BSTO_541_B-6-2-1-arr-right-in);15;BGSS_511_B-6-2-1-dep-right;BLST_532_B-6-2-1-arr-left
+8;3;(BGSS_511_B-6-2-1-dep-right-out, BSTO_541_B-6-2-1-arr-right-in);15;BLST_532_B-6-2-1-arr-left;BLST_532_B-6-2-1-dep-left
+8;3;(BGSS_511_B-6-2-1-dep-right-out, BSTO_541_B-6-2-1-arr-right-in);15;BLST_532_B-6-2-1-dep-left;BSTO_541_B-6-2-1-arr-right
+9;4;(BOK_551_B-6-2-1-dep-right-out, BSO_401_B-6-2-1-arr-right-in);2;BOK_551_B-6-2-1-dep-right;BTP_571_B-6-2-1-arr-right
+9;4;(BOK_551_B-6-2-1-dep-right-out, BSO_401_B-6-2-1-arr-right-in);2;BTP_571_B-6-2-1-arr-right;BTP_571_B-6-2-1-dep-right
+9;4;(BOK_551_B-6-2-1-dep-right-out, BSO_401_B-6-2-1-arr-right-in);2;BTP_571_B-6-2-1-dep-right;BSO_401_B-6-2-1-arr-right
+10;4;(BOK_551_B-6-2-1-dep-right-out, BSO_401_B-6-2-1-arr-right-in);15;BOK_551_B-6-2-1-dep-right;BTP_572_B-6-2-1-arr-left
+10;4;(BOK_551_B-6-2-1-dep-right-out, BSO_401_B-6-2-1-arr-right-in);15;BTP_572_B-6-2-1-arr-left;BTP_572_B-6-2-1-dep-left
+10;4;(BOK_551_B-6-2-1-dep-right-out, BSO_401_B-6-2-1-arr-right-in);15;BTP_572_B-6-2-1-dep-left;BSO_401_B-6-2-1-arr-right
+11;4;(BOK_551_B-6-2-1-dep-right-out, BSO_401_B-6-2-1-arr-right-in);15;BOK_551_B-6-2-1-dep-right;BTP_574_B-6-2-1-arr-left
+11;4;(BOK_551_B-6-2-1-dep-right-out, BSO_401_B-6-2-1-arr-right-in);15;BTP_574_B-6-2-1-arr-left;BTP_574_B-6-2-1-dep-left
+11;4;(BOK_551_B-6-2-1-dep-right-out, BSO_401_B-6-2-1-arr-right-in);15;BTP_574_B-6-2-1-dep-left;BSO_401_B-6-2-1-arr-right
+12;4;(BOK_551_B-6-2-1-dep-right-out, BSO_401_B-6-2-1-arr-right-in);2;BOK_551_B-6-2-1-dep-right;BTP_573_B-6-2-1-arr-right
+12;4;(BOK_551_B-6-2-1-dep-right-out, BSO_401_B-6-2-1-arr-right-in);2;BTP_573_B-6-2-1-arr-right;BTP_573_B-6-2-1-dep-right
+12;4;(BOK_551_B-6-2-1-dep-right-out, BSO_401_B-6-2-1-arr-right-in);2;BTP_573_B-6-2-1-dep-right;BSO_401_B-6-2-1-arr-right
+13;5;(BPLA_782_B-7-1-1-dep-right-out, BGB_722_B-7-1-1-arr-right-in);15;BPLA_782_B-7-1-1-dep-right;BSAL_771_B-7-1-1-arr-left
+13;5;(BPLA_782_B-7-1-1-dep-right-out, BGB_722_B-7-1-1-arr-right-in);15;BSAL_771_B-7-1-1-arr-left;BSAL_771_B-7-1-1-dep-left
+13;5;(BPLA_782_B-7-1-1-dep-right-out, BGB_722_B-7-1-1-arr-right-in);15;BSAL_771_B-7-1-1-dep-left;BGB_722_B-7-1-1-arr-right
+14;5;(BPLA_782_B-7-1-1-dep-right-out, BGB_722_B-7-1-1-arr-right-in);2;BPLA_782_B-7-1-1-dep-right;BSAL_772_B-7-1-1-arr-right
+14;5;(BPLA_782_B-7-1-1-dep-right-out, BGB_722_B-7-1-1-arr-right-in);2;BSAL_772_B-7-1-1-arr-right;BSAL_772_B-7-1-1-dep-right
+14;5;(BPLA_782_B-7-1-1-dep-right-out, BGB_722_B-7-1-1-arr-right-in);2;BSAL_772_B-7-1-1-dep-right;BGB_722_B-7-1-1-arr-right
+15;6;(BJUN_956_B-7-1-1-dep-right-out, BMN_802_B-7-1-1-arr-right-in);2;BJUN_956_B-7-1-1-dep-right;BWES_812_B-7-1-1-arr-right
+15;6;(BJUN_956_B-7-1-1-dep-right-out, BMN_802_B-7-1-1-arr-right-in);2;BWES_812_B-7-1-1-arr-right;BWES_812_B-7-1-1-dep-right
+15;6;(BJUN_956_B-7-1-1-dep-right-out, BMN_802_B-7-1-1-arr-right-in);2;BWES_812_B-7-1-1-dep-right;BMN_802_B-7-1-1-arr-right
+16;6;(BJUN_956_B-7-1-1-dep-right-out, BMN_802_B-7-1-1-arr-right-in);15;BJUN_956_B-7-1-1-dep-right;BWES_811_B-7-1-1-arr-left
+16;6;(BJUN_956_B-7-1-1-dep-right-out, BMN_802_B-7-1-1-arr-right-in);15;BWES_811_B-7-1-1-arr-left;BWES_811_B-7-1-1-dep-left
+16;6;(BJUN_956_B-7-1-1-dep-right-out, BMN_802_B-7-1-1-arr-right-in);15;BWES_811_B-7-1-1-dep-left;BMN_802_B-7-1-1-arr-right
+17;7;(BWKRR_802_B-7-1-1-dep-right-out, BHO_702_B-7-1-1-arr-right-in);15;BWKRR_802_B-7-1-1-dep-right;BHAL_711_B-7-1-1-arr-left
+17;7;(BWKRR_802_B-7-1-1-dep-right-out, BHO_702_B-7-1-1-arr-right-in);15;BHAL_711_B-7-1-1-arr-left;BHAL_711_B-7-1-1-dep-left
+17;7;(BWKRR_802_B-7-1-1-dep-right-out, BHO_702_B-7-1-1-arr-right-in);15;BHAL_711_B-7-1-1-dep-left;BHO_702_B-7-1-1-arr-right
+18;7;(BWKRR_802_B-7-1-1-dep-right-out, BHO_702_B-7-1-1-arr-right-in);2;BWKRR_802_B-7-1-1-dep-right;BHAL_712_B-7-1-1-arr-right
+18;7;(BWKRR_802_B-7-1-1-dep-right-out, BHO_702_B-7-1-1-arr-right-in);2;BHAL_712_B-7-1-1-arr-right;BHAL_712_B-7-1-1-dep-right
+18;7;(BWKRR_802_B-7-1-1-dep-right-out, BHO_702_B-7-1-1-arr-right-in);2;BHAL_712_B-7-1-1-dep-right;BHO_702_B-7-1-1-arr-right
+19;8;(BPLA_782_B-7-2-1-dep-right-out, BGB_722_B-7-2-1-arr-right-in);15;BPLA_782_B-7-2-1-dep-right;BSAL_771_B-7-2-1-arr-left
+19;8;(BPLA_782_B-7-2-1-dep-right-out, BGB_722_B-7-2-1-arr-right-in);15;BSAL_771_B-7-2-1-arr-left;BSAL_771_B-7-2-1-dep-left
+19;8;(BPLA_782_B-7-2-1-dep-right-out, BGB_722_B-7-2-1-arr-right-in);15;BSAL_771_B-7-2-1-dep-left;BGB_722_B-7-2-1-arr-right
+20;8;(BPLA_782_B-7-2-1-dep-right-out, BGB_722_B-7-2-1-arr-right-in);2;BPLA_782_B-7-2-1-dep-right;BSAL_772_B-7-2-1-arr-right
+20;8;(BPLA_782_B-7-2-1-dep-right-out, BGB_722_B-7-2-1-arr-right-in);2;BSAL_772_B-7-2-1-arr-right;BSAL_772_B-7-2-1-dep-right
+20;8;(BPLA_782_B-7-2-1-dep-right-out, BGB_722_B-7-2-1-arr-right-in);2;BSAL_772_B-7-2-1-dep-right;BGB_722_B-7-2-1-arr-right
+21;9;(BJUN_956_B-7-2-1-dep-right-out, BMN_802_B-7-2-1-arr-right-in);2;BJUN_956_B-7-2-1-dep-right;BWES_812_B-7-2-1-arr-right
+21;9;(BJUN_956_B-7-2-1-dep-right-out, BMN_802_B-7-2-1-arr-right-in);2;BWES_812_B-7-2-1-arr-right;BWES_812_B-7-2-1-dep-right
+21;9;(BJUN_956_B-7-2-1-dep-right-out, BMN_802_B-7-2-1-arr-right-in);2;BWES_812_B-7-2-1-dep-right;BMN_802_B-7-2-1-arr-right
+22;9;(BJUN_956_B-7-2-1-dep-right-out, BMN_802_B-7-2-1-arr-right-in);15;BJUN_956_B-7-2-1-dep-right;BWES_811_B-7-2-1-arr-left
+22;9;(BJUN_956_B-7-2-1-dep-right-out, BMN_802_B-7-2-1-arr-right-in);15;BWES_811_B-7-2-1-arr-left;BWES_811_B-7-2-1-dep-left
+22;9;(BJUN_956_B-7-2-1-dep-right-out, BMN_802_B-7-2-1-arr-right-in);15;BWES_811_B-7-2-1-dep-left;BMN_802_B-7-2-1-arr-right
+23;10;(BWKRR_802_B-7-2-1-dep-right-out, BHO_702_B-7-2-1-arr-right-in);15;BWKRR_802_B-7-2-1-dep-right;BHAL_711_B-7-2-1-arr-left
+23;10;(BWKRR_802_B-7-2-1-dep-right-out, BHO_702_B-7-2-1-arr-right-in);15;BHAL_711_B-7-2-1-arr-left;BHAL_711_B-7-2-1-dep-left
+23;10;(BWKRR_802_B-7-2-1-dep-right-out, BHO_702_B-7-2-1-arr-right-in);15;BHAL_711_B-7-2-1-dep-left;BHO_702_B-7-2-1-arr-right
+24;10;(BWKRR_802_B-7-2-1-dep-right-out, BHO_702_B-7-2-1-arr-right-in);2;BWKRR_802_B-7-2-1-dep-right;BHAL_712_B-7-2-1-arr-right
+24;10;(BWKRR_802_B-7-2-1-dep-right-out, BHO_702_B-7-2-1-arr-right-in);2;BHAL_712_B-7-2-1-arr-right;BHAL_712_B-7-2-1-dep-right
+24;10;(BWKRR_802_B-7-2-1-dep-right-out, BHO_702_B-7-2-1-arr-right-in);2;BHAL_712_B-7-2-1-dep-right;BHO_702_B-7-2-1-arr-right
+25;12;(BPLA_782_B-626-1-3-dep-right-out, BGB_722_B-626-1-3-arr-right-in);15;BPLA_782_B-626-1-3-dep-right;BSAL_771_B-626-1-3-arr-left
+25;12;(BPLA_782_B-626-1-3-dep-right-out, BGB_722_B-626-1-3-arr-right-in);15;BSAL_771_B-626-1-3-arr-left;BSAL_771_B-626-1-3-dep-left
+25;12;(BPLA_782_B-626-1-3-dep-right-out, BGB_722_B-626-1-3-arr-right-in);15;BSAL_771_B-626-1-3-dep-left;BGB_722_B-626-1-3-arr-right
+26;12;(BPLA_782_B-626-1-3-dep-right-out, BGB_722_B-626-1-3-arr-right-in);2;BPLA_782_B-626-1-3-dep-right;BSAL_772_B-626-1-3-arr-right
+26;12;(BPLA_782_B-626-1-3-dep-right-out, BGB_722_B-626-1-3-arr-right-in);2;BSAL_772_B-626-1-3-arr-right;BSAL_772_B-626-1-3-dep-right
+26;12;(BPLA_782_B-626-1-3-dep-right-out, BGB_722_B-626-1-3-arr-right-in);2;BSAL_772_B-626-1-3-dep-right;BGB_722_B-626-1-3-arr-right
+27;13;(BJUN_956_B-626-1-3-dep-right-out, BMN_802_B-626-1-3-arr-right-in);2;BJUN_956_B-626-1-3-dep-right;BWES_812_B-626-1-3-arr-right
+27;13;(BJUN_956_B-626-1-3-dep-right-out, BMN_802_B-626-1-3-arr-right-in);2;BWES_812_B-626-1-3-arr-right;BWES_812_B-626-1-3-dep-right
+27;13;(BJUN_956_B-626-1-3-dep-right-out, BMN_802_B-626-1-3-arr-right-in);2;BWES_812_B-626-1-3-dep-right;BMN_802_B-626-1-3-arr-right
+28;13;(BJUN_956_B-626-1-3-dep-right-out, BMN_802_B-626-1-3-arr-right-in);15;BJUN_956_B-626-1-3-dep-right;BWES_811_B-626-1-3-arr-left
+28;13;(BJUN_956_B-626-1-3-dep-right-out, BMN_802_B-626-1-3-arr-right-in);15;BWES_811_B-626-1-3-arr-left;BWES_811_B-626-1-3-dep-left
+28;13;(BJUN_956_B-626-1-3-dep-right-out, BMN_802_B-626-1-3-arr-right-in);15;BWES_811_B-626-1-3-dep-left;BMN_802_B-626-1-3-arr-right
+29;14;(BWKRR_802_B-626-1-3-dep-right-out, BHO_702_B-626-1-3-arr-right-in);15;BWKRR_802_B-626-1-3-dep-right;BHAL_711_B-626-1-3-arr-left
+29;14;(BWKRR_802_B-626-1-3-dep-right-out, BHO_702_B-626-1-3-arr-right-in);15;BHAL_711_B-626-1-3-arr-left;BHAL_711_B-626-1-3-dep-left
+29;14;(BWKRR_802_B-626-1-3-dep-right-out, BHO_702_B-626-1-3-arr-right-in);15;BHAL_711_B-626-1-3-dep-left;BHO_702_B-626-1-3-arr-right
+30;14;(BWKRR_802_B-626-1-3-dep-right-out, BHO_702_B-626-1-3-arr-right-in);2;BWKRR_802_B-626-1-3-dep-right;BHAL_712_B-626-1-3-arr-right
+30;14;(BWKRR_802_B-626-1-3-dep-right-out, BHO_702_B-626-1-3-arr-right-in);2;BHAL_712_B-626-1-3-arr-right;BHAL_712_B-626-1-3-dep-right
+30;14;(BWKRR_802_B-626-1-3-dep-right-out, BHO_702_B-626-1-3-arr-right-in);2;BHAL_712_B-626-1-3-dep-right;BHO_702_B-626-1-3-arr-right
+31;15;(BGSS_511_B-626-1-4-dep-right-out, BSTO_541_B-626-1-4-arr-right-in);2;BGSS_511_B-626-1-4-dep-right;BLST_531_B-626-1-4-arr-right
+31;15;(BGSS_511_B-626-1-4-dep-right-out, BSTO_541_B-626-1-4-arr-right-in);2;BLST_531_B-626-1-4-arr-right;BLST_531_B-626-1-4-dep-right
+31;15;(BGSS_511_B-626-1-4-dep-right-out, BSTO_541_B-626-1-4-arr-right-in);2;BLST_531_B-626-1-4-dep-right;BSTO_541_B-626-1-4-arr-right
+32;15;(BGSS_511_B-626-1-4-dep-right-out, BSTO_541_B-626-1-4-arr-right-in);15;BGSS_511_B-626-1-4-dep-right;BLST_532_B-626-1-4-arr-left
+32;15;(BGSS_511_B-626-1-4-dep-right-out, BSTO_541_B-626-1-4-arr-right-in);15;BLST_532_B-626-1-4-arr-left;BLST_532_B-626-1-4-dep-left
+32;15;(BGSS_511_B-626-1-4-dep-right-out, BSTO_541_B-626-1-4-arr-right-in);15;BLST_532_B-626-1-4-dep-left;BSTO_541_B-626-1-4-arr-right
+33;16;(BOK_551_B-626-1-4-dep-right-out, BSO_401_B-626-1-4-arr-right-in);2;BOK_551_B-626-1-4-dep-right;BTP_571_B-626-1-4-arr-right
+33;16;(BOK_551_B-626-1-4-dep-right-out, BSO_401_B-626-1-4-arr-right-in);2;BTP_571_B-626-1-4-arr-right;BTP_571_B-626-1-4-dep-right
+33;16;(BOK_551_B-626-1-4-dep-right-out, BSO_401_B-626-1-4-arr-right-in);2;BTP_571_B-626-1-4-dep-right;BSO_401_B-626-1-4-arr-right
+34;16;(BOK_551_B-626-1-4-dep-right-out, BSO_401_B-626-1-4-arr-right-in);15;BOK_551_B-626-1-4-dep-right;BTP_572_B-626-1-4-arr-left
+34;16;(BOK_551_B-626-1-4-dep-right-out, BSO_401_B-626-1-4-arr-right-in);15;BTP_572_B-626-1-4-arr-left;BTP_572_B-626-1-4-dep-left
+34;16;(BOK_551_B-626-1-4-dep-right-out, BSO_401_B-626-1-4-arr-right-in);15;BTP_572_B-626-1-4-dep-left;BSO_401_B-626-1-4-arr-right
+35;16;(BOK_551_B-626-1-4-dep-right-out, BSO_401_B-626-1-4-arr-right-in);15;BOK_551_B-626-1-4-dep-right;BTP_574_B-626-1-4-arr-left
+35;16;(BOK_551_B-626-1-4-dep-right-out, BSO_401_B-626-1-4-arr-right-in);15;BTP_574_B-626-1-4-arr-left;BTP_574_B-626-1-4-dep-left
+35;16;(BOK_551_B-626-1-4-dep-right-out, BSO_401_B-626-1-4-arr-right-in);15;BTP_574_B-626-1-4-dep-left;BSO_401_B-626-1-4-arr-right
+36;16;(BOK_551_B-626-1-4-dep-right-out, BSO_401_B-626-1-4-arr-right-in);2;BOK_551_B-626-1-4-dep-right;BTP_573_B-626-1-4-arr-right
+36;16;(BOK_551_B-626-1-4-dep-right-out, BSO_401_B-626-1-4-arr-right-in);2;BTP_573_B-626-1-4-arr-right;BTP_573_B-626-1-4-dep-right
+36;16;(BOK_551_B-626-1-4-dep-right-out, BSO_401_B-626-1-4-arr-right-in);2;BTP_573_B-626-1-4-dep-right;BSO_401_B-626-1-4-arr-right
+37;17;(BPLA_782_B-376-1-1-dep-right-out, BGB_722_B-376-1-1-arr-right-in);15;BPLA_782_B-376-1-1-dep-right;BSAL_771_B-376-1-1-arr-left
+37;17;(BPLA_782_B-376-1-1-dep-right-out, BGB_722_B-376-1-1-arr-right-in);15;BSAL_771_B-376-1-1-arr-left;BSAL_771_B-376-1-1-dep-left
+37;17;(BPLA_782_B-376-1-1-dep-right-out, BGB_722_B-376-1-1-arr-right-in);15;BSAL_771_B-376-1-1-dep-left;BGB_722_B-376-1-1-arr-right
+38;17;(BPLA_782_B-376-1-1-dep-right-out, BGB_722_B-376-1-1-arr-right-in);2;BPLA_782_B-376-1-1-dep-right;BSAL_772_B-376-1-1-arr-right
+38;17;(BPLA_782_B-376-1-1-dep-right-out, BGB_722_B-376-1-1-arr-right-in);2;BSAL_772_B-376-1-1-arr-right;BSAL_772_B-376-1-1-dep-right
+38;17;(BPLA_782_B-376-1-1-dep-right-out, BGB_722_B-376-1-1-arr-right-in);2;BSAL_772_B-376-1-1-dep-right;BGB_722_B-376-1-1-arr-right
+39;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);8;BJUN_956_B-376-1-1-dep-right;BWES_812_B-376-1-12-arr-right
+39;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);8;BWES_812_B-376-1-12-arr-right;BWES_812_B-376-1-12-dep-left
+39;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);8;BWES_812_B-376-1-12-dep-left;BWES_823_A-376-1-12-arr-right
+39;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);8;BWES_823_A-376-1-12-arr-right;BWES_823_A-376-1-12-dep-left
+39;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);8;BWES_823_A-376-1-12-dep-left;BWES_811_B-376-1-12-arr-left
+39;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);8;BWES_811_B-376-1-12-arr-left;BWES_811_B-376-1-12-dep-right
+39;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);8;BWES_811_B-376-1-12-dep-right;BJUN_955_B-376-1-2-arr-right
+40;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);7;BJUN_956_B-376-1-1-dep-right;BWES_812_B-376-1-12-arr-right
+40;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);7;BWES_812_B-376-1-12-arr-right;BWES_812_B-376-1-12-dep-left
+40;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);7;BWES_812_B-376-1-12-dep-left;BJUN_955_B-376-1-2-arr-right
+41;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);16;BJUN_956_B-376-1-1-dep-right;BWES_811_B-376-1-12-arr-left
+41;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);16;BWES_811_B-376-1-12-arr-left;BWES_811_B-376-1-12-dep-left
+41;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);16;BWES_811_B-376-1-12-dep-left;BWES_817_A-376-1-12-arr-right
+41;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);16;BWES_817_A-376-1-12-arr-right;BWES_817_A-376-1-12-dep-left
+41;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);16;BWES_817_A-376-1-12-dep-left;BWES_811_B-376-1-12-arr-right
+41;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);16;BWES_811_B-376-1-12-arr-right;BWES_811_B-376-1-12-dep-right
+41;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);16;BWES_811_B-376-1-12-dep-right;BJUN_955_B-376-1-2-arr-right
+42;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);18;BJUN_956_B-376-1-1-dep-right;BWES_811_B-376-1-12-arr-left
+42;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);18;BWES_811_B-376-1-12-arr-left;BWES_811_B-376-1-12-dep-right
+42;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);18;BWES_811_B-376-1-12-dep-right;BWES_823_A-376-1-12-arr-right
+42;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);18;BWES_823_A-376-1-12-arr-right;BWES_823_A-376-1-12-dep-left
+42;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);18;BWES_823_A-376-1-12-dep-left;BWES_812_B-376-1-12-arr-right
+42;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);18;BWES_812_B-376-1-12-arr-right;BWES_812_B-376-1-12-dep-left
+42;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);18;BWES_812_B-376-1-12-dep-left;BJUN_955_B-376-1-2-arr-right
+43;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);7;BJUN_956_B-376-1-1-dep-right;BWES_811_B-376-1-12-arr-left
+43;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);7;BWES_811_B-376-1-12-arr-left;BWES_811_B-376-1-12-dep-right
+43;18;(BJUN_956_B-376-1-1-dep-right-out, BJUN_955_B-376-1-2-arr-right-in);7;BWES_811_B-376-1-12-dep-right;BJUN_955_B-376-1-2-arr-right
+44;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BHER_471_B-489-1-1-dep-right;BTHF_511_B-489-1-12-arr-right
+44;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_511_B-489-1-12-arr-right;BTHF_511_B-489-1-12-dep-right
+44;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_511_B-489-1-12-dep-right;BTHF_513_A-489-1-12-arr-right
+44;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_513_A-489-1-12-arr-right;BTHF_513_A-489-1-12-dep-left
+44;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_513_A-489-1-12-dep-left;BTHF_511_B-489-1-12-arr-left
+44;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_511_B-489-1-12-arr-left;BTHF_511_B-489-1-12-dep-left
+44;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_511_B-489-1-12-dep-left;BHER_472_B-489-1-2-arr-right
+45;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);25;BHER_471_B-489-1-1-dep-right;BTHF_511_B-489-1-12-arr-right
+45;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);25;BTHF_511_B-489-1-12-arr-right;BTHF_511_B-489-1-12-dep-right
+45;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);25;BTHF_511_B-489-1-12-dep-right;BTHF_513_A-489-1-12-arr-right
+45;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);25;BTHF_513_A-489-1-12-arr-right;BTHF_513_A-489-1-12-dep-right
+45;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);25;BTHF_513_A-489-1-12-dep-right;BTHF_560_A-489-1-12-arr-right
+45;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);25;BTHF_560_A-489-1-12-arr-right;BTHF_560_A-489-1-12-dep-left
+45;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);25;BTHF_560_A-489-1-12-dep-left;BTHF_513_A-489-1-12-arr-left
+45;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);25;BTHF_513_A-489-1-12-arr-left;BTHF_513_A-489-1-12-dep-left
+45;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);25;BTHF_513_A-489-1-12-dep-left;BTHF_511_B-489-1-12-arr-left
+45;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);25;BTHF_511_B-489-1-12-arr-left;BTHF_511_B-489-1-12-dep-left
+45;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);25;BTHF_511_B-489-1-12-dep-left;BHER_472_B-489-1-2-arr-right
+46;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BHER_471_B-489-1-1-dep-right;BTHF_511_B-489-1-12-arr-right
+46;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_511_B-489-1-12-arr-right;BTHF_511_B-489-1-12-dep-right
+46;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_511_B-489-1-12-dep-right;BTHF_514_A-489-1-12-arr-right
+46;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_514_A-489-1-12-arr-right;BTHF_514_A-489-1-12-dep-left
+46;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_514_A-489-1-12-dep-left;BTHF_511_B-489-1-12-arr-left
+46;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_511_B-489-1-12-arr-left;BTHF_511_B-489-1-12-dep-left
+46;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_511_B-489-1-12-dep-left;BHER_472_B-489-1-2-arr-right
+47;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);8;BHER_471_B-489-1-1-dep-right;BTHF_511_B-489-1-12-arr-right
+47;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);8;BTHF_511_B-489-1-12-arr-right;BTHF_511_B-489-1-12-dep-right
+47;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);8;BTHF_511_B-489-1-12-dep-right;BTHF_514_A-489-1-12-arr-right
+47;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);8;BTHF_514_A-489-1-12-arr-right;BTHF_514_A-489-1-12-dep-left
+47;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);8;BTHF_514_A-489-1-12-dep-left;BTHF_512_B-489-1-12-arr-right
+47;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);8;BTHF_512_B-489-1-12-arr-right;BTHF_512_B-489-1-12-dep-right
+47;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);8;BTHF_512_B-489-1-12-dep-right;BHER_472_B-489-1-2-arr-right
+48;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);7;BHER_471_B-489-1-1-dep-right;BTHF_511_B-489-1-12-arr-right
+48;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);7;BTHF_511_B-489-1-12-arr-right;BTHF_511_B-489-1-12-dep-left
+48;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);7;BTHF_511_B-489-1-12-dep-left;BHER_472_B-489-1-2-arr-right
+49;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);24;BHER_471_B-489-1-1-dep-right;BTHF_512_B-489-1-12-arr-left
+49;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);24;BTHF_512_B-489-1-12-arr-left;BTHF_512_B-489-1-12-dep-left
+49;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);24;BTHF_512_B-489-1-12-dep-left;BTHF_514_A-489-1-12-arr-right
+49;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);24;BTHF_514_A-489-1-12-arr-right;BTHF_514_A-489-1-12-dep-left
+49;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);24;BTHF_514_A-489-1-12-dep-left;BTHF_511_B-489-1-12-arr-left
+49;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);24;BTHF_511_B-489-1-12-arr-left;BTHF_511_B-489-1-12-dep-left
+49;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);24;BTHF_511_B-489-1-12-dep-left;BHER_472_B-489-1-2-arr-right
+50;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BHER_471_B-489-1-1-dep-right;BTHF_512_B-489-1-12-arr-left
+50;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_512_B-489-1-12-arr-left;BTHF_512_B-489-1-12-dep-left
+50;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_512_B-489-1-12-dep-left;BTHF_514_A-489-1-12-arr-right
+50;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_514_A-489-1-12-arr-right;BTHF_514_A-489-1-12-dep-left
+50;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_514_A-489-1-12-dep-left;BTHF_512_B-489-1-12-arr-right
+50;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_512_B-489-1-12-arr-right;BTHF_512_B-489-1-12-dep-right
+50;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_512_B-489-1-12-dep-right;BHER_472_B-489-1-2-arr-right
+51;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BHER_471_B-489-1-1-dep-right;BTHF_512_B-489-1-12-arr-left
+51;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_512_B-489-1-12-arr-left;BTHF_512_B-489-1-12-dep-left
+51;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_512_B-489-1-12-dep-left;BTHF_570_A-489-1-12-arr-right
+51;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_570_A-489-1-12-arr-right;BTHF_570_A-489-1-12-dep-left
+51;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_570_A-489-1-12-dep-left;BTHF_512_B-489-1-12-arr-right
+51;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_512_B-489-1-12-arr-right;BTHF_512_B-489-1-12-dep-right
+51;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);16;BTHF_512_B-489-1-12-dep-right;BHER_472_B-489-1-2-arr-right
+52;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);7;BHER_471_B-489-1-1-dep-right;BTHF_512_B-489-1-12-arr-left
+52;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);7;BTHF_512_B-489-1-12-arr-left;BTHF_512_B-489-1-12-dep-right
+52;19;(BHER_471_B-489-1-1-dep-right-out, BHER_472_B-489-1-2-arr-right-in);7;BTHF_512_B-489-1-12-dep-right;BHER_472_B-489-1-2-arr-right
+53;20;(BSKR_531_B-486-1-12-arr-right-out, BSKR_532_B-486-1-12-dep-right-in);8;BSKR_531_B-486-1-12-arr-right;BSKR_531_B-486-1-12-dep-right
+53;20;(BSKR_531_B-486-1-12-arr-right-out, BSKR_532_B-486-1-12-dep-right-in);8;BSKR_531_B-486-1-12-dep-right;BSKR_543_A-486-1-12-arr-right
+53;20;(BSKR_531_B-486-1-12-arr-right-out, BSKR_532_B-486-1-12-dep-right-in);8;BSKR_543_A-486-1-12-arr-right;BSKR_543_A-486-1-12-dep-left
+53;20;(BSKR_531_B-486-1-12-arr-right-out, BSKR_532_B-486-1-12-dep-right-in);8;BSKR_543_A-486-1-12-dep-left;BSKR_532_B-486-1-12-arr-right
+53;20;(BSKR_531_B-486-1-12-arr-right-out, BSKR_532_B-486-1-12-dep-right-in);8;BSKR_532_B-486-1-12-arr-right;BSKR_532_B-486-1-12-dep-right
+54;20;(BSKR_531_B-486-1-12-arr-right-out, BSKR_532_B-486-1-12-dep-right-in);8;BSKR_531_B-486-1-12-arr-right;BSKR_531_B-486-1-12-dep-left
+54;20;(BSKR_531_B-486-1-12-arr-right-out, BSKR_532_B-486-1-12-dep-right-in);8;BSKR_531_B-486-1-12-dep-left;BSKR_535_A-486-1-12-arr-left
+54;20;(BSKR_531_B-486-1-12-arr-right-out, BSKR_532_B-486-1-12-dep-right-in);8;BSKR_535_A-486-1-12-arr-left;BSKR_535_A-486-1-12-dep-right
+54;20;(BSKR_531_B-486-1-12-arr-right-out, BSKR_532_B-486-1-12-dep-right-in);8;BSKR_535_A-486-1-12-dep-right;BSKR_532_B-486-1-12-arr-left
+54;20;(BSKR_531_B-486-1-12-arr-right-out, BSKR_532_B-486-1-12-dep-right-in);8;BSKR_532_B-486-1-12-arr-left;BSKR_532_B-486-1-12-dep-right
+55;21;(BGSS_511_B-566-1-1-dep-right-out, BSTO_541_B-566-1-1-arr-right-in);2;BGSS_511_B-566-1-1-dep-right;BLST_531_B-566-1-1-arr-right
+55;21;(BGSS_511_B-566-1-1-dep-right-out, BSTO_541_B-566-1-1-arr-right-in);2;BLST_531_B-566-1-1-arr-right;BLST_531_B-566-1-1-dep-right
+55;21;(BGSS_511_B-566-1-1-dep-right-out, BSTO_541_B-566-1-1-arr-right-in);2;BLST_531_B-566-1-1-dep-right;BSTO_541_B-566-1-1-arr-right
+56;21;(BGSS_511_B-566-1-1-dep-right-out, BSTO_541_B-566-1-1-arr-right-in);15;BGSS_511_B-566-1-1-dep-right;BLST_532_B-566-1-1-arr-left
+56;21;(BGSS_511_B-566-1-1-dep-right-out, BSTO_541_B-566-1-1-arr-right-in);15;BLST_532_B-566-1-1-arr-left;BLST_532_B-566-1-1-dep-left
+56;21;(BGSS_511_B-566-1-1-dep-right-out, BSTO_541_B-566-1-1-arr-right-in);15;BLST_532_B-566-1-1-dep-left;BSTO_541_B-566-1-1-arr-right
+57;22;(BGSS_511_B-571-1-2-dep-right-out, BSTO_541_B-571-1-2-arr-right-in);2;BGSS_511_B-571-1-2-dep-right;BLST_531_B-571-1-2-arr-right
+57;22;(BGSS_511_B-571-1-2-dep-right-out, BSTO_541_B-571-1-2-arr-right-in);2;BLST_531_B-571-1-2-arr-right;BLST_531_B-571-1-2-dep-right
+57;22;(BGSS_511_B-571-1-2-dep-right-out, BSTO_541_B-571-1-2-arr-right-in);2;BLST_531_B-571-1-2-dep-right;BSTO_541_B-571-1-2-arr-right
+58;22;(BGSS_511_B-571-1-2-dep-right-out, BSTO_541_B-571-1-2-arr-right-in);15;BGSS_511_B-571-1-2-dep-right;BLST_532_B-571-1-2-arr-left
+58;22;(BGSS_511_B-571-1-2-dep-right-out, BSTO_541_B-571-1-2-arr-right-in);15;BLST_532_B-571-1-2-arr-left;BLST_532_B-571-1-2-dep-left
+58;22;(BGSS_511_B-571-1-2-dep-right-out, BSTO_541_B-571-1-2-arr-right-in);15;BLST_532_B-571-1-2-dep-left;BSTO_541_B-571-1-2-arr-right

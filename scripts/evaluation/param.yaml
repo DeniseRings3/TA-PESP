@@ -1,0 +1,68 @@
+Lagrange:
+  path:
+  - ../../processed/
+  - /original/LP_based/
+  results_file: results_lagrange_act_sheaf.csv
+PESP:
+  T: 200
+  epsilon: 17
+  zugfolge: 25
+RENS:
+  path:
+  - ../../processed/
+  - /RENS/
+  results_file: results_file_RENS.csv
+RENS relaxed:
+  path:
+  - ../../processed/
+  - /RENS/
+  results_file: results_file_RENS_relaxed.csv
+RINS relaxed:
+  path:
+  - ../../processed/
+  - /RINS/
+  results_file: results_file_RINS_relaxed.csv
+bar_plot:
+  cut-off: 3600
+branching:
+  path:
+  - ../../processed/
+  - /Branching/
+  results_file: results_branching.csv
+color dict:
+  Lagrange act: indianred
+  Lagrange act sheaf: firebrick
+  RENS: tab:orange
+  RENS relaxed: sandybrown
+  RENS relaxed only_opt: sandybrown
+  RENS relaxed other alternatives: peru
+  RENS relaxed random: sienna
+  RENS relaxed slack: chocolate
+  RINS: tab:green
+  RINS relaxed custom: forestgreen
+  RINS relaxed other alternatives: darkgreen
+  RINS relaxed random: limegreen
+  RINS relaxed slack: palegreen
+  branching: tab:cyan
+  main: tab:blue
+instances:
+- BBER_BBU
+- BBKS_BWT
+- BBOS_BWIN_BTG
+- BGAS_BKW
+- BGB_BWES
+- BNB_BSNH_BSAL_BPHD
+- BBUP_O
+- BBUP_W
+- BPKW_BKRW_BSNF_O
+- BWKS_medium_september
+line_plot:
+  cut-off: 3600
+main:
+  path:
+  - ../../processed/
+  - /original/
+  results_file: results_file_main.csv
+paths:
+  in_path: ../../../../processed/
+  out_path: ../../processed/

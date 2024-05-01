@@ -1,0 +1,53 @@
+
+Gurobi 10.0.1 (mac64[arm]) logging started Mon Apr  1 00:57:27 2024
+
+Set parameter LogFile to value "/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed/BBUP_W/RENS/BBUP_W_subMBP_random1_0.9_202403312233.log"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (mac64[arm])
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 12216 rows, 5181 columns and 44821 nonzeros
+Model fingerprint: 0x48ecd7c0
+Variable types: 1726 continuous, 3455 integer (649 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+02]
+  Objective range  [1e+00, 4e+02]
+  Bounds range     [1e+00, 2e+02]
+  RHS range        [1e+00, 5e+02]
+Presolve removed 5898 rows and 1956 columns
+Presolve time: 0.09s
+Presolved: 6318 rows, 3225 columns, 24202 nonzeros
+Variable types: 894 continuous, 2331 integer (2331 binary)
+
+Root relaxation: objective 1.283204e+04, 2157 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 12832.0447    0  149          - 12832.0447      -     -    0s
+     0     0 12913.8592    0  343          - 12913.8592      -     -    0s
+     0     0 1.000e+100    0  351          - infeasible      -     -    0s
+
+Cutting planes:
+  Learned: 46
+  Gomory: 20
+  Cover: 74
+  Implied bound: 7
+  Clique: 94
+  MIR: 81
+  StrongCG: 1
+  Flow cover: 7
+  Network: 1
+  RLT: 9
+  Relax-and-lift: 5
+
+Explored 1 nodes (4772 simplex iterations) in 0.32 seconds (0.42 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 0
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+User-callback calls 794, time in user-callback 0.00 sec
