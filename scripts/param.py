@@ -6,7 +6,7 @@ directory = os.getcwd()
 print(directory)
 script_directory = os.path.dirname(os.path.realpath(__file__))
 print(script_directory)
-config = yaml.safe_load(open(script_directory + '/param.yaml')) #' ../param.yaml'
+config = yaml.safe_load(open(script_directory + '/param.yaml'))
 #config = yaml.safe_load(open(sys.argv[-1]))
 
 zugfolge = config['PESP']['zugfolge']

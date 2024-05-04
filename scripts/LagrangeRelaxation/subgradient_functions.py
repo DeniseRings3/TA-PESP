@@ -1,6 +1,6 @@
 # from scripts.DeniseMA.scripts.analyse_results.evaluate_solutions_functions import *
 # import scripts.DeniseMA.scripts.LagrangeRelaxation.lagrange_relaxation_functions as lag
-from analyse_results.evaluate_solutions_functions import *
+from utils.auswertung import *
 import LagrangeRelaxation.lagrange_relaxation_functions as lag
 import utils.analyse_log as log
 import timeit

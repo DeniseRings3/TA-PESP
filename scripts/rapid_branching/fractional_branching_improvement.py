@@ -1,37 +1,13 @@
 import math
-
 from gurobipy.gurobipy import GRB
-
-# import scripts.DeniseMA.scripts.successive_sheafs.successive_sheafs_functions as ssf
-# import scripts.DeniseMA.scripts.successive_stations.successive_stations as station
-# import scripts.DeniseMA.scripts.successive_sheafs.sort_alternatives as sort_alt
-# import scripts.DeniseMA.scripts.build_ean.read_ean_functions as rd
-# import scripts.DeniseMA.scripts.visualisations.visualise_sheafs as vis_sheaf
-# import scripts.DeniseMA.scripts.visualisations.visualisations as vis
-# #import scripts.build_ean.read_ean_functions as rd
-# import networkx as nx
-# from collections import defaultdict
-#import scripts.DeniseMA.scripts.analyse_results.evaluate_solutions_functions as ev
-import analyse_results.evaluate_solutions_functions as ev
-#import scripts.DeniseMA.scripts.analyse_results.analyse_log as log
+import utils.auswertung as ev
 import utils.analyse_log as log
 import model.BuildModel as bd
-#import csv
-#import scripts.DeniseMA.scripts.LPbased.sort_alternatives_improvement as sort
 import LPbased.sort_alternatives_improvement as sort
-#from bigtree import Node, find_children, tree_to_dict, tree_to_nested_dict, inorder_iter, levelorder_iter, DAGNode
-# from datetime import date
-# import scripts.DeniseMA.scripts.regelfahrplan.regelfahrplan as regel
-# import timeit
-#import scripts.DeniseMA.scripts.build_ean.read_entire_input as ri
 import build_ean.read_entire_input as ri
-# import scripts.DeniseMA.scripts.LPbased.LPmodel as lp
-# import scripts.DeniseMA.scripts.model.BuildModel as bd
-# import scripts.DeniseMA.scripts.utils.write_timetable as util
 import rapid_branching.model as bra
 import timeit
-# Configurations
-#import scripts.DeniseMA.scripts.param as param
+
 import param as param
 import os
 import datetime
@@ -70,10 +46,6 @@ print(timestamp_file)
 script_directory = os.path.dirname(os.path.realpath(__file__))
 print(script_directory)
 
-# all_models = ['BBKS_BWT','BBOS_BWIN_BTG', 'BGAS_BKW', 'BNB_BSNH_BSAL_BPHD', 'BBUP_O','BBUP_W',
-#             'BPKW_BKRW_BSNF_O', 'BWKS_medium_september']
-# #,'BGB_BWES',
-#
 semicolon = ['BBER_BBU','BBUP_O','BBUP_W','BPKW_BKRW_BSNF_O', 'BWKS_medium_september']
 mip_start_sol_dict = {}
 mip_objectives = {}
@@ -82,12 +54,10 @@ overall_timeout = 4* 60
 
 for modelname in all_models:
     filename = out_path + 'final/StartSol/' + modelname + '/' + modelname + '_202403291817_RINSstart.sol'
-    # filename = out_path  + modelname +'/original/first_sol/'+ 'BGB_BWES_first_sol.sol'
     sol_new, mip_objective = ev.read_solution_file(filename)
     mip_start_sol_dict[modelname] = sol_new
     mip_objectives[modelname] = mip_objective
 
-    # filename = out_path + modelname+ 'startsolutions/' + modelname + '/LP_opt_sol/' + modelname + '_subMBP.sol'
     filename = out_path + '/final/LPRelaxation_ineq/' + modelname + '/' + modelname + '_lp.sol'
     sol_new, lp_objective = ev.read_solution_file(filename)
     lp_opt_sol_dict[modelname] = sol_new
@@ -124,10 +94,7 @@ for modelname in all_models:
     except OSError:
         pass
 
-    # # ratio of fixed integral variables
-    #
-    # rins_epsilon = 0.0005# keine ahnung was da sinn macht
-    # mfr = 0.5
+
     fixed_sheaves = []
     fixed_alternatives = []
 
@@ -137,40 +104,25 @@ for modelname in all_models:
 
         if lp_opt_sol_dict[modelname]['b'][F] > 0.5:
 
-            #if lp_opt_sol_dict[modelname]['b'][F] > 0.5 and lp_opt_sol_dict[modelname]['b'][F] <1 :
-                #print(F,'is fractional and bigger than 0.5',lp_opt_sol_dict[modelname]['b'][F])
             lp_opt_sol_dict[modelname]['b'][F] = 1
             if mip_start_sol_dict[modelname]['b'][F] == 1:
                 #print(lp_opt_sol_dict[modelname]['b'][F])
                 activated_set.append(F)
                 sheaf = alternatives_dict[F]['sheaf_idx']
 
-                #fixed_sheaves.append(sheaf)
-                #fixed_alternatives.extend(sheaf_dict[sheaf])
         else:
             lp_opt_sol_dict[modelname]['b'][F] = 0
 
 
 
-    #fixed_sheaves = len(list(set(fixed_sheaves)))
-    # fixed_alternatives = len(list(set(fixed_alternatives)))
-    # log.write_detailed_results_excel(out_path + 'branching_fixed_alt.csv',
-    #                                  ['model', 'sheaves','fixed sheaves', 'fixed alternatives'],
-    #                                  [modelname,set(fixed_sheaves), len(list(set(fixed_sheaves))), fixed_alternatives], create_new_file=False)
-
-
-    # sortiere B_star irgendwie clever
     ratio = 1
     sortierungen = []
 
-    # integer_values = [F for F in lp_opt_sol_dict[modelname]['b'] if lp_opt_sol_dict[modelname]['b'][F] == 1 and
-    #                   mip_start_sol_dict[modelname]['b'][F] == 1]
+
     # 1: random
-    #fixed_subset = sort.random_selection(activated_set, ratio, alternatives_dict, sheaf_dict)
-    #sortierungen.append(('random', ratio, fixed_subset))
     for i in range(5):
         fixed_subset = sort.random_selection(activated_set, ratio, alternatives_dict, sheaf_dict)
-        #sortierungen.append(('random'+str(i), ratio, fixed_subset))
+        sortierungen.append(('random'+str(i), ratio, fixed_subset))
 
 
     # sort by anzahl ausgeschlossener alternativen
@@ -179,25 +131,6 @@ for modelname in all_models:
     sortierungen.append(('other alternatives',ratio, B_star))
     print('sheaf', B_star)
 
-    # # sort by anzahl kanten
-    # B_star = sort.sorted_by_edges(equality_set, ratio, alternatives_dict, sheaf_dict)
-    # sortierungen.append(('edges in F', B_star))
-    #
-    # # 3
-    # # sort by activated headways
-    # B_star = sort.sorted_by_headways(equality_set, ratio, alternatives_dict, sheaf_dict,curly_H)
-    # sortierungen.append(('headways', B_star))
-    # #
-    # # # sort by fractionality
-    # # B_star = sort.sort_by_fractionality(ean_noH, equality_set, alternatives_dict, lp_opt_sol_dict[modelname])
-    # # sortierungen.append(('fractionality', B_star))
-    # #
-
-    # custom sort henkelanbindungen und abstellgleiswenden fixieren
-    # Achtung!!! hier MIP lösung
-    # alternatives_list = [F for F in mip_start_sol_dict[modelname]['b'] if mip_start_sol_dict[modelname]['b'][F] == 1]
-    # B_star = sort.custom_sort(alternatives_dict, alternatives_list)
-    # sortierungen.append(('custom', B_star))
 
     # sort by slack
 
@@ -230,7 +163,6 @@ for modelname in all_models:
             break
 
         print('B sets',B_sets)
-        #B_sets.remove(B_sets[0])
         B_sets = [B_sets[-1]]
 
         while running_time <= overall_timeout:
@@ -254,23 +186,6 @@ for modelname in all_models:
 
                 if stopping_type ==  'plateau stop':
                     break
-
-
-                # print('solution count',m.SolCount)
-                # if m.SolCount >= 1:
-                #     sol_file = filename + '.sol'
-                #     sol, objective = ev.read_solution_file(sol_file)
-                #     old_sol = sol
-                #     obj = m.getObjective()
-                #     curr_objective = obj.getValue()
-                #     print('curr objective', curr_objective, 'mip ', mip_objectives[modelname])
-                #
-                #     if curr_objective < 0.95 *mip_objectives[modelname]:
-                #         print('progress')
-                #         running_time = overall_timeout
-                #         break
-                # else:
-                #     continue
 
 
         if m.status == GRB.INFEASIBLE or  m.SolCount < 1:

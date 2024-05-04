@@ -11,16 +11,12 @@ file = r'/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed
 
 df = pd.read_excel(file)
 df.set_index('Model',inplace=True)
-all_models =  [
-    #'BBER_BBU', 'BGAS_BKW',
+all_models =  ['BBER_BBU', 'BGAS_BKW',
            'BPKW_BKRW_BSNF_O','BBOS_BWIN_BTG',
         'BWKS_medium_september', 'BBKS_BWT',
           'BBUP_W','BBUP_O',
             'BNB_BSNH_BSAL_BPHD','BGB_BWES'
     ]
-
-
-print(df.head())
 
 
 subtitle = ['inequality',
@@ -66,7 +62,7 @@ color_dict = {'inequality' : 'tab:blue',
               }
     
 
-fig, ax = plt.subplots(math.ceil(len(all_models)/2), 2,squeeze=False)#,,sharey='row'
+fig, ax = plt.subplots(math.ceil(len(all_models)/2), 2,squeeze=False)
 
 plt.subplots_adjust(wspace=0.05)
 

@@ -2,8 +2,6 @@ import math
 from collections import defaultdict
 from random import sample
 import utils.general as util
-#import scripts.DeniseMA.scripts.build_ean.read_ean_functions as rd
-#import visualisations.visualisations as vis
 import build_ean.read_ean_functions as rd
 # 1: random
 

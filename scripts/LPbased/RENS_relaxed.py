@@ -1,10 +1,9 @@
 from gurobipy.gurobipy import GRB
 import build_ean.read_entire_input as ri
 import utils.analyse_log as log
-from analyse_results.evaluate_solutions_functions import *
+from utils.auswertung import *
 import LPbased.LPmodel as lp
 import LPbased.sort_alternatives_improvement as sort
-import analyse_results.evaluate_solutions_functions as ev
 import model.BuildModel as bd
 import build_ean.read_ean_functions as rd
 import timeit

@@ -1,4 +1,3 @@
-
 import pandas as pd
 import numpy as np
 from collections import defaultdict, Counter
@@ -10,25 +9,9 @@ from collections import Counter
 from ast import literal_eval
 
 from gurobipy.gurobipy import GRB
-# from scripts.DeniseMA.scripts.analyse_results.evaluate_solutions_functions import *
-# import scripts.DeniseMA.scripts.model.BuildModel as bd
-# import scripts.DeniseMA.scripts.build_ean.read_ean_functions as rd
-# import scripts.DeniseMA.scripts.build_ean.read_entire_input as ri
-#import scripts.DeniseMA.scripts.LPbased.LPmodel as lp
-
 import os
-# import visualisations_main as vis
-# import matplotlib.pyplot as plt
-# import sucsessive_planning_functions as spf
-#import scripts.DeniseMA.scripts.analyse_results.analyse_log as log
-
-# import scripts.DeniseMA.scripts.LPbased.LPmodel as lp
 import LPbased.LPmodel as lp
-# import scripts.DeniseMA.scripts.successive_sheafs.sort_alternatives as sort_alt
-# import scripts.DeniseMA.scripts.successive_sheafs.successive_sheafs_functions as ssf
-# import scripts.DeniseMA.scripts.visualisations.visualisations as vis
-# import scripts.DeniseMA.scripts.utils.write_timetable as util
-#import successive_sheafs.successiveSheafs as sheafs
+
 import json
 import timeit
 import gurobipy as gp

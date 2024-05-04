@@ -1,13 +1,13 @@
 import math
 import statistics
 from collections import defaultdict
-import scripts.DeniseMA.scripts.utils.auswertung as util
+import scripts.utils.auswertung as util
 import pandas as pd
 from matplotlib import pyplot as plt
 from matplotlib.ticker import MaxNLocator
 import matplotlib.colors as mcolors
 import os
-import scripts.DeniseMA.scripts.analyse_results.analyse_log as log
+import scripts.analyse_results.analyse_log as log
 def no_solution_substitute(liste, penalty):
     for i, val in enumerate(liste):
         if val == '-':
@@ -38,14 +38,14 @@ path = r'/Users/deniserings/Documents/zib/s-bahn-data/scripts/DeniseMA/processed
 df = pd.read_excel(file)
 df.set_index('Model',inplace=True)
 
-all_models =  [#'BPKW_BKRW_BSNF_O',
-                'BWKS_medium_september',
-               'BBKS_BWT',
-             #'BBUP_W','BBUP_O',
-           #   'BNB_BSNH_BSAL_BPHD','BGB_BWES'#,
+all_models =  ['BBER_BBU', 'BGAS_BKW',
+               'BBOS_BWIN_BTG','BPKW_BKRW_BSNF_O',
+                'BWKS_medium_september', 'BBKS_BWT',
+                'BBUP_W','BBUP_O',
+              'BNB_BSNH_BSAL_BPHD','BGB_BWES'#,
     ]
 
-#'BBER_BBU', 'BGAS_BKW',    'BBOS_BWIN_BTG',
+
 paths = {'main': ['original_with_start_sol/', '_start_sol.log'],
          'RINS': ['RINS/standard/','_no relaxation_1.log'],
          '(0.9,sheaf)': ['RINS/relaxed/','_other alternatives_0.9.log'],
@@ -117,8 +117,6 @@ for modelname in all_models:
             continue
 
         for file in files:
-            #print(file)
-            #print(paths[version][1] )
 
             if paths[version][1] in file and ('test' not in file) and ('log' in file) :
                 logfile = file
@@ -173,9 +171,6 @@ for modelname in all_models:
                             else:
                                 random_number = best_worst_dict[modelname]['worst']
 
-                            #df_dict_random[modelname].set_index('type', inplace=True)
-                            print('version in if', version)
-                            print(df_dict_random[modelname])
                             prev_time = df_dict_random[modelname].loc[random_number, 'prev time']
 
 
@@ -202,7 +197,7 @@ for modelname in all_models:
 
 fig, ax = plt.subplots(math.ceil(len(all_models) / 1)+1, 1,squeeze=False)
 plt.subplots_adjust(hspace=0.75, wspace=0.3)
-#fig.suptitle(figure_title, fontsize=14, weight='bold')
+
 
 column = 'Incumbent'
 
@@ -211,8 +206,8 @@ for counter, modelname in enumerate(all_models):
     print('modelname')
     print(modelname)
     print(plot_dict[modelname].keys())
-    i = counter #  // 2
-    j = 0#counter #% 2
+    i = counter
+    j = 0
 
     all_vals = []
     for version in plot_dict[modelname].keys():
@@ -246,4 +241,4 @@ mng.full_screen_toggle()
 
 plt.tight_layout() # to fit everything in the prescribed area
 #plt.show()
-fig.savefig(path+'improvement_objective.jpg', dpi=1200) #, format='eps',
+fig.savefig(path+'improvement_objective.jpg', dpi=1200)

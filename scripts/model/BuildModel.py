@@ -108,12 +108,6 @@ def sheaf_activation(m,ean,b,h,curlyS, alternatives_dict):
     return m
 
 
-# def headway_activation(m,curlyH, h):
-#     for (i,j),(i_bar,j_bar) in curlyH:
-#         for (x,y) in [(i, i_bar), (i_bar, i),(j,i_bar), (j_bar,i)]:
-#             m.addConstr(h[x,y] == h[i,j]*h[i_bar,j_bar], name='headway_activation_%s%s' % (x,y))
-#     return m
-
 def fix_henkel(m, ean, pi):
     henkel_nodes = [v for v in ean.nodes if 'henkel' in v]
     for v in henkel_nodes:
@@ -260,72 +254,3 @@ def set_up_model(modelname, ean, alternatives_dict, T, epsilon, zugfolge, curlyH
 
     return m,p,pi,y,y_bar,h,b
 
-
-
-# def evaluate_log(gurobilogfile):
-#     size = {}
-#     solution_count = -10
-#     time_out = False
-#     presolved = False
-#
-#     with open(gurobilogfile) as f:
-#         for line in f:
-#             if "Presolved" in line:
-#                 presolved = True
-#
-#             if "Optimize a model" in line:
-#                 strings = line.split()
-#                 #print(strings)
-#                 r = strings.index('rows,')
-#                 c = strings.index('columns')
-#                 n = strings.index('nonzeros')
-#                 #print(r)
-#                 size['rows'] = strings[r-1]
-#                 size['columns'] = strings[c - 1]
-#                 size['nonzeros'] = strings[n - 1]
-#
-#             if "Variable types:" in line and (presolved is not True):
-#                 strings = line.split()
-#                 print(strings)
-#                 cont = strings.index('continuous,')
-#                 int = strings.index('integer')
-#                 bin = strings.index('binary)')
-#                 size['variables continuous'] = strings[cont - 1]
-#                 size['variables integer'] = strings[int - 1]
-#                 size['variables binary'] = strings[bin - 1].strip('(')
-#
-#             if "Solution count" in line:
-#                 strings = line.split()
-#                 solution_count = strings[2].strip(':')
-#                 size['solution count'] = solution_count
-#
-#             if "Time limit reached" in line:
-#                 time_out = True
-#
-#             if "Best objective" in line:
-#                 strings = line.split()
-#                 obj = strings.index('objective')
-#                 best_obj = strings[obj + 1].strip(',')
-#                 size['best objective'] = best_obj
-#                 bound = strings.index('bound')
-#                 best_bound = strings[bound + 1].strip(',')
-#                 size['best bound'] = best_bound
-#                 gap = strings.index('gap')
-#                 best_gap = strings[gap + 1]
-#                 size['best gap'] = best_gap
-#
-#
-#     return size
-#
-#
-# def analyse_solution(m):
-#     all_vars = m.getVars()
-#     values = m.getAttr("X", all_vars)
-#     names = m.getAttr("VarName", all_vars)
-#     df = pd.DataFrame({'names':names, 'values': values})
-#     return df
-#     # nonzeros = []
-#     # for name, val in zip(names, values):
-#     #     if val != 0:
-#     #         nonzeros.append((name,val))
-#

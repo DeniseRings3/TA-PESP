@@ -1,9 +1,8 @@
 from gurobipy.gurobipy import GRB
-import analyse_results.evaluate_solutions_functions as ev
 import model.BuildModel as bd
 import build_ean.read_entire_input as ri
 
-from analyse_results.evaluate_solutions_functions import *
+from utils.auswertung import *
 import LagrangeRelaxation.subgradient_functions as sub
 import utils.analyse_log as log
 import param as param

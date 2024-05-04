@@ -22,19 +22,6 @@ def get_edges_from_path(path):
 
     return edges
 
-
-# def read_alternatives(filepath):
-#     alternatives_df = pd.read_csv(filepath)
-#     print(alternatives_df.index)
-#
-#     alternatives_dict = {}
-#     edges_dict = defaultdict(lambda: [])
-#     all_edges = []
-#     for index, row in alternatives_df.iterrows():
-#         alternatives_df.at[index, 'path'] = getedgesfrompath(alternatives_df.loc[index, 'path'])
-#         alternatives_dict[alternatives_df.loc[index, 'alt_idx']] = alternatives_df.loc[index].to_dict()
-#     return alternatives_dict
-
 def get_s_t_tuple(string):
     if 'inevitable' in string:
         return string,None
@@ -229,40 +216,6 @@ def build_EAN_from_file(file, sep =','):
     return ean
 
 
-# def add_headway_arcs(ean, shared_infrastructure_file, T, epsilon, zugfolge ):
-#     headway_arcs = []
-#     headway_attributes = {}
-#     curly_H = []
-#     with open(shared_infrastructure_file ) as file_obj:
-#         reader_obj = csv.reader(file_obj)
-#         all(next(reader_obj) for i in range(2))
-#         # ['i', 'j', 'i_bar', 'j_bar']
-#         for row in reader_obj:
-#             row = [i.replace('-','_') for i in row]
-#             #print(row)
-#             (i,j) = (row[0], row[1])
-#             (i_bar, j_bar) = (row[2], row[3])
-#             curly_H.append(((i,j),(i_bar,j_bar)))
-#             headway_arcs.append((i,i_bar))
-#             headway_attributes[(i,i_bar)] = {'type': 'headway', 'l': zugfolge, 'u': T-zugfolge, 'w': 1}
-#
-#             headway_arcs.append((i_bar, i))
-#             headway_attributes[(i_bar,i)] = {'type': 'headway', 'l': zugfolge, 'u': T-zugfolge, 'w': 1}
-#
-#             headway_arcs.append((j, i_bar))
-#             headway_attributes[(j, i_bar)] = {'type': 'headway', 'l': epsilon, 'u': T - epsilon, 'w': 1}
-#
-#             headway_arcs.append((j_bar, i))
-#             headway_attributes[(j_bar, i)] = {'type': 'headway', 'l': epsilon, 'u': T - epsilon, 'w': 1}
-#
-#         ean.add_edges_from(headway_arcs)
-#         nx.set_edge_attributes(ean, {(i, j): headway_attributes[(i, j)]['type'] for (i, j) in headway_arcs}, 'type')
-#         nx.set_edge_attributes(ean, {(i, j): headway_attributes[(i, j)]['l'] for (i, j) in headway_arcs}, 'l')
-#         nx.set_edge_attributes(ean, {(i, j): headway_attributes[(i, j)]['u'] for (i, j) in headway_arcs}, 'u')
-#         nx.set_edge_attributes(ean, {(i, j): headway_attributes[(i, j)]['w'] for (i, j) in headway_arcs}, 'w')
-#
-#     return ean, curly_H
-
 def add_headway_arcs(ean, curly_H,  T, epsilon, zugfolge ):
     headway_arcs = []
     headway_attributes = {}
@@ -385,6 +338,6 @@ def change_names_alternatives(alternatives_dict):
             alternatives_dict[a]['path'][index] = (i, j)
     return  alternatives_dict
 
-#def analyse_inevitable_edges(inevitables):
+
 
 

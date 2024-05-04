@@ -1,17 +1,8 @@
 import model.BuildModel as bd
-
 import os
-# import visualisations_main as vis
-# import matplotlib.pyplot as plt
-# import sucsessive_planning_functions as spf
 import utils.analyse_log as log
-#import successive_sheafs.sort_alternatives as sort_alt #scripts.DeniseMA.scripts.
-#import successive_sheafs.successive_sheafs_functions as ssf #scripts.DeniseMA.scripts.
-#import visualisations.visualisations as vis #scripts.DeniseMA.scripts.
-#import utils.write_timetable as util #scripts.DeniseMA.scripts.
-import build_ean.read_entire_input as ri #scripts.DeniseMA.scripts.
+import build_ean.read_entire_input as ri
 import utils.auswertung as util
-#import successive_sheafs.successiveSheafs as sheafs
 import timeit
 import datetime
 
@@ -108,10 +99,7 @@ for modelname in all_models:
     row = [modelname, comment, filename_short, timestamp,
            first_sol_time, first_sol_obj, first_sol_gap,
            plat_time, objective, gap]
-    #
-    # header = ['Model','comment','filename','date','time','timeout','gap in %','objective','feasibility check','surplus edges','post processing',
-    #          'first_sol_time', 'first_sol_obj', 'first_sol_gap',
-    #           'custom_time', 'custom_time_obj', 'custom_time_gap']
+
 
     header = ['Model', 'comment', 'filename', 'date',
               'time first sol', 'ojective first sol', 'gap first sol',
@@ -120,31 +108,4 @@ for modelname in all_models:
     log.write_detailed_results_excel(results_file, header, row)
 
 
-    # # write timetable
-    # x = {}
-    # for (i, j) in p:
-    #     x[(i, j)] = (pi[j].X - pi[i].X) + T * p[(i, j)].X
-    #
-    # h_dict = {}
-    # for e in h:
-    #     h_dict[e] =  h[e].X
-    #
-    # pi_dict = {}
-    # for v in pi:
-    #     pi_dict[v] = pi[v].X
-    # print(pi_dict)
 
-    # try:
-    #     util.write_timetable(ean_noH, pi_dict, h_dict, x, filename)
-    # except:
-    #     print('timetable failed')
-    #
-
-# # json.dump(configuration_dict, open(out_path + modelname + '_configurations.txt', 'w'))
-    # configuration_dict = {'start type': None, 'feasibility_stop': feasibility_stop, 'feasibility_time_limit': 30,
-    #                       'overall timeout': timeout, 'sheaf sortierung': None, 'period': T, 'epsilon': epsilon,
-    #                       'zugfolge': zugfolge, 'penalty': None,
-    #                       'henkelvorsortierung': False}
-    #
-    #
-    #

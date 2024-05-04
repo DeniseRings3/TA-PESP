@@ -1,6 +1,5 @@
 import math
 from random import *
-
 import networkx as nx
 import gurobipy as gp
 from gurobipy import GRB
@@ -288,27 +287,10 @@ def subMIP(modelname, ean, alternatives_dict, T, epsilon, zugfolge, curlyH, curl
     b = m.addVars(alternatives_dict.keys(), name='b', vtype=GRB.BINARY)
 
 
-    # if non_fixed_subset:
-    #     # only fix for a subset of integer variables
-    #     integer_values = [F for F in lp_opt if (lp_opt[F] == 0 or lp_opt[F] == 1) ]
-    #     print(integer_values)
-    #     non_fixed_subset = sample(integer_values, int(0.9*len(integer_values)))
-
-    # for F in alternatives_dict.keys():
-    #     if F in non_fixed_subset:
-    #         continue
-    #     else:
-    #         m.addConstr(math.floor(lp_opt[F]) <= b[F] )
-    #         m.addConstr(b[F] <= math.ceil(lp_opt[F]))
-
     for F in fixed_subset:
         m.addConstr(math.floor(lp_opt[F]) <= b[F])
         m.addConstr(b[F] <= math.ceil(lp_opt[F]))
 
-
-    # non_integers = [F for F in alternatives_dict.keys() if F not in IntegerSet]
-    # b_J = m.addVars(non_integers, name='b_J', vtype=GRB.CONTINUOUS, lb=0, ub=1)
-    # b_I = m.addVars(IntegerSet, name='b_I', vtype=GRB.BINARY)
 
     m = add_objective(m,h,y_bar,ean)
     m = add_slack_assignment(m,p,pi,y,y_bar,h,ean,T)

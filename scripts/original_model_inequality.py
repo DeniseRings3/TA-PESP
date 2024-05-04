@@ -1,7 +1,7 @@
 import model.BuildModel as bd
 import os
 import utils.analyse_log as log
-import analyse_results.evaluate_solutions_functions as ev
+import utils.auswertung as ev
 import build_ean.read_entire_input as ri
 import utils.auswertung as util
 import timeit

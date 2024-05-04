@@ -1,8 +1,9 @@
 import utils.auswertung as util
 import LPbased.sort_alternatives_improvement as sort
 import LPbased.LPmodel as lp
-import analyse_results.evaluate_solutions_functions as ev
+import utils.auswertung as ev
 import utils.analyse_log as log
+import model.BuildModel as bd
 import build_ean.read_entire_input as ri
 import param as param
 import timeit

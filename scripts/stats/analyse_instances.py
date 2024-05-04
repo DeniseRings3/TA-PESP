@@ -64,30 +64,6 @@ for counter,modelname in enumerate(all_models):
         #print(in_nodes)
         #print(in_nodes_lines)
 
-    # for sheaf in sheaf_dict:
-    #     if sheaf == 0:
-    #         continue
-    #     else:
-    #         henkel_pro_sheaf = []
-    #         for F in sheaf_dict[sheaf]:
-    #             nodes = [i for (i,j) in alternatives_dict[F]['path']]
-    #             nodes.append(alternatives_dict[F]['path'][-1][1])
-    #             for v in nodes:
-    #                 if 'henkel' in v:
-    #                     henkel_pro_sheaf.append(v)
-    #         henkel_pro_sheaf = list(set(henkel_pro_sheaf))
-    #         if len(henkel_pro_sheaf) > 0:
-    #             no_henkel = []
-    #             for F in sheaf_dict[sheaf]:
-    #                 nodes = [i for (i, j) in alternatives_dict[F]['path']]
-    #                 nodes.append(alternatives_dict[F]['path'][-1][1])
-    #
-    #                 for v in nodes:
-    #                     if 'henkel' in v:
-    #                         no_henkel.append(False)
-    #             #print('no henkel',no_henkel)
-
-                #print('sheaf', sheaf, ' henkel pro sheaf ', henkel_pro_sheaf)
 
     nodes = ean.nodes()
     edges_noH = ean_noH.edges
@@ -131,19 +107,3 @@ plt.tight_layout()  # to fit everything in the prescribed area
 # plt.show()
 fig.savefig(path + 'alternatives_in_sheaf_bar_chart.png', dpi=1200)
 
-#plt.savefig(out_path+ 'processed/final/images/'+ 'alternatives_in_sheaf_bar_chart.png')
-# #
-# file = out_path+ 'processed/stats/'+ 'szenarios_stats.csv'
-# header = ['modelname','nodes','edges without headways','headways','inevitable edges', 'smallest sheaf',
-#                  'largest sheaf']
-# with open(file, 'w') as f_object:
-#     writer_object = csv.writer(f_object, delimiter=';')
-#     writer_object.writerow(header)
-#     for modelname in stats_dict:
-#         row = [modelname,stats_dict[modelname]['nodes'],stats_dict[modelname]['edges without headways'],
-#                stats_dict[modelname]['headways'],stats_dict[modelname]['inevitable edges'],
-#                stats_dict[modelname]['smallest sheaf'],stats_dict[modelname]['largest sheaf'] ]
-#         writer_object.writerow(row)
-#     f_object.close()
-#
-#     henkel = [v for v in ean.nodes() if 'henkel' in v]

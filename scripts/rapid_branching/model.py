@@ -27,29 +27,12 @@ def branching_MIP(modelname, ean, alternatives_dict, T, epsilon, zugfolge, curly
     h = m.addVars(edges_woH, name='h', vtype=GRB.CONTINUOUS, lb=0, ub=1)
     b = m.addVars(alternatives_dict.keys(), name='b', vtype=GRB.BINARY)
 
-    # if relaxed_version == True:
-    #     # only fix for a subset of integer variables
-    #     integer_values = [F for F in lp_opt if (lp_opt[F] == 0 or lp_opt[F] == 1) ]
-    #     print(integer_values)
-    #
+
     #     non_fixed_subset = sample(equality_set, int(0.5 * len(equality_set)))
     for F in equality_set:
         m.addConstr(b[F] == lp_opt['b'][F],name='fix_alt_%s' % F )
 
 
-    # objective cut-off
-    # cT_x = gp.LinExpr()
-    # edges_woH = [(i, j) for (i, j) in ean.edges if ean[i][j]['type'] != 'headway']
-    # for (i, j) in edges_woH:
-    #     cT_x.add((y_bar[i, j] + ean.edges[i, j]['l'] * h[i, j]) * ean.edges[i, j]['w'])  # y_bar statt h
-    #
-    # cT_x_tilde = gp.LinExpr()
-    # edges_woH = [(i, j) for (i, j) in ean.edges if ean[i][j]['type'] != 'headway']
-    # for (i, j) in edges_woH:
-    #     cT_x_tilde.add((mip_sol['y_bar'][i, j] + ean.edges[i, j]['l'] * mip_sol['h'][i, j]) * ean.edges[i, j]['w'])  # y_bar statt h
-    #
-    # m.addConstr(cT_x <= (1- rins_epsilon)*cT_x_tilde, name='objective_cutoff')
-    #
 
     m = bm.add_objective(m,h,y_bar,ean)
     m = bm.add_slack_assignment(m,p,pi,y,y_bar,h,ean,T)

@@ -1,7 +1,7 @@
 from gurobipy.gurobipy import GRB
 import build_ean.read_entire_input as ri
 import utils.analyse_log as log
-from analyse_results.evaluate_solutions_functions import  *
+from utils.auswertung import  *
 import LPbased.LPmodel as lp
 import model.BuildModel as bd
 import timeit

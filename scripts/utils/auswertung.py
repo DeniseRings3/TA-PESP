@@ -1,3 +1,5 @@
+from collections import defaultdict
+
 
 def no_solution_substitute(liste, penalty):
     for i, val in enumerate(liste):
@@ -58,3 +60,38 @@ def get_sol_custom_time_cutoff(log_dict, custom_time):
     sol_gap = log_dict['Gap'][custom_time_cutoff_index]
 
     return custom_time_cutoff_index, sol_obj, sol_gap
+
+def read_solution_file(filename):
+    sol = defaultdict(lambda:{})
+    objective = 0
+    with open(filename) as f:
+        try:
+            next(f)
+            #next(f) # save objective value irgendwie
+            for line in f:
+                # save objective value
+                if 'Objective' in line:
+                    objective = float(line.split('=')[-1].strip())
+                    continue
+                parts = line.split(" ")
+                #print(parts)
+                var = parts[0]
+                val = float(parts[1].strip())
+                opening = var.find("[")
+                closing = var.find("]")
+                variable = var[:opening]
+                name = var[opening+1:closing]
+                if ',' in name:
+                    #edge
+                    (i,j) = name.split(',')
+                    sol[variable][(i, j)] = val
+                # b variablen sind nummern von alternativen
+                elif variable == 'b':
+                    name = int(name)
+                    sol[variable][name] = val
+                else:
+                    sol[variable][name] = val
+            return sol, objective
+        except:
+            return 'empty solution file'
+
